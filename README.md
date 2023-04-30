@@ -2,7 +2,7 @@
 
 The code was written on Windows 95 in 1998, so to expedite upload to github, the original code for Visual Studio 5 has been uploaded together with the Windows binaries. Initial checks shows an issue with missing C++ Runtime DLLs so currently the exe won't run under Windows 10. Scuba Hacker will fix this!
 
-In 1998, the Scuba Hacker aka Mark B. Jones, decided to do his MSc Dissertation in the subject area of Evolutionary Computing (a branch of AI) under his supervisor, Dr David Corne - Professor at Heriot-Watt University, Global Goals Engineer (as of 2023). Scuba Hacker was awarded a Distinction from the University of Reading, UK. so he thinks it's high time, in 2023, to make the project write-up and code open source.
+In 1998, the Scuba Hacker aka Mark B. Jones, decided to do his MSc Dissertation in the subject area of Evolutionary Computing (a branch of AI) under his supervisor, Dr David Corne - now Professor at Heriot-Watt University, Global Goals Engineer (as of 2023). Scuba Hacker was awarded a Distinction from the University of Reading, UK. so he thinks it's high time, in 2023, to make the project write-up and code open source.
 
 This is a genetic algorithm engine that allows the user to explore how different GA heuristics influence the finding (or not) of good solutions to the NP-Hard problem of stock cutting with minimal wastage. Consider the use-case of the cutting of rectangular panes of glass from one very large single piece of glass, or any other material such as cloth or, much more appealing, even cake! 
 
