@@ -1,0 +1,618 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f4\froman\fcharset0\fprq2{\*\panose 00000000000000000000}Times;}{\f5\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Helvetica;}{\f6\fmodern\fcharset0\fprq1{\*\panose 00000000000000000000}Courier;}{\f7\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Geneva;}{\f8\froman\fcharset0\fprq2{\*\panose 00000000000000000000}Tms Rmn;}{\f9\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Helv;}{\f10\froman\fcharset0\fprq2{\*\panose 00000000000000000000}MS Serif;}{\f11\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}MS Sans Serif;}{\f12\froman\fcharset0\fprq2{\*\panose 00000000000000000000}New York;}{\f13\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}System;}{\f14\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings;}{\f15\fswiss\fcharset0\fprq2{\*\panose 020b0604030504040204}Tahoma;}{\f16\fswiss\fcharset0\fprq2{\*\panose 020b0506020202030204}Arial Narrow;}{\f107\fswiss\fcharset238\fprq2 Tahoma CE;}{\f108\fswiss\fcharset204\fprq2 Tahoma Cyr;}{\f110\fswiss\fcharset161\fprq2 Tahoma Greek;}{\f111\fswiss\fcharset162\fprq2 Tahoma Tur;}{\f112\fswiss\fcharset186\fprq2 Tahoma Baltic;}{\f113\fswiss\fcharset238\fprq2 Arial Narrow CE;}{\f114\fswiss\fcharset204\fprq2 Arial Narrow Cyr;}{\f116\fswiss\fcharset161\fprq2 Arial Narrow Greek;}{\f117\fswiss\fcharset162\fprq2 Arial Narrow Tur;}{\f118\fswiss\fcharset186\fprq2 Arial Narrow Baltic;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\nowidctlpar\widctlpar\adjustright \cgrid \snext0 Normal;}{\s1\fi-432\li432\sb240\sa60\keepn\nowidctlpar\widctlpar\jclisttab\tx432\ls7\outlinelevel0\adjustright \b\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 1;}{\s2\fi-576\li576\sb240\sa60\keepn\nowidctlpar\widctlpar\jclisttab\tx576\ls7\ilvl1\outlinelevel1\adjustright \b\fs28\cgrid \sbasedon0 \snext0 heading 2;}{\s3\fi-720\li720\sb240\sa60\keepn\nowidctlpar\widctlpar\jclisttab\tx720\ls7\ilvl2\outlinelevel2\adjustright \b\cgrid \sbasedon0 \snext0 heading 3;}{\s4\fi-864\li864\sb240\sa60\keepn\nowidctlpar\widctlpar\jclisttab\tx864\ls7\ilvl3\outlinelevel3\adjustright \b\cgrid \sbasedon0 \snext0 heading 4;}{\s5\fi-1008\li1008\sb240\sa60\nowidctlpar\widctlpar\jclisttab\tx1008\ls7\ilvl4\outlinelevel4\adjustright \fs22\cgrid \sbasedon0 \snext0 heading 5;}{\s6\fi-1152\li1152\sb240\sa60\nowidctlpar\widctlpar\jclisttab\tx1152\ls7\ilvl5\outlinelevel5\adjustright \i\fs22\cgrid \sbasedon0 \snext0 heading 6;}{\s7\fi-1296\li1296\sb240\sa60\nowidctlpar\widctlpar\jclisttab\tx1296\ls7\ilvl6\outlinelevel6\adjustright \f1\fs20\cgrid \sbasedon0 \snext0 heading 7;}{\s8\fi-1440\li1440\sb240\sa60\nowidctlpar\widctlpar\jclisttab\tx1440\ls7\ilvl7\outlinelevel7\adjustright \i\f1\fs20\cgrid \sbasedon0 \snext0 heading 8;}{\s9\fi-1584\li1584\sb240\sa60\nowidctlpar\widctlpar\jclisttab\tx1584\ls7\ilvl8\outlinelevel8\adjustright \b\i\f1\fs18\cgrid \sbasedon0 \snext0 heading 9;}{\*\cs10 \additive Default Paragraph Font;}{\s15\nowidctlpar\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \cgrid \sbasedon0 \snext15 footer;}{\s16\sb120\sa120\nowidctlpar\widctlpar\adjustright \b\cgrid \sbasedon0 \snext0 caption;}{\s17\nowidctlpar\widctlpar\adjustright \cbpat9 \f15\cgrid \sbasedon0 \snext17 Document Map;}{\*\cs18 \additive \fs16 \sbasedon10 annotation reference;}{\s19\nowidctlpar\widctlpar\adjustright \fs20\cgrid \sbasedon0 \snext19 annotation text;}{\s20\nowidctlpar\widctlpar\adjustright \fs20\lang2057\cgrid \sbasedon0 \snext20 Algorithm;}{\s21\ri-22\nowidctlpar\widctlpar\outlinelevel0\adjustright \cgrid \sbasedon0 \snext21 Body Text;}{\*\cs22 \additive \sbasedon10 page number;}{\s23\nowidctlpar\widctlpar\adjustright \fs20\cgrid \sbasedon0 \snext23 Small Normal;}{\s24\li1440\nowidctlpar\widctlpar\adjustright \f2\fs20\cgrid \sbasedon0 \snext24 Courier Small Normal;}{\s25\nowidctlpar\widctlpar\adjustright \fs20\cf1 \sbasedon0 \snext25 Normal Table;}{\s26\nowidctlpar\widctlpar\adjustright \b\fs20\cf1 \sbasedon25 \snext26 Title Table;}}{\*\listtable{\list\listtemplateid-1403738502\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-360\li1080\jclisttab\tx1080 }{\listname ;}\listid-130}{\list\listtemplateid319568536\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li1440\jclisttab\tx1440 }{\listname ;}\listid-127}{\list\listtemplateid1373655948\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li1080\jclisttab\tx1080 }{\listname ;}\listid-126}{\list\listtemplateid988685306\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-360\li360\jclisttab\tx360 }{\listname ;}\listid-120}{\list\listtemplateid1313917660{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'00;}{\levelnumbers\'01;}\s1\fi-432\li432\jclisttab\tx432 }{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'03\'00.\'01;}{\levelnumbers\'01\'03;}\s2\fi-576\li576\jclisttab\tx576 }{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'05\'00.\'01.\'02;}{\levelnumbers\'01\'03\'05;}\s3\fi-720\li720\jclisttab\tx720 }{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'07\'00.\'01.\'02.\'03;}{\levelnumbers\'01\'03\'05\'07;}\s4\fi-864\li864\jclisttab\tx864 }{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'09\'00.\'01.\'02.\'03.\'04;}{\levelnumbers\'01\'03\'05\'07\'09;}\s5\fi-1008\li1008\jclisttab\tx1008 }{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0b\'00.\'01.\'02.\'03.\'04.\'05;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\s6\fi-1152\li1152\jclisttab\tx1152 }{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0d\'00.\'01.\'02.\'03.\'04.\'05.\'06;}{\levelnumbers
+\'01\'03\'05\'07\'09\'0b\'0d;}\s7\fi-1296\li1296\jclisttab\tx1296 }{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0f\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\s8\fi-1440\li1440\jclisttab\tx1440 }{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'11\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\s9\fi-1584\li1584\jclisttab\tx1584 }{\listname ;}\listid45494746}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers
+\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid71122671}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid84619056}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid156195002}{\list\listtemplateid1764658132\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\i\fbias0 \fi-360\li1080\jclisttab\tx1080 }{\listname ;}\listid163085488}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid214778536}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid221643036}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid319775165}{\list\listtemplateid301121184\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li720\jclisttab\tx720 }{\listname ;}\listid327904546}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid426075427}{\list\listtemplateid-699916532\listsimple{\listlevel\levelnfc2\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'03(\'00);}{\levelnumbers\'02;}\fbias0 \fi-720\li720\jclisttab\tx720 }{\listname ;}\listid447311082}{\list\listtemplateid67698711\listsimple{\listlevel\levelnfc4\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00);}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid490485596}{\list\listtemplateid1669609822\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li1800\jclisttab\tx1800 }{\listname ;}\listid521629367}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid538052922}{\list\listtemplateid1635914110\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\i\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid559292345}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid675309696}{\list\listtemplateid1612870228\listsimple{\listlevel\levelnfc1\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00);}{\levelnumbers\'01;}\i0\fbias0 \fi-720\li720\jclisttab\tx720 }{\listname ;}\listid680863990}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-360\li360\jclisttab\tx360 }{\listname ;}\listid690306413}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid740912610}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid756442684}{\list\listtemplateid67698711\listsimple{\listlevel\levelnfc4\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00);}{\levelnumbers\'01;}\i0\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid792864229}{\list\listtemplateid67698711\listsimple{\listlevel\levelnfc4\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00);}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid811949074}{\list\listtemplateid-83586168\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\i\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid845939864}{\list\listtemplateid67698689\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat0\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid864056571}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid897208789}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1094058046}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1099957544}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1129737248}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1164979188}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1186796198}{\list\listtemplateid1052139702\listsimple{\listlevel\levelnfc2\leveljc0\levelfollow0\levelstartat6\levelspace0\levelindent0{\leveltext\'03(\'00);}{\levelnumbers\'02;}\fbias0 \fi-720\li720\jclisttab\tx720 }{\listname ;}\listid1187326475}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1208376666}{\list\listtemplateid-699916532\listsimple{\listlevel\levelnfc2\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'03(\'00);}{\levelnumbers\'02;}\fbias0 \fi-720\li720\jclisttab\tx720 }{\listname ;}\listid1280601993}{\list\listtemplateid-699916532\listsimple{\listlevel\levelnfc2\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'03(\'00);}{\levelnumbers\'02;}\fbias0 \fi-720\li720\jclisttab\tx720 }{\listname ;}\listid1339387243}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1474177967}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1577084111}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1579094065}{\list\listtemplateid95299040\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\b\f3\fbias0 \fi-360\li2520\jclisttab\tx2520 }{\listname ;}\listid1642999236}{\list\listtemplateid-1456937842\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\i0\fbias0 \fi-360\li720\jclisttab\tx720 }{\listname ;}\listid1696956313}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1756172338}{\list\listtemplateid1985219388\listsimple{\listlevel\levelnfc1\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00);}{\levelnumbers\'01;}\i0\fbias0 \fi-720\li720\jclisttab\tx720 }{\listname ;}\listid1759978716}{\list\listtemplateid67698705\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00);}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1760369675}{\list\listtemplateid67698689\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat0\levelspace0\levelindent0{\leveltext
+\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1870409906}{\list\listtemplateid1395407280\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01-;}{\levelnumbers;}\fbias0 \fi-360\li1440\jclisttab\tx1440 }{\listname ;}\listid1906643562}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1991520633}{\list\listtemplateid-1631533156\listsimple{\listlevel\levelnfc2\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'03(\'00);}{\levelnumbers\'02;}\fbias0 \fi-720\li720\jclisttab\tx720 }{\listname ;}\listid2015499450}{\list\listtemplateid-153198976\listsimple{\listlevel\levelnfc2\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'03(\'00);}{\levelnumbers\'02;}\fbias0 \fi-720\li720\jclisttab\tx720 }{\listname ;}\listid2021927444}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid2038122427}{\list\listtemplateid645707900\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li720\jclisttab\tx720 }{\listname ;}\listid2088073621}{\list\listtemplateid67698705\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00);}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid2116514447}}{\*\listoverridetable{\listoverride\listid864056571\listoverridecount0\ls1}{\listoverride\listid71122671\listoverridecount0\ls2}{\listoverride\listid-126\listoverridecount0\ls3}{\listoverride\listid-127\listoverridecount0\ls4}{\listoverride\listid-120\listoverridecount0\ls5}{\listoverride\listid-130\listoverridecount0\ls6}{\listoverride\listid45494746\listoverridecount0\ls7}{\listoverride\listid1870409906\listoverridecount0\ls8}{\listoverride\listid1579094065\listoverridecount0\ls9}{\listoverride\listid1760369675\listoverridecount0\ls10}{\listoverride\listid1642999236\listoverridecount0\ls11}{\listoverride\listid1906643562\listoverridecount0\ls12}{\listoverride\listid521629367\listoverridecount0\ls13}{\listoverride\listid1094058046\listoverridecount0\ls14}{\listoverride\listid1577084111\listoverridecount0\ls15}{\listoverride\listid319775165\listoverridecount0\ls16}{\listoverride\listid2021927444\listoverridecount0\ls17}{\listoverride\listid2038122427\listoverridecount0\ls18}{\listoverride\listid538052922\listoverridecount0\ls19}{\listoverride\listid897208789\listoverridecount0\ls20}{\listoverride\listid675309696\listoverridecount0\ls21}{\listoverride\listid1280601993\listoverridecount0\ls22}{\listoverride\listid426075427\listoverridecount0\ls23}{\listoverride\listid811949074\listoverridecount0\ls24}{\listoverride\listid2015499450\listoverridecount0\ls25}{\listoverride\listid1756172338\listoverridecount0\ls26}{\listoverride\listid1164979188\listoverridecount0\ls27}{\listoverride\listid2088073621\listoverridecount0\ls28}{\listoverride\listid845939864\listoverridecount0\ls29}{\listoverride\listid559292345\listoverridecount0\ls30}{\listoverride\listid1696956313\listoverridecount0\ls31}{\listoverride\listid1759978716\listoverridecount0\ls32}{\listoverride\listid680863990\listoverridecount0\ls33}{\listoverride\listid792864229\listoverridecount0\ls34}{\listoverride\listid1339387243\listoverridecount0\ls35}{\listoverride\listid447311082\listoverridecount0\ls36}{\listoverride\listid1187326475\listoverridecount0\ls37}{\listoverride\listid740912610\listoverridecount0\ls38}{\listoverride\listid1099957544\listoverridecount0\ls39}{\listoverride\listid221643036\listoverridecount0\ls40}{\listoverride\listid756442684\listoverridecount0\ls41}{\listoverride\listid1208376666\listoverridecount0\ls42}{\listoverride\listid490485596\listoverridecount0\ls43}{\listoverride\listid327904546\listoverridecount0\ls44}{\listoverride\listid1129737248\listoverridecount0\ls45}{\listoverride\listid1474177967\listoverridecount0\ls46}{\listoverride\listid214778536\listoverridecount0\ls47}{\listoverride\listid163085488\listoverridecount0\ls48}{\listoverride\listid156195002\listoverridecount0\ls49}{\listoverride\listid1186796198\listoverridecount0\ls50}{\listoverride\listid84619056\listoverridecount0\ls51}{\listoverride\listid1991520633\listoverridecount0\ls52}{\listoverride\listid690306413\listoverridecount0\ls53}{\listoverride\listid2116514447\listoverridecount0\ls54}}{\info{\title GA Design}{\author Apple Lives}{\operator Apple Lives}{\creatim\yr1998\mo10\dy5\hr20\min16}{\revtim\yr1998\mo10\dy5\hr20\min16}{\printim\yr1998\mo9\dy11\hr5\min53}{\version2}{\edmins0}{\nofpages12}{\nofwords3178}{\nofchars18117}{\*\company  }{\nofcharsws22248}{\vern71}}\paperw11909\paperh16834\margl1440\margr1440 \widowctrl\ftnbj\aenddoc\linkstyles\formshade\viewkind1\viewscale100\pgbrdrhead\pgbrdrfoot \fet0{\*\template C:\\Program Files\\Office97\\Templates\\project.dot}\sectd \psz9\linex0\endnhere\pgbrdropt32\sectdefaultcl {\footer \pard\plain \s15\nowidctlpar\widctlpar\tqc\tx4320\tqr\tx8640\pvpara\phmrg\posxc\posy0\adjustright \cgrid {\field{\*\fldinst {\cs22 PAGE  }}{\fldrslt {\cs22\lang1024 1}}}{\cs22 
+\par }\pard \s15\nowidctlpar\widctlpar\tqc\tx4320\tqr\tx8640\adjustright {
+\par }}{\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \s1\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\fs28\kerning28\cgrid {Appendix 1
+\par {\listtext\pard\plain\s1 \b\fs28\kerning28\cgrid \hich\af0\dbch\af0\loch\f0 1\tab}}\pard \s1\fi-432\li432\sb240\sa60\keepn\nowidctlpar\widctlpar\jclisttab\tx432\ls7\outlinelevel0\adjustright {Important Algorithms
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \cgrid {Algorithms which were found to be the most challenging are included in this section. The idea for the permutation generator was proposed to me by my project supervisor, whilst the rest are of my own design. By far the most challenging algorithm was the LDA, in §2.1.
+\par {\listtext\pard\plain\s2 \b\fs28\cgrid \hich\af0\dbch\af0\loch\f0 1.1\tab}}\pard\plain \s2\fi-576\li576\sb240\sa60\keepn\nowidctlpar\widctlpar\jclisttab\tx576\ls7\ilvl1\outlinelevel1\adjustright \b\fs28\cgrid {Permutation Generator
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \fs20\lang2057\cgrid {Parameters: INTEGER max_number, INTEGER permutation_length, INTEGER ARRAY permut
+\par Returns: Nothing \endash  stores permutation in the permut array
+\par 
+\par max_number \endash  The number of different values that may occur in the permutation. eg chromosome length
+\par permutation_length \endash  The number of random, unique values that are required
+\par permut \endash  Array which stores the resulting random numbers
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \cgrid {
+\par This function generates unique random integers in the range: 0 to max_number-1. If permutation_length=max_number, then the permut array contains a true permutation. However, by setting permutation_length<max_number, a smaller quantity of random numbers, in the specified range, can be obtained. This is good for picking, for example, two unique genes in a chromosome.
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \fs20\lang2057\cgrid {
+\par DEFINE an ARRAY OF }{\i max_number}{ INTEGERS (}{\i initial}{ array)
+\par STORE the numbers 0 to }{\i max_number}{-1 sequentially in the }{\i initial}{ array
+\par 
+\par }\pard \s20\nowidctlpar\widctlpar\outlinelevel0\adjustright {INTEGER }{\i random_index}{
+\par }\pard \s20\nowidctlpar\widctlpar\adjustright {FOR }{\i i}{ ranged from 0 to }{\i permutation_length - }{1
+\par \tab SET }{\i random_index}{ = random() MOD (}{\i max_number}{ - }{\i i}{)
+\par \tab SET }{\i permut}{[}{\i i}{] = initial[random}{\i _index}{]
+\par \tab SET }{\i initial}{[}{\i random_index}{] = }{\i initial}{\tab [}{\i length }{- 1 - }{\i i}{]
+\par }\pard \s20\nowidctlpar\widctlpar\outlinelevel0\adjustright {ENDFOR}{\ul 
+\par }\pard\plain \s2\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\fs28\cgrid {
+\par {\listtext\pard\plain\s2 \b\fs28\cgrid \hich\af0\dbch\af0\loch\f0 1.2\tab}}\pard \s2\fi-576\li576\sb240\sa60\keepn\nowidctlpar\widctlpar\jclisttab\tx576\ls7\ilvl1\outlinelevel1\adjustright {Crossover Operators
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \cgrid {All crossover operators have a cross function which accepts three pointers:
+\par {\pntext\pard\plain\f3\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnindent360\pnhang{\pntxtb \'b7}}\ls1\adjustright {p1 \endash  pointer to parent1 chromosome
+\par {\pntext\pard\plain\f3\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnindent360\pnhang{\pntxtb \'b7}}\ls1\adjustright {p2 \endash  pointer to parent2 chromosome
+\par {\pntext\pard\plain\f3\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnindent360\pnhang{\pntxtb \'b7}}\ls1\adjustright {c \endash  pointer to a chromosome that is to be used to store the child
+\par {\listtext\pard\plain\s3 \b\cgrid \hich\af0\dbch\af0\loch\f0 1.2.1\tab}}\pard\plain \s3\fi-720\li720\sb240\sa60\keepn\nowidctlpar\widctlpar\jclisttab\tx720\ls7\ilvl2\outlinelevel2\adjustright \b\cgrid {Order-based crossover
+\par {\listtext\pard\plain\s4 \b\cgrid \hich\af0\dbch\af0\loch\f0 1.2.1.1\tab}}\pard\plain \s4\fi-864\li864\sb240\sa60\keepn\nowidctlpar\widctlpar\jclisttab\tx864\ls7\ilvl3\outlinelevel3\adjustright \b\cgrid {Introduction
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \cgrid {\b Section 1: Generates an }{\b\i index_mask}{\b  and an }{\b\i id_mask}{
+\par Both masks are }{\i n-}{bit representations of type BITSTREAM, where }{\i n}{ is the length of a chromosome. The BITSTREAM class uses an attached character array to store data and allows bitwise reading and writing operations on the mask. 
+\par 
+\par The }{\i index_mask}{ has high bits whether a gene is selected from parent2.
+\par The bit-positions indexed by the gene_ids of these genes are set high in the }{\i id_mask}{.
+\par 
+\par The }{\i index_mask }{is generated by:
+\par {\pntext\pard\plain\f3\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnindent360\pnhang{\pntxtb \'b7}}\ls1\adjustright {setting all bits in the mask randomly
+\par {\pntext\pard\plain\f3\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnindent360\pnhang{\pntxtb \'b7}}\ls1\adjustright {If bit-}{\i i}{ in the }{\i index_mask}{ is high, then gene }{\i i}{ in parent2 is selected.
+\par }\pard \nowidctlpar\widctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\adjustright {
+\par The }{\i id_mask}{ is generated by :
+\par {\pntext\pard\plain\f3\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnindent360\pnhang{\pntxtb \'b7}}\ls1\adjustright {scanning the }{\i index_mask}{ for all high bits
+\par {\pntext\pard\plain\f3\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnindent360\pnhang{\pntxtb \'b7}}\ls1\adjustright {For high bit-}{\i i}{, look-up the gene_id of gene }{\i i }{in parent2 \endash  set bit-(}{\i gene_id}{) in }{\i id_mask}{ high
+\par }\pard \nowidctlpar\widctlpar\adjustright {
+\par }{\b Section 2: Generate child chromosome
+\par }{The child is provisionally a copy of parent1, except all genes with gene_ids flagged high in the }{\i id_mask}{ are reordered according to their order in parent2.
+\par {\listtext\pard\plain\s4 \b\cgrid \hich\af0\dbch\af0\loch\f0 1.2.1.2\tab}}\pard\plain \s4\fi-864\li864\sb240\sa60\keepn\nowidctlpar\widctlpar\jclisttab\tx864\ls7\ilvl3\outlinelevel3\adjustright \b\cgrid {Algorithm
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \fs20\lang2057\cgrid {SECTION 1
+\par \{
+\par }\pard \s20\fi720\nowidctlpar\widctlpar\adjustright {SET }{\i length}{ = length of parent1 chromosome
+\par SET }{\i mask_word_length}{ = ceiling(}{\i length }{/ 16)\tab \tab // Number of 2-byte words required
+\par SET }{\i mask_char_length}{ = }{\i mask_word_length}{*2\tab \tab // Number of chars required
+\par }\pard \s20\nowidctlpar\widctlpar\adjustright {
+\par }\pard \s20\fi720\nowidctlpar\widctlpar\adjustright {DEFINE }{\i index_mask_array }{ARRAY OF }{\i mask_char_length }{UNSIGNED CHAR
+\par DEFINE index_mask BITSTREAM
+\par ATTACH }{\i index_mask_array}{ to }{\i index_mask }{\endash  call }{\i index_mask.attach_char_array}{ function
+\par }\pard \s20\nowidctlpar\widctlpar\adjustright {
+\par \tab // Generate the index mask bit pattern
+\par }\pard \s20\fi720\nowidctlpar\widctlpar\adjustright {FOR }{\i i }{ranged from 0 to }{\i mask_word_length}{-1
+\par \tab APPEND random 16-bit number to }{\i index_mask }{\endash  call }{\i index_mask.append_word}{
+\par ENDFOR
+\par }\pard \s20\nowidctlpar\widctlpar\adjustright {
+\par }\pard \s20\fi720\nowidctlpar\widctlpar\adjustright {CALL }{\i index_mask.reset_read_write()}{
+\par }\pard \s20\nowidctlpar\widctlpar\adjustright {
+\par }\pard \s20\fi720\nowidctlpar\widctlpar\adjustright {DEFINE }{\i id_mask_array}{ ARRAY of }{\i mask_char_length}{ UNSIGNED CHAR
+\par DEFINE id_mask BITSTREAM
+\par ATTACH }{\i id_mask_array}{ to }{\i id_mask }{\endash  call }{\i id_mask.attach_char_array}{ function
+\par CALL }{\i id_mask.wipe_clean()}{
+\par }\pard \s20\nowidctlpar\widctlpar\adjustright {
+\par \tab // Generate the id mask by looking up the gene_ids of all genes flagged in the index mask bit pattern
+\par }\pard \s20\fi720\nowidctlpar\widctlpar\adjustright {FOR }{\i i}{ ranged from 0 to }{\i length-}{1
+\par \tab IF (Bit-}{\i i}{ of }{\i index_mask}{ == 1)
+\par \tab \tab SET }{\i t}{ = gene_id of gene }{\i i}{ of parent2
+\par \tab \tab SET the Bit-}{\i t}{ of }{\i id_mask}{ to 1
+\par \tab ENDIF
+\par ENDFOR
+\par }\pard \s20\nowidctlpar\widctlpar\adjustright {
+\par }\pard \s20\fi720\nowidctlpar\widctlpar\adjustright {CALL }{\i id_mask.reset_read_write()
+\par }\pard \s20\nowidctlpar\widctlpar\adjustright {\}
+\par 
+\par SECTION 2
+\par \{
+\par }\pard \s20\li720\nowidctlpar\widctlpar\adjustright {SET }{\i index}{ = -1
+\par FOR }{\i i}{ ranged from 0 to }{\i length}{-1
+\par \tab SET }{\i t}{ = gene_id of gene }{\i i }{of parent1
+\par \tab IF (Bit-}{\i t}{ of }{\i id_mask}{ == 0)\tab \tab \tab \tab // Gene_id not selected in parent 2
+\par \tab \tab Copy gene }{\i i}{ from parent1 to gene }{\i i}{ of child
+\par \tab ELSE\tab \tab \tab \tab \tab \tab // Gene_id selected in parent 2
+\par \tab \tab // Find the next gene in parent2 to be copied to the child
+\par \tab \tab DO
+\par \tab \tab \tab SET }{\i result }{= bit value of next bit retrieved from }{\i index_mask}{
+\par \tab \tab WHILE (}{\i result}{ = false)
+\par \tab \tab Copy gene }{\i index}{ from parent2 to gene }{\i i}{ of child
+\par \tab ENDIF
+\par ENDFOR
+\par }\pard \s20\nowidctlpar\widctlpar\adjustright {\}
+\par 
+\par Invalidate the fitness of the child
+\par 
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \cgrid {
+\par 
+\par 
+\par 
+\par 
+\par 
+\par \page 
+\par {\listtext\pard\plain\s3 \b\cgrid \hich\af0\dbch\af0\loch\f0 1.2.2\tab}}\pard\plain \s3\fi-720\li720\sb240\sa60\keepn\nowidctlpar\widctlpar\jclisttab\tx720\ls7\ilvl2\outlinelevel2\adjustright \b\cgrid {Position-based Crossover
+\par {\listtext\pard\plain\s4 \b\cgrid \hich\af0\dbch\af0\loch\f0 1.2.2.1\tab}}\pard\plain \s4\fi-864\li864\sb240\sa60\keepn\nowidctlpar\widctlpar\jclisttab\tx864\ls7\ilvl3\outlinelevel3\adjustright \b\cgrid {Introduction
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \cgrid {\b Section 1: Generates an }{\b\i index_mask}{\b  and an }{\b\i id_mask}{
+\par Both masks are generated as Section 1 of the order-based crossover algorithm.
+\par 
+\par }{\b Section 2: Generate child chromosome}{
+\par All genes flagged by a high-bit in the }{\i index_mask}{ are copied from parent2 to the corresponding genes in the child. Remaining genes are copied in the sequence found in parent1 to the child.
+\par {\listtext\pard\plain\s4 \b\cgrid \hich\af0\dbch\af0\loch\f0 1.2.2.2\tab}}\pard\plain \s4\fi-864\li864\sb240\sa60\keepn\nowidctlpar\widctlpar\jclisttab\tx864\ls7\ilvl3\outlinelevel3\adjustright \b\cgrid {Algorithm
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \fs20\lang2057\cgrid {\b 
+\par }{SECTION 1\{\tab Same as Section 1 of order-based crossover algorithm \}
+\par 
+\par SECTION 2
+\par \{
+\par \tab // copy all chosen genes from parent2 to child
+\par \tab // Examines all bits in the index_mask
+\par \tab FOR }{\i i}{ ranged from 0 to }{\i length}{-1
+\par }\pard \s20\li720\nowidctlpar\widctlpar\adjustright {\tab IF (Bit-}{\i i}{ of }{\i index_mask}{ == 1)
+\par \tab \tab Copy gene }{\i i}{ from parent2 to gene }{\i i}{ of child
+\par }\pard \s20\nowidctlpar\widctlpar\adjustright {\tab \tab ENDIF\line \tab ENDFOR
+\par 
+\par \tab // Genes not flagged in the index_mask are copied from parent1 to the next available 
+\par }\pard \s20\fi720\nowidctlpar\widctlpar\adjustright {// gene location in the child.
+\par }\pard \s20\li720\nowidctlpar\widctlpar\adjustright {SET }{\i ci}{ = -1
+\par SET }{\i pi}{ = -1
+\par DO
+\par \tab // find next gene to take from parent1 \endash  store index of next gene in }{\i pi}{
+\par \tab DO
+\par \tab \tab INCREMENT }{\i pi
+\par }{\tab \tab SET }{\i t}{ = gene_id of gene }{\i pi }{in parent1
+\par \tab WHILE (}{\i pi}{<}{\i length}{ AND Bit-}{\i t}{ of }{\i id_mask==}{1)
+\par 
+\par \tab IF }{\i (pi}{==}{\i length}{)\tab \tab \tab \tab \tab // all parent1 genes searched
+\par \tab \tab BREAK out of LOOP
+\par 
+\par \tab // find next gene in child which can store the parent1 gene \endash  store index of next gene in }{\i ci}{
+\par \tab DO
+\par \tab \tab INCREMENT }{\i ci
+\par }{\tab \tab SET }{\i t}{ = gene_id of gene c}{\i i }{in parent2
+\par \tab WHILE (}{\i pi}{<}{\i length}{ AND Bit-}{\i t}{ of }{\i id_mask==}{1)
+\par 
+\par \tab Copy gene }{\i pi}{ in parent1 to gene }{\i ci}{ in child
+\par 
+\par }\pard \s20\nowidctlpar\widctlpar\adjustright {\tab WHILE (}{\i ci}{<}{\i length}{-1)
+\par 
+\par }\pard \s20\fi720\nowidctlpar\widctlpar\adjustright {Invalidate the fitness of the child
+\par }\pard \s20\nowidctlpar\widctlpar\adjustright {\}
+\par {\listtext\pard\plain\s3 \b\cgrid \hich\af0\dbch\af0\loch\f0 1.2.3\tab}}\pard\plain \s3\fi-720\li720\sb240\sa60\keepn\nowidctlpar\widctlpar\jclisttab\tx720\ls7\ilvl2\outlinelevel2\adjustright \b\cgrid {\page Edge-recombination Crossover
+\par {\listtext\pard\plain\s4 \b\cgrid \hich\af0\dbch\af0\loch\f0 1.2.3.1\tab}}\pard\plain \s4\fi-864\li864\sb240\sa60\keepn\nowidctlpar\widctlpar\jclisttab\tx864\ls7\ilvl3\outlinelevel3\adjustright \b\cgrid {Introduction
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \cgrid {Two classes are required in addition to the crossover algorithm:
+\par }\pard\plain \s15\nowidctlpar\widctlpar\adjustright \cgrid {
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \cgrid {\b\i allele_map class}{: \tab }{\i Stores up to 4 edge references}{
+\par Functions:
+\par {\pntext\pard\plain\f3\fs20\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnindent360\pnhang{\pntxtb \'b7}}\ls1\adjustright {\fs20 add_edge}{ :\tab \tab \tab \tab adds a specified edge to the allele_map
+\par {\pntext\pard\plain\f3\fs20\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnindent360\pnhang{\pntxtb \'b7}}\ls1\adjustright {\fs20 remove_edge}{ :\tab \tab \tab removes a specified edge from the allele_map
+\par {\pntext\pard\plain\f3\fs20\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnindent360\pnhang{\pntxtb \'b7}}\ls1\adjustright {\fs20 get_edge_count}{ :\tab \tab \tab returns the number of edges stored (maximum of 4)
+\par {\pntext\pard\plain\f3\fs20\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnindent360\pnhang{\pntxtb \'b7}}\ls1\adjustright {\fs20 clear}{ :\tab \tab \tab \tab sets number of edge stored to zero
+\par }\pard \nowidctlpar\widctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\adjustright {\tab 
+\par }{\b\i edge_map class:\tab }{\i Stores an array of allele_maps. Number of elements is equal to number
+\par }\pard \fi720\li1440\nowidctlpar\widctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\adjustright {\i of genes in a chromosome.
+\par }\pard\plain \s15\nowidctlpar\widctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\adjustright \cgrid {Functions:
+\par {\pntext\pard\plain\f3\fs20\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard\plain \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnindent360\pnhang{\pntxtb \'b7}}\ls1\adjustright \cgrid {\fs20 add_to_edge_map}{ :\tab \tab \tab provided with an array of integers forming a valid
+\par }\pard \fi720\li2880\nowidctlpar\widctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\adjustright {permutation, this adds all edges to the edge_map
+\par {\pntext\pard\plain\f3\fs20\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnindent360\pnhang{\pntxtb \'b7}}\ls1\adjustright {\fs20 remove_allele_from_map}{ :\tab \tab provided with a single integer, }{\i i}{ \endash  all edges }{\i i}{ in all
+\par }\pard \nowidctlpar\widctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\adjustright {\tab \tab \tab \tab \tab allele_maps are deleted.
+\par {\pntext\pard\plain\f3\fs20\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnindent360\pnhang{\pntxtb \'b7}}\ls1\adjustright {\fs20 choose_allele_with_fewest_edges}{ :\tab chooses the next allele to be placed in the child
+\par {\pntext\pard\plain\f3\fs20\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnindent360\pnhang{\pntxtb \'b7}}\ls1\adjustright {\fs20 get_map_length}{ :\tab \tab \tab returns the number of allele_maps stored
+\par {\pntext\pard\plain\f3\fs20\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnindent360\pnhang{\pntxtb \'b7}}\ls1\adjustright {\fs20 reset_all}{ :\tab \tab \tab \tab clears all allele_map objects
+\par {\listtext\pard\plain\s4 \b\cgrid \hich\af0\dbch\af0\loch\f0 1.2.3.2\tab}}\pard\plain \s4\fi-864\li864\sb240\sa60\keepn\nowidctlpar\widctlpar\jclisttab\tx864\ls7\ilvl3\outlinelevel3\adjustright \b\cgrid {Algorithm
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \fs20\lang2057\cgrid {Reset the edge_map
+\par Add permutations of both parent1 and parent2 to the edge_map
+\par SET }{\i picked_id}{ = gene_id of the zeroth gene of either parent1 or parent2 (randomly determined)
+\par 
+\par DEFINE child_permutation ARRAY OF chromosome_length INTEGER
+\par 
+\par FOR all genes }{\i i}{ in the chromosome
+\par \tab SET }{\i child_permutation}{[}{\i i}{] = }{\i picked_id}{\tab 
+\par \tab IF (}{\i i==last_gene}{)
+\par \tab \tab BREAK out of FOR LOOP
+\par 
+\par \tab REMOVE }{\i picked_id}{ edges from edge_map 
+\par }\pard \s20\fi720\li720\nowidctlpar\widctlpar\adjustright {( }{\i map.remove_allele_from_map}{(}{\i picked_id}{) )
+\par }\pard \s20\nowidctlpar\widctlpar\adjustright {\tab CHOOSE next allele to place in child \endash  store result in }{\i picked_id
+\par }\pard \s20\fi720\li720\nowidctlpar\widctlpar\adjustright {(}{\i picked_id=map.choose_allele_with_fewest_edges}{(}{\i picked_id}{) )}{\i 
+\par }\pard \s20\nowidctlpar\widctlpar\adjustright {ENDFOR
+\par 
+\par SET the child chromosome to have a permutation identical to }{\i child_permutation}{\ul 
+\par }{Invalidate the fitness of the child
+\par {\listtext\pard\plain\s2 \b\fs28\cgrid \hich\af0\dbch\af0\loch\f0 1.3\tab}}\pard\plain \s2\fi-576\li576\sb240\sa60\keepn\nowidctlpar\widctlpar\jclisttab\tx576\ls7\ilvl1\outlinelevel1\adjustright \b\fs28\cgrid {\page Mutation Operators
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \cgrid {All standard mutation operators have a mutate function which accepts two pointers:
+\par {\pntext\pard\plain\f3\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnindent360\pnhang{\pntxtb \'b7}}\ls1\adjustright {p \endash  pointer to the parent chromosome
+\par {\pntext\pard\plain\f3\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnindent360\pnhang{\pntxtb \'b7}}\ls1\adjustright {c \endash  pointer to a chromosome that is to be used to store the child
+\par {\listtext\pard\plain\s3 \b\cgrid \hich\af0\dbch\af0\loch\f0 1.3.1\tab}}\pard\plain \s3\fi-720\li720\sb240\sa60\keepn\nowidctlpar\widctlpar\jclisttab\tx720\ls7\ilvl2\outlinelevel2\adjustright \b\cgrid {Inversion Mutation
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \fs20\lang2057\cgrid {SET }{\i length }{= length of parent chromosome
+\par DEFINE }{\i picked_indexes }{AS ARRAY OF 2 INTEGERS
+\par CALL permutation(}{\i length}{, 2, }{\i picked_indexes}{)
+\par SWAP }{\i picked_indexes }{elements if NOT in ASCENDING order
+\par 
+\par }\pard \s20\nowidctlpar\widctlpar\outlinelevel0\adjustright {FOR all genes }{\i i }{from START of chromosome upto, but not including, FIRST }{\i picked_index }{gene
+\par }\pard \s20\nowidctlpar\widctlpar\adjustright {\tab COPY genes }{\i i}{ from parent to child
+\par }\pard \s20\nowidctlpar\widctlpar\outlinelevel0\adjustright {ENDFOR
+\par }\pard \s20\nowidctlpar\widctlpar\adjustright {
+\par }\pard \s20\nowidctlpar\widctlpar\outlinelevel0\adjustright {FOR all genes }{\i i}{ from FIRST }{\i picked_index }{gene upto, and including, SECOND }{\i picked_index}{ gene
+\par }\pard \s20\nowidctlpar\widctlpar\adjustright {\tab COPY genes }{\i i}{ from parent to child in reverse order
+\par }\pard \s20\nowidctlpar\widctlpar\outlinelevel0\adjustright {ENDFOR
+\par }\pard \s20\nowidctlpar\widctlpar\adjustright {
+\par }\pard \s20\nowidctlpar\widctlpar\outlinelevel0\adjustright {FOR all genes }{\i i}{ from the gene after SECOND }{\i picked_index}{ gene to the END of the chromosome
+\par }\pard \s20\nowidctlpar\widctlpar\adjustright {\tab COPY genes }{\i i }{from parent to child
+\par }\pard \s20\nowidctlpar\widctlpar\outlinelevel0\adjustright {ENDFOR
+\par 
+\par }\pard \s20\nowidctlpar\widctlpar\adjustright {Invalidate the fitness of the child
+\par {\listtext\pard\plain\s3 \b\cgrid \hich\af0\dbch\af0\loch\f0 1.3.2\tab}}\pard\plain \s3\fi-720\li720\sb240\sa60\keepn\nowidctlpar\widctlpar\jclisttab\tx720\ls7\ilvl2\outlinelevel2\adjustright \b\cgrid {Shunt Mutation
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \fs20\lang2057\cgrid {SET }{\i length}{ = length of parent chromosome
+\par DEFINE }{\i picked_indexes}{ AS ARRAY OF 2 INTEGERS
+\par DO
+\par }\pard \s20\fi720\nowidctlpar\widctlpar\adjustright {SET }{\i permut_indexes}{[0] = random() MOD }{\i length
+\par }{SET }{\i permut_indexes}{[1] = random() MOD }{\i length}{
+\par SWAP }{\i picked_indexes}{ elements if NOT in ASCENDING order
+\par SET }{\i shunt_length}{ = difference between the two }{\i picked_indexes}{ elements
+\par }\pard \s20\nowidctlpar\widctlpar\adjustright {WHILE (}{\i shunt_length==}{length-1 OR }{\i shunt_length}{==0)
+\par 
+\par }\pard \s20\nowidctlpar\widctlpar\outlinelevel0\adjustright {DO
+\par }\pard \s20\fi720\nowidctlpar\widctlpar\adjustright {SET }{\i position}{ = random() % (}{\i length-shunt_length}{)\tab \tab // insertion position to shunt to
+\par }\pard \s20\nowidctlpar\widctlpar\adjustright {WHILE (}{\i position}{==}{\i picked_indexes}{[0])\tab \tab \tab \tab // ensure 0 position move not possible
+\par 
+\par SET }{\i i}{=0
+\par // copy genes from start of chromosome upto either beginning of shunt length or shunt insertion position
+\par WHILE (}{\i i}{<}{\i position}{ AND }{\i i}{<}{\i picked_indexes}{[0])
+\par \tab COPY genes }{\i i}{ from parent to child
+\par }\pard \s20\nowidctlpar\widctlpar\outlinelevel0\adjustright {\tab INCREMENT }{\i i}{
+\par ENDWHILE
+\par }\pard \s20\nowidctlpar\widctlpar\adjustright {
+\par SET }{\i j}{=}{\i picked_indexes}{[0]
+\par SET}{\i  ci}{ = }{\i i}{
+\par 
+\par IF (}{\i i}{==}{\i picked_indexes}{[0] AND }{\i i}{<}{\i position}{)\tab \tab // if reached shunt start before insert position found
+\par \tab ADD }{\i shunt_length}{+1 to }{\i i}{\tab 
+\par \tab // continue copying genes - skip shunt length - until shunt insertion position got to
+\par \tab WHILE (}{\i ci}{<}{\i position}{ AND }{\i i}{<}{\i length}{)
+\par \tab \tab Copy gene }{\i i}{ from parent to gene }{\i ci}{ of child
+\par \tab \tab INCREMENT }{\i i}{ and }{\i ci}{
+\par \tab ENDWHILE
+\par 
+\par \tab WHILE\tab (}{\i j}{<=}{\i picked_indexes}{[1]}{\i  }{AND }{\i ci}{<}{\i length}{) \tab \tab \tab // copy shunt genes into child
+\par \tab \tab Copy gene }{\i j}{ from parent to gene }{\i ci}{ of child
+\par \tab \tab INCREMENT }{\i j}{ and }{\i ci}{
+\par \tab ENDWHILE
+\par 
+\par \tab WHILE (}{\i ci}{<}{\i length}{)\tab \tab \tab \tab \tab // copy rest of parent genes into child
+\par \tab \tab Copy gene }{\i i}{ from parent to gene }{\i ci}{ of child
+\par \tab \tab INCREMENT }{\i i}{ and }{\i ci}{
+\par \tab ENDWHILE
+\par ELSE\tab \tab \tab \tab \tab \tab // reached insert position before shunt start reached
+\par \tab WHILE\tab (}{\i j}{<=}{\i picked_indexes}{[1]}{\i  }{AND }{\i ci}{<}{\i length}{) \tab \tab \tab // copy shunt genes into child
+\par \tab \tab Copy gene }{\i j}{ from parent to gene }{\i ci}{ of child
+\par \tab \tab INCREMENT }{\i j}{ and }{\i ci}{
+\par \tab ENDWHILE
+\par 
+\par \tab // copy remaining genes before the shunt genes upto start of shunt
+\par \tab WHILE (}{\i i}{<}{\i picked_indexes}{[0])
+\par \tab \tab Copy gene }{\i i}{ from parent to gene }{\i ci}{ of child
+\par \tab \tab INCREMENT }{\i i}{ and }{\i ci}{
+\par \tab ENDWHILE
+\par 
+\par \tab ADD }{\i shunt_length}{+1 to }{\i i}{\tab \tab \tab // continue copying genes, skipping the shunt length
+\par \tab WHILE (}{\i ci}{<}{\i length}{)\tab \tab \tab \tab // copy rest of parent genes after shunt into child
+\par \tab \tab Copy gene }{\i i}{ from parent to gene }{\i ci}{ of child
+\par \tab \tab INCREMENT }{\i i}{ and }{\i ci}{
+\par \tab ENDWHILE
+\par ENDIF
+\par 
+\par Invalidate the fitness of the child
+\par 
+\par {\listtext\pard\plain\s1 \b\fs28\kerning28\cgrid \hich\af0\dbch\af0\loch\f0 2\tab}}\pard\plain \s1\fi-432\li432\sb240\sa60\keepn\nowidctlpar\widctlpar\jclisttab\tx432\ls7\outlinelevel0\adjustright \b\fs28\kerning28\cgrid {\page T-test Code (supplied by Mr D.W. Corne)
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \cgrid {\f16\fs16 /*
+\par 
+\par 
+\par   Compile with:                    gcc ttest.c -o tt -lm
+\par   or, if that doesn't work, with:  /packages/gnu/bin/gcc ttest.c -o tt -lm
+\par 
+\par 
+\par 
+\par 
+\par    Simple statistics -- the t test.
+\par 
+\par  Say you run a GA 8 times on a minimisation problem adnd you get these results
+\par  (best from each run):
+\par 
+\par  15 8.5 7 19 10 12 11 8.4
+\par 
+\par  Say you run hillcliming 10 times on the same problem and you get these
+\par results:
+\par 
+\par  14.1 12.1 24 26 19.3 11.4 11.1 14.1 6.2 11.8
+\par 
+\par 
+\par   Which seems to be the better algorithm ?
+\par 
+\par  If you put these results into separate files, called say `ga' and `hc', then
+\par you
+\par  can use this program to run a `t test'.  Data points in the files must be
+\par separated
+\par by whitespace (new lines, tabs,  spaces, or any mixture). On this example,
+\par running:
+\par 
+\par   ./tt ga hc
+\par 
+\par  gives the following output:
+\par 
+\par ------------------------------------------------------------
+\par  file ga:  8 points, mean 11.3625, variance 15.7084, standard dev 3.96338
+\par  file hc:  10 points, mean 15.01, variance 38.4854, standard dev 6.20366
+\par  t value :   -1.43988
+\par 
+\par  t relates to confidence that first file results are better than
+\par  second file results. If minimising, t may be negative. Just multiply
+\par  it by -1
+\par 
+\par  In this case, with a total of 18 data points, the t value you need in order to
+\par have
+\par      90% confidence in the ga results being better than the hc results is >=
+\par 1.337
+\par  For 95% confidence, the t value must be >= 1.746
+\par  For 99% confidence, the t value must be >= 2.583
+\par ------------------------------------------------------------
+\par                      
+\par ------------------------------------------------------------         
+\par   So, we can have 90% confidence that the GA is better on the basis of these 
+\par results.
+\par   You can have any number of data points, but at least two in each file. With 
+\par small numbers
+\par  of points, it is of course much harder to get confident decisions. Eg: running the test
+\par  on just the first three points in each file gives:
+\par ------------------------------------------------------------
+\par file ga:  3 points, mean 10.1667, variance 18.0833, standard dev 4.25245
+\par file hc:  3 points, mean 16.7333, variance 40.6033, standard dev 6.37207
+\par t value :   -1.48469
+\par t relates to confidence that first file results are better than
+\par second file results. If minimising, t may be negative. Just multiply
+\par it by -1
+\par  In this case, with a total of 6 data points, the t value you need in order to 
+\par have
+\par  90% confidence in the ga results being better than the hc results is >= 1.533
+\par  For 95% confidence, the t value must be >= 2.132
+\par  For 99% confidence, the t value must be >= 3.747
+\par                     
+\par ------------------------------------------------------------                 
+\par */
+\par /* **************************************************/
+\par /*                                                  */
+\par /*  compile with:  gcc ttest.c -o tt -lm            */
+\par /*                                                  */
+\par /*  usage:   ./tt <file1> <file2>                   */
+\par /*                                                  */
+\par /****************************************************/
+\par #include <stdlib.h>
+\par #include <stdio.h>
+\par #include <string.h>
+\par #include <math.h>
+\par #define TRUE 1
+\par #define FALSE 0
+\par #define MAXDATA 5000
+\par double getdouble(FILE *, double *, int);
+\par double a[MAXDATA],  b[MAXDATA];
+\par double get_tvalue(int , int );
+\par FILE   *ap, *bp;
+\par int    an,  bn;
+\par int n;
+\par extern double sqrt(double);
+\par int get_input(FILE *f, double *arr);
+\par 
+\par void main(int argc, char **argv)
+\par \{
+\par   int i;
+\par   double am, bm, asv, bsv, sv, s, t, x, lsasv, lsbsv, ls;
+\par    /* get the data in */
+\par /*
+\par \tab  char mark[10]="ga.txt";
+\par \tab  char baz[10]="hc.txt";
+\par \tab  argv[1]=mark;
+\par \tab  argv[2]=baz;
+\par */
+\par    ap = fopen(argv[1], "r");
+\par    bp = fopen(argv[2], "r");
+\par    get_input(ap, a);  an = n; fclose(ap);
+\par    get_input(bp, b);  bn = n; fclose(bp);
+\par   /* work out the means */
+\par  am=0; for(i=0;i<an;i++) am+=a[i];  am /= (double)(an);
+\par  bm=0; for(i=0;i<bn;i++) bm+=b[i];  bm /= (double)(bn);
+\par   
+\par   /* work out dual sample variance */
+\par   asv = 0; for(i=0;i<an;i++) asv += ((a[i]-am)*(a[i]-am));
+\par   lsasv = asv/((double)(an)-1.0);
+\par   
+\par   lsasv = asv/((double)(an)-1.0);
+\par   
+\par   bsv = 0; for(i=0;i<bn;i++) bsv += ((b[i]-bm)*(b[i]-bm));
+\par   lsbsv = bsv/((double)(bn)-1.0);
+\par   sv = (asv + bsv) / (double)(an + bn - 2);
+\par   
+\par   s = sqrt(sv);
+\par  
+\par   t = (am - bm) / ( s * sqrt( (1.0/an)  + (1.0/bn) ) ) ;
+\par    
+\par   ls = (am - bm) / ( sqrt ( (lsasv/an) + (lsbsv/bn)));
+\par    printf(" file %s:  %d points, mean %g, variance %g, standard dev %g\\n",
+\par                  argv[1], an, am, asv/(double)(an-1), 
+\par sqrt(asv/(double)(an-1)));
+\par    printf(" file %s:  %d points, mean %g, variance %g, standard dev %g\\n",
+\par                              argv[2], bn, bm, bsv/(double)(bn-1), 
+\par sqrt(bsv/(double)(bn-1)));
+\par   
+\par    printf(" t value :   %g \\n\\n", t);
+\par    printf(" t relates to confidence that first file results are better than \\n");
+\par    printf(" second file results. If minimising, t may be negative. Just multiply\\n");
+\par    printf(" it by -1 \\n\\n");
+\par printf("  In this case, with a total of %d data points, the t value you need in order to have\\n",an+bn);
+\par printf("       90%% confidence in the %s results being better than the %s results is >= %g \\n",
+\par          argv[1], argv[2], get_tvalue((an+bn)-2, 90));
+\par printf("   For 95%% confidence, the t value must be >= %g \\n", get_tvalue((an+bn)-2,95));
+\par printf("   For 99%% confidence, the t value must be >= %g \\n", get_tvalue((an+bn)-2,99));
+\par  
+\par if ((an>=30) && (bn>=30)) printf("\\n\\n Large sample statistic is %g\\n", ls);
+\par if ((an>=30) && (bn>=30)) printf("\\n\\n Large sample statistic is %g\\n", ls);
+\par \}
+\par double get_tvalue(int npoints, int conf)
+\par \{
+\par   double r;
+\par   switch(npoints)\{
+\par   case 1: if(conf==90) r = 3.078; else if(conf==95) r = 6.314 ; else r = 
+\par 31.821; break;
+\par   case 2: if(conf==90) r = 1.886; else if(conf==95) r = 2.920 ; else r = 6.965; break;
+\par   case 3: if(conf==90) r = 1.638; else if(conf==95) r = 2.353 ; else r = 4.541; break;
+\par   case 4: if(conf==90) r = 1.533; else if(conf==95) r = 2.132 ; else r = 3.747; break;
+\par   case 5: if(conf==90) r = 1.476; else if(conf==95) r = 2.015 ; else r = 3.365; break;
+\par   case 6: if(conf==90) r = 1.440; else if(conf==95) r = 1.943 ; else r = 3.143; break;
+\par   case 7: if(conf==90) r = 1.415; else if(conf==95) r = 1.895 ; else r = 2.998; break;
+\par   case 8: if(conf==90) r = 1.397; else if(conf==95) r = 1.860 ; else r = 2.896; break;
+\par   case 9: if(conf==90) r = 1.383; else if(conf==95) r = 1.833 ; else r = 2.821; break;
+\par   case 10: if(conf==90) r = 1.372; else if(conf==95) r = 1.812 ; else r = 
+\par 2.764; break;
+\par   case 11: if(conf==90) r = 1.363; else if(conf==95) r = 1.796 ; else r = 
+\par 2.718; break;
+\par   case 12: if(conf==90) r = 1.356; else if(conf==95) r = 1.782 ; else r = 
+\par 2.681; break;
+\par   case 13: if(conf==90) r = 1.350; else if(conf==95) r = 1.771 ; else r = 
+\par 2.650; break;
+\par   case 14: if(conf==90) r = 1.345; else if(conf==95) r = 1.761 ; else r = 
+\par 2.624; break;
+\par   case 15: if(conf==90) r = 1.341; else if(conf==95) r = 1.753 ; else r = 
+\par 2.602; break;
+\par   case 16: if(conf==90) r = 1.337; else if(conf==95) r = 1.746 ; else r = 
+\par 2.583; break;
+\par   case 17: if(conf==90) r = 1.333; else if(conf==95) r = 1.740 ; else r = 
+\par 2.567; break;
+\par   case 18: if(conf==90) r = 1.330; else if(conf==95) r = 1.734 ; else r = 
+\par 2.552; break;
+\par   case 19: if(conf==90) r = 1.328; else if(conf==95) r = 1.729 ; else r = 
+\par 2.539; break;
+\par   case 20: if(conf==90) r = 1.325; else if(conf==95) r = 1.725 ; else r = 
+\par 2.528; break;
+\par   case 21: if(conf==90) r = 1.323; else if(conf==95) r = 1.721 ; else r = 
+\par 2.518; break;
+\par   case 22: if(conf==90) r = 1.321; else if(conf==95) r = 1.717 ; else r = 
+\par 2.508; break;
+\par   case 23: if(conf==90) r = 1.319; else if(conf==95) r = 1.714 ; else r = 
+\par 2.500; break;
+\par   case 24: if(conf==90) r = 1.318; else if(conf==95) r = 1.711 ; else r = 
+\par 2.492; break;
+\par   case 25: if(conf==90) r = 1.316; else if(conf==95) r = 1.708 ; else r = 
+\par 2.485; break;
+\par   case 26: if(conf==90) r = 1.315; else if(conf==95) r = 1.706 ; else r = 
+\par 2.479; break;
+\par   case 27: if(conf==90) r = 1.314; else if(conf==95) r = 1.703 ; else r = 
+\par 2.473; break;
+\par   case 28: if(conf==90) r = 1.313; else if(conf==95) r = 1.701 ; else r = 
+\par 2.467; break;
+\par   case 29: if(conf==90) r = 1.311; else if(conf==95) r = 1.699 ; else r = 
+\par 2.462; break;
+\par   default: if(conf==90) r = 1.282; else if(conf==95) r = 1.645 ; else r = 
+\par 2.326; break;
+\par   \}
+\par return(r);
+\par \}
+\par int get_input(FILE *f, double *arr)
+\par \{
+\par   double v;
+\par   n = 0;
+\par   while(getdouble(f, &v, FALSE)!=0) arr[n++]=v;
+\par \tab return 0;
+\par \}
+\par /*
+\par  *
+\par  * Peter Ross' getint etc functions.
+\par  */
+\par /***************************************************************/
+\par /* Get the next number from the input: put it in the location  */
+\par /* addressed by second argument. This function returns 0 on    */
+\par /* EOF. If stopateol is true, it returns -1 when it hits \\n    */
+\par /* (after which some other procedure has to read past the \\n), */
+\par /* otherwise it continues looking for the next number.         */
+\par /* A number has an optional sign, perhaps followed by digits,  */
+\par /* perhaps followed by a decimal point, perhaps followed by    */
+\par /* more digits. There must be a digit somewhere for it to count*/
+\par /* as a number. So it would read any of:                       */
+\par /*  -.5                                                        */
+\par /*  -0.5                                                       */
+\par /*  -.5.7                                                      */
+\par /* as minus-a-half. In the last case, it would read .7 next    */
+\par /* time around.                                                */
+\par /*   There doesn't seem to be a neat and reliable way to do    */
+\par /* all this, including stopateol, using scanf?                 */
+\par /***************************************************************/
+\par double 
+\par getdouble (FILE *file, double *valaddr, int stopateol)
+\par \{
+\par   int c;
+\par   int found = FALSE, indecimal = FALSE;
+\par   int sign = +1;
+\par   double n = 0.0, p = 1.0;
+\par   /* First find what looks like start of a number - the first digit. */
+\par   /* And note any sign and whether we just passed a decimal point.   */  
+\par   do \{
+\par     c = fgetc(file);
+\par     if(c == EOF) return (0);
+\par     else if(stopateol && c =='\\n') return(-1);
+\par     else if(c == '+' || c == '-') \{
+\par       sign = (c == '+')? +1 : -1;
+\par       c = fgetc(file);
+\par       if(c == EOF) return (0);
+\par       else if(stopateol && c =='\\n') return(-1);
+\par     \}
+\par     if(c == '.') \{
+\par       indecimal = TRUE;
+\par       c = fgetc(file);
+\par       if(c == EOF) return (0);
+\par       else if(stopateol && c =='\\n') return(-1);
+\par     \}
+\par     if(c >= '0' && c <= '9') \{
+\par       found = TRUE;
+\par     \} else \{
+\par       sign = +1;
+\par       indecimal =  FALSE;
+\par     \}
+\par   \} while(!found);
+\par   /* Now we've got digit(s) ... */
+\par   do \{
+\par     n = 10.0*n + c - '0';
+\par     p = 10.0*p;
+\par     c = fgetc(file);
+\par     if((c < '0') || (c > '9')) \{
+\par       found = FALSE;
+\par       /* We've run out. If we already saw a decimal point, return now */
+\par       if(indecimal) \{
+\par         if(c != EOF) ungetc(c,file);
+\par         *valaddr =  sign * n/p;
+\par         return(1);
+\par       \} else p = 1.0;
+\par     \}
+\par   \} while(found);
+\par   /* We ran out and we didn't see a decimal point, so is this a decimal? */
+\par   if(c != '.') \{
+\par     /* No, give it back to caller */
+\par     if(c != EOF) ungetc(c,file);
+\par     *valaddr = sign * n;
+\par     return(1);
+\par   \} else \{
+\par     /* It is. Step past it, carry on hoping for more digits */
+\par     c = fgetc(file);
+\par     while(c >= '0' && c <= '9') \{
+\par       n = 10.0*n + c - '0';
+\par       p = p*10.0;
+\par       c =  fgetc(file);
+\par     \}
+\par     /* We've run out of digits but we have a number to give */
+\par     if(c != EOF) ungetc(c,file);
+\par     *valaddr = sign * n/p;
+\par     return(1);
+\par   \}
+\par \}
+\par /* Use getdouble() above but convert result to int. */
+\par int 
+\par getint (FILE *f, int *valaddr, int stopateol)
+\par \{
+\par   int r;
+\par   double x;
+\par   r = getdouble(f,&x,stopateol);
+\par   *valaddr = (int)x;
+\par   return(r);
+\par \}
+\par /* Use getdouble above but convert result to long. */
+\par int 
+\par getlong (FILE *f, long *valaddr, int stopateol)
+\par \{
+\par   int r;
+\par   double x;
+\par   r = getdouble(f,&x,stopateol);
+\par   *valaddr = (long)x;
+\par   return(r);
+\par \}
+\par 
+\par 
+\par }}

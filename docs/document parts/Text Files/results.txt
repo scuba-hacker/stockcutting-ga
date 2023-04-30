@@ -1,0 +1,4000 @@
+
+Beng 1: no. 0	09/09/98 00:34:01
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+48.: heuristic_c
+37.: orient_c
+33.: HUX_position_c
+29.: segment_position_c
+24.: segment_order_c
+20.: swap_m
+12.: multi_swap_m
+12.: heuristic_flip
+10.: shunt_m
+10.: orient_flip
+235. -> TOTAL
+
+5000	0.663907106762714	0.569612663388895
+----------------------------------------------------------
+
+Beng 1: no. 1	09/09/98 00:35:37
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+38.: swap_m
+35.: segment_order_c
+34.: orient_c
+33.: HUX_position_c
+30.: heuristic_c
+29.: segment_position_c
+12.: multi_swap_m
+12.: shunt_m
+10.: orient_flip
+8.: heuristic_flip
+241. -> TOTAL
+
+5000	0.739323214948497	0.251323774211535
+----------------------------------------------------------
+
+Beng 1: no. 2	09/09/98 00:37:33
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+42.: segment_order_c
+38.: heuristic_c
+36.: HUX_position_c
+33.: orient_c
+26.: segment_position_c
+18.: swap_m
+14.: multi_swap_m
+10.: shunt_m
+6.: heuristic_flip
+2.: orient_flip
+225. -> TOTAL
+
+5000	0.687524355619885	0.230707440548467
+----------------------------------------------------------
+
+Beng 1: no. 3	09/09/98 00:39:32
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+41.: orient_c
+40.: heuristic_c
+39.: segment_position_c
+32.: segment_order_c
+28.: HUX_position_c
+22.: shunt_m
+20.: swap_m
+16.: multi_swap_m
+14.: orient_flip
+14.: heuristic_flip
+266. -> TOTAL
+
+5000	0.676823587439031	0.218634376051127
+----------------------------------------------------------
+
+Beng 1: no. 4	09/09/98 00:41:29
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+39.: heuristic_c
+32.: HUX_position_c
+30.: segment_position_c
+30.: shunt_m
+26.: segment_order_c
+23.: orient_c
+16.: swap_m
+16.: multi_swap_m
+14.: orient_flip
+6.: heuristic_flip
+232. -> TOTAL
+
+5000	0.680353306278348	0.63977261738662
+----------------------------------------------------------
+
+Beng 1: no. 5	09/09/98 00:43:27
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+27.: heuristic_c
+26.: orient_c
+21.: HUX_position_c
+18.: swap_m
+14.: segment_order_c
+12.: orient_flip
+10.: segment_position_c
+10.: heuristic_flip
+6.: shunt_m
+4.: multi_swap_m
+148. -> TOTAL
+
+5000	0.649214109236188	0.621587976928265
+----------------------------------------------------------
+
+Beng 1: no. 6	09/09/98 00:45:22
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+41.: heuristic_c
+38.: orient_c
+33.: segment_order_c
+27.: HUX_position_c
+18.: segment_position_c
+18.: swap_m
+14.: shunt_m
+10.: multi_swap_m
+10.: heuristic_flip
+4.: orient_flip
+213. -> TOTAL
+
+5000	0.615468952456892	0.583317589268846
+----------------------------------------------------------
+
+Beng 1: no. 7	09/09/98 00:46:34
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+40.: HUX_position_c
+27.: orient_c
+26.: segment_position_c
+20.: heuristic_c
+18.: shunt_m
+18.: segment_order_c
+18.: multi_swap_m
+14.: swap_m
+10.: orient_flip
+6.: heuristic_flip
+197. -> TOTAL
+
+5000	0.666450812152609	0.221314266258086
+----------------------------------------------------------
+
+Beng 1: no. 8	09/09/98 00:47:32
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+47.: heuristic_c
+45.: segment_position_c
+34.: HUX_position_c
+29.: orient_c
+28.: segment_order_c
+18.: swap_m
+14.: shunt_m
+14.: orient_flip
+12.: multi_swap_m
+10.: heuristic_flip
+251. -> TOTAL
+
+5000	0.711815561959654	0.175501588751225
+----------------------------------------------------------
+
+Beng 1: no. 9	09/09/98 00:48:29
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+48.: heuristic_c
+32.: orient_c
+30.: multi_swap_m
+20.: segment_order_c
+18.: swap_m
+14.: shunt_m
+14.: orient_flip
+14.: heuristic_flip
+11.: segment_position_c
+11.: HUX_position_c
+212. -> TOTAL
+
+5000	0.681241495973228	0.473764567780941
+----------------------------------------------------------
+
+Beng 2: no. 0	09/09/98 00:49:28
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+54.: segment_position_c
+54.: HUX_position_c
+41.: orient_c
+38.: segment_order_c
+28.: heuristic_c
+22.: swap_m
+12.: shunt_m
+8.: multi_swap_m
+8.: orient_flip
+2.: heuristic_flip
+267. -> TOTAL
+
+5000	0.667971961403661	0.562007390283416
+----------------------------------------------------------
+
+Beng 2: no. 1	09/09/98 00:50:25
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+54.: heuristic_c
+42.: HUX_position_c
+40.: orient_c
+25.: segment_order_c
+24.: segment_position_c
+24.: shunt_m
+14.: heuristic_flip
+12.: swap_m
+12.: multi_swap_m
+10.: orient_flip
+257. -> TOTAL
+
+5000	0.681815672375148	0.397331817645608
+----------------------------------------------------------
+
+Beng 2: no. 2	09/09/98 00:51:53
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+36.: heuristic_c
+30.: orient_c
+24.: shunt_m
+22.: orient_flip
+21.: HUX_position_c
+18.: heuristic_flip
+18.: swap_m
+17.: segment_order_c
+14.: multi_swap_m
+13.: segment_position_c
+213. -> TOTAL
+
+5000	0.710238164614229	0.185896548194621
+----------------------------------------------------------
+
+Beng 2: no. 3	09/09/98 00:53:53
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+55.: orient_c
+42.: HUX_position_c
+38.: heuristic_c
+29.: segment_position_c
+22.: shunt_m
+21.: segment_order_c
+20.: multi_swap_m
+18.: swap_m
+16.: heuristic_flip
+12.: orient_flip
+273. -> TOTAL
+
+5000	0.687524355619885	0.512397105682422
+----------------------------------------------------------
+
+Beng 2: no. 4	09/09/98 00:55:55
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+39.: heuristic_c
+33.: segment_position_c
+30.: orient_c
+25.: HUX_position_c
+22.: shunt_m
+22.: swap_m
+19.: segment_order_c
+14.: heuristic_flip
+10.: multi_swap_m
+6.: orient_flip
+220. -> TOTAL
+
+5000	0.67594687294753	0.516892118127637
+----------------------------------------------------------
+
+Beng 2: no. 5	09/09/98 00:57:06
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+48.: heuristic_c
+40.: HUX_position_c
+32.: segment_position_c
+25.: orient_c
+22.: shunt_m
+19.: segment_order_c
+14.: swap_m
+12.: multi_swap_m
+12.: heuristic_flip
+8.: orient_flip
+232. -> TOTAL
+
+5000	0.690252626872345	0.668157472362987
+----------------------------------------------------------
+
+Beng 2: no. 6	09/09/98 00:58:08
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+43.: HUX_position_c
+41.: heuristic_c
+38.: segment_position_c
+36.: orient_c
+28.: segment_order_c
+22.: heuristic_flip
+20.: swap_m
+20.: shunt_m
+16.: multi_swap_m
+10.: orient_flip
+274. -> TOTAL
+
+5000	0.734472012750672	0.447912762793622
+----------------------------------------------------------
+
+Beng 2: no. 7	09/09/98 00:59:06
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+41.: HUX_position_c
+35.: orient_c
+30.: heuristic_c
+19.: segment_order_c
+17.: segment_position_c
+16.: multi_swap_m
+16.: shunt_m
+16.: orient_flip
+16.: heuristic_flip
+14.: swap_m
+220. -> TOTAL
+
+5000	0.696127614001466	0.678832518001429
+----------------------------------------------------------
+
+Beng 2: no. 8	09/09/98 01:00:00
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+52.: heuristic_c
+38.: orient_c
+34.: segment_position_c
+28.: multi_swap_m
+26.: HUX_position_c
+24.: shunt_m
+22.: swap_m
+20.: heuristic_flip
+17.: segment_order_c
+10.: orient_flip
+271. -> TOTAL
+
+5000	0.66730305104283	0.195919791864966
+----------------------------------------------------------
+
+Beng 2: no. 9	09/09/98 01:01:00
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+43.: orient_c
+41.: HUX_position_c
+39.: heuristic_c
+39.: segment_position_c
+28.: shunt_m
+27.: segment_order_c
+22.: multi_swap_m
+20.: heuristic_flip
+16.: orient_flip
+14.: swap_m
+289. -> TOTAL
+
+5000	0.707196029776675	0.458226558093975
+----------------------------------------------------------
+
+Beng 3: no. 0	09/09/98 01:02:22
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+46.: HUX_position_c
+42.: heuristic_c
+37.: orient_c
+30.: shunt_m
+30.: swap_m
+20.: segment_position_c
+18.: orient_flip
+16.: segment_order_c
+14.: multi_swap_m
+14.: heuristic_flip
+267. -> TOTAL
+
+5000	0.67594687294753	0.353986528447905
+----------------------------------------------------------
+
+Beng 3: no. 1	09/09/98 01:04:15
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+55.: heuristic_c
+42.: orient_c
+34.: HUX_position_c
+30.: shunt_m
+28.: swap_m
+22.: orient_flip
+22.: multi_swap_m
+21.: segment_position_c
+14.: heuristic_flip
+11.: segment_order_c
+279. -> TOTAL
+
+5000	0.697839992164604	0.658877507469057
+----------------------------------------------------------
+
+Beng 3: no. 2	09/09/98 01:06:12
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+55.: orient_c
+42.: heuristic_c
+37.: HUX_position_c
+32.: multi_swap_m
+32.: swap_m
+24.: orient_flip
+20.: segment_order_c
+20.: heuristic_flip
+18.: shunt_m
+8.: segment_position_c
+288. -> TOTAL
+
+5000	0.687567736092759	0.315332030585079
+----------------------------------------------------------
+
+Beng 3: no. 3	09/09/98 01:08:13
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+58.: heuristic_c
+54.: orient_c
+33.: HUX_position_c
+28.: swap_m
+22.: shunt_m
+20.: segment_order_c
+18.: segment_position_c
+16.: heuristic_flip
+14.: multi_swap_m
+14.: orient_flip
+277. -> TOTAL
+
+5000	0.715687562296691	0.432179842805518
+----------------------------------------------------------
+
+Beng 3: no. 4	09/09/98 01:10:11
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+57.: orient_c
+43.: heuristic_c
+26.: orient_flip
+24.: HUX_position_c
+20.: shunt_m
+18.: segment_order_c
+18.: swap_m
+14.: multi_swap_m
+9.: segment_position_c
+8.: heuristic_flip
+237. -> TOTAL
+
+5000	0.676823587439031	0.373751639261576
+----------------------------------------------------------
+
+Beng 3: no. 5	09/09/98 01:12:15
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+68.: heuristic_c
+48.: HUX_position_c
+39.: orient_c
+32.: swap_m
+27.: segment_position_c
+24.: shunt_m
+24.: multi_swap_m
+14.: heuristic_flip
+12.: segment_order_c
+6.: orient_flip
+294. -> TOTAL
+
+5000	0.71936718986634	0.597920109481512
+----------------------------------------------------------
+
+Beng 3: no. 6	09/09/98 01:13:19
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+48.: orient_c
+46.: heuristic_c
+36.: swap_m
+30.: shunt_m
+30.: multi_swap_m
+30.: segment_order_c
+26.: HUX_position_c
+26.: heuristic_flip
+16.: orient_flip
+10.: segment_position_c
+298. -> TOTAL
+
+5000	0.659710475240825	0.363155542312277
+----------------------------------------------------------
+
+Beng 3: no. 7	09/09/98 01:14:19
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+61.: heuristic_c
+60.: orient_c
+38.: HUX_position_c
+34.: shunt_m
+26.: orient_flip
+23.: segment_order_c
+18.: multi_swap_m
+18.: heuristic_flip
+16.: swap_m
+15.: segment_position_c
+309. -> TOTAL
+
+5000	0.673259338406856	0.454533186443256
+----------------------------------------------------------
+
+Beng 3: no. 8	09/09/98 01:15:19
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+44.: heuristic_c
+35.: orient_c
+31.: segment_position_c
+30.: HUX_position_c
+26.: shunt_m
+26.: heuristic_flip
+26.: multi_swap_m
+22.: swap_m
+16.: orient_flip
+16.: segment_order_c
+272. -> TOTAL
+
+5000	0.708768063542348	0.329555380425211
+----------------------------------------------------------
+
+Beng 3: no. 9	09/09/98 01:16:18
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+49.: HUX_position_c
+45.: heuristic_c
+37.: orient_c
+37.: segment_position_c
+28.: shunt_m
+24.: swap_m
+22.: heuristic_flip
+21.: segment_order_c
+20.: multi_swap_m
+12.: orient_flip
+295. -> TOTAL
+
+5000	0.690636056235111	0.663498112477704
+----------------------------------------------------------
+
+Beng 4: no. 0	09/09/98 01:17:13
+Beginning Evolution for... Test 119
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+16.: invert_m
+14.: heuristic_flip
+12.: shunt_m
+12.: multi_swap_m
+10.: orient_flip
+6.: swap_m
+70. -> TOTAL
+
+5000	0.685316651437408	0.685316651437408
+----------------------------------------------------------
+
+Beng 4: no. 1	09/09/98 01:18:47
+Beginning Evolution for... Test 119
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+16.: shunt_m
+16.: swap_m
+14.: multi_swap_m
+14.: invert_m
+14.: orient_flip
+14.: heuristic_flip
+88. -> TOTAL
+
+5000	0.670733915058474	0.670733915058474
+----------------------------------------------------------
+
+Beng 4: no. 2	09/09/98 01:20:23
+Beginning Evolution for... Test 119
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+20.: swap_m
+14.: orient_flip
+14.: invert_m
+12.: multi_swap_m
+8.: shunt_m
+8.: heuristic_flip
+76. -> TOTAL
+
+5000	0.726402220967439	0.726402220967439
+----------------------------------------------------------
+
+Beng 4: no. 3	09/09/98 01:23:01
+Beginning Evolution for... Test 119
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+20.: orient_flip
+18.: swap_m
+16.: shunt_m
+14.: invert_m
+10.: multi_swap_m
+6.: heuristic_flip
+84. -> TOTAL
+
+5000	0.651474389407607	0.651474389407607
+----------------------------------------------------------
+
+Beng 4: no. 4	09/09/98 01:24:54
+Beginning Evolution for... Test 119
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+20.: swap_m
+10.: multi_swap_m
+8.: orient_flip
+8.: shunt_m
+8.: invert_m
+6.: heuristic_flip
+60. -> TOTAL
+
+5000	0.66730305104283	0.66730305104283
+----------------------------------------------------------
+
+Beng 4: no. 5	09/09/98 01:26:30
+Beginning Evolution for... Test 119
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+26.: swap_m
+18.: shunt_m
+12.: invert_m
+10.: orient_flip
+8.: multi_swap_m
+8.: heuristic_flip
+82. -> TOTAL
+
+5000	0.650890692526615	0.650890692526615
+----------------------------------------------------------
+
+Beng 4: no. 6	09/09/98 01:28:05
+Beginning Evolution for... Test 119
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+20.: swap_m
+14.: heuristic_flip
+14.: multi_swap_m
+12.: invert_m
+8.: orient_flip
+6.: shunt_m
+74. -> TOTAL
+
+5000	0.689245903591148	0.689245903591148
+----------------------------------------------------------
+
+Beng 4: no. 7	09/09/98 01:29:38
+Beginning Evolution for... Test 119
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+20.: invert_m
+18.: heuristic_flip
+16.: shunt_m
+14.: swap_m
+8.: multi_swap_m
+4.: orient_flip
+80. -> TOTAL
+
+5000	0.645171401406317	0.645171401406317
+----------------------------------------------------------
+
+Beng 4: no. 8	09/09/98 01:31:13
+Beginning Evolution for... Test 119
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+26.: invert_m
+16.: swap_m
+12.: orient_flip
+8.: shunt_m
+8.: multi_swap_m
+6.: heuristic_flip
+76. -> TOTAL
+
+5000	0.660719890432847	0.660719890432847
+----------------------------------------------------------
+
+Beng 4: no. 9	09/09/98 01:32:46
+Beginning Evolution for... Test 119
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+20.: multi_swap_m
+18.: shunt_m
+16.: orient_flip
+14.: swap_m
+14.: invert_m
+6.: heuristic_flip
+88. -> TOTAL
+
+5000	0.700589970501475	0.700589970501475
+----------------------------------------------------------
+
+Beng 5: no. 0	09/09/98 01:34:20
+Beginning Evolution for... Test 119
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+170.: shunt_m
+170.: multi_swap_m
+162.: invert_m
+138.: swap_m
+52.: heuristic_flip
+42.: orient_flip
+734. -> TOTAL
+
+3215	0.543557994190311	0.543557994190311
+----------------------------------------------------------
+
+Beng 5: no. 1	09/09/98 01:35:25
+Beginning Evolution for... Test 119
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+174.: shunt_m
+170.: swap_m
+168.: invert_m
+146.: multi_swap_m
+52.: heuristic_flip
+46.: orient_flip
+756. -> TOTAL
+
+3215	0.561952835397113	0.561952835397113
+----------------------------------------------------------
+
+Beng 5: no. 2	09/09/98 01:36:30
+Beginning Evolution for... Test 119
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+184.: invert_m
+172.: shunt_m
+150.: multi_swap_m
+146.: swap_m
+36.: heuristic_flip
+32.: orient_flip
+720. -> TOTAL
+
+3215	0.538584764956085	0.538584764956085
+----------------------------------------------------------
+
+Beng 5: no. 3	09/09/98 01:37:35
+Beginning Evolution for... Test 119
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+174.: shunt_m
+170.: multi_swap_m
+154.: swap_m
+136.: invert_m
+56.: heuristic_flip
+38.: orient_flip
+728. -> TOTAL
+
+3215	0.649851788188659	0.649851788188659
+----------------------------------------------------------
+
+Beng 5: no. 4	09/09/98 01:38:41
+Beginning Evolution for... Test 119
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+186.: swap_m
+172.: multi_swap_m
+148.: shunt_m
+138.: invert_m
+50.: heuristic_flip
+42.: orient_flip
+736. -> TOTAL
+
+3215	0.562089242476652	0.562089242476652
+----------------------------------------------------------
+
+Beng 5: no. 5	09/09/98 01:39:45
+Beginning Evolution for... Test 119
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+176.: shunt_m
+148.: multi_swap_m
+146.: swap_m
+142.: invert_m
+60.: orient_flip
+54.: heuristic_flip
+726. -> TOTAL
+
+3215	0.5171836176331	0.5171836176331
+----------------------------------------------------------
+
+Beng 5: no. 6	09/09/98 01:40:49
+Beginning Evolution for... Test 119
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+178.: multi_swap_m
+168.: invert_m
+156.: shunt_m
+152.: swap_m
+50.: heuristic_flip
+26.: orient_flip
+730. -> TOTAL
+
+3215	0.607187925072518	0.607187925072518
+----------------------------------------------------------
+
+Beng 5: no. 7	09/09/98 01:41:52
+Beginning Evolution for... Test 119
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+170.: multi_swap_m
+164.: swap_m
+148.: shunt_m
+136.: invert_m
+58.: orient_flip
+46.: heuristic_flip
+722. -> TOTAL
+
+3215	0.525088010703008	0.525088010703008
+----------------------------------------------------------
+
+Beng 5: no. 8	09/09/98 01:42:55
+Beginning Evolution for... Test 119
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+182.: multi_swap_m
+172.: shunt_m
+142.: invert_m
+128.: swap_m
+56.: orient_flip
+52.: heuristic_flip
+732. -> TOTAL
+
+3215	0.52902573592406	0.52902573592406
+----------------------------------------------------------
+
+Beng 5: no. 9	09/09/98 01:43:58
+Beginning Evolution for... Test 119
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+174.: multi_swap_m
+160.: shunt_m
+148.: swap_m
+132.: invert_m
+60.: orient_flip
+50.: heuristic_flip
+724. -> TOTAL
+
+3215	0.514029323950853	0.514029323950853
+----------------------------------------------------------
+
+Beng 1: no. 0	09/09/98 01:45:01
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+44.: heuristic_c
+43.: orient_c
+36.: HUX_position_c
+28.: shunt_m
+25.: segment_order_c
+22.: segment_position_c
+22.: heuristic_flip
+18.: multi_swap_m
+16.: swap_m
+14.: orient_flip
+268. -> TOTAL
+
+5000	0.429678044057129	0.120452494214887
+----------------------------------------------------------
+
+Beng 1: no. 1	09/09/98 01:47:05
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+55.: heuristic_c
+46.: segment_position_c
+36.: segment_order_c
+35.: HUX_position_c
+34.: orient_c
+34.: swap_m
+22.: orient_flip
+20.: multi_swap_m
+16.: shunt_m
+14.: heuristic_flip
+312. -> TOTAL
+
+5000	0.479263419375742	0.232576422647047
+----------------------------------------------------------
+
+Beng 1: no. 2	09/09/98 01:49:06
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+40.: heuristic_c
+37.: orient_c
+35.: segment_position_c
+26.: HUX_position_c
+26.: swap_m
+22.: multi_swap_m
+21.: segment_order_c
+16.: heuristic_flip
+12.: shunt_m
+12.: orient_flip
+247. -> TOTAL
+
+5000	0.437213655845115	0.242603995106917
+----------------------------------------------------------
+
+Beng 1: no. 3	09/09/98 01:51:11
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+44.: heuristic_c
+42.: orient_c
+42.: segment_order_c
+36.: multi_swap_m
+34.: HUX_position_c
+34.: segment_position_c
+24.: shunt_m
+22.: swap_m
+20.: heuristic_flip
+14.: orient_flip
+312. -> TOTAL
+
+5000	0.397705630615491	0.144358236145676
+----------------------------------------------------------
+
+Beng 1: no. 4	09/09/98 01:53:15
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+54.: heuristic_c
+47.: orient_c
+36.: HUX_position_c
+28.: swap_m
+26.: segment_order_c
+24.: shunt_m
+18.: segment_position_c
+18.: heuristic_flip
+16.: multi_swap_m
+12.: orient_flip
+279. -> TOTAL
+
+5000	0.448599359071564	0.219829758880813
+----------------------------------------------------------
+
+Beng 1: no. 5	09/09/98 01:55:22
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+53.: heuristic_c
+43.: segment_position_c
+42.: segment_order_c
+38.: orient_c
+36.: swap_m
+35.: HUX_position_c
+26.: multi_swap_m
+18.: shunt_m
+16.: orient_flip
+16.: heuristic_flip
+323. -> TOTAL
+
+5000	0.517304189435337	0.391949035584556
+----------------------------------------------------------
+
+Beng 1: no. 6	09/09/98 01:57:24
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+47.: heuristic_c
+39.: orient_c
+37.: segment_order_c
+34.: shunt_m
+32.: segment_position_c
+24.: multi_swap_m
+22.: swap_m
+22.: heuristic_flip
+20.: HUX_position_c
+16.: orient_flip
+293. -> TOTAL
+
+5000	0.469571129444226	0.240767743904507
+----------------------------------------------------------
+
+Beng 1: no. 7	09/09/98 01:59:29
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+42.: heuristic_c
+32.: swap_m
+29.: HUX_position_c
+28.: orient_c
+24.: segment_position_c
+22.: orient_flip
+22.: multi_swap_m
+18.: shunt_m
+17.: segment_order_c
+4.: heuristic_flip
+238. -> TOTAL
+
+5000	0.434660169211367	0.286826966582638
+----------------------------------------------------------
+
+Beng 1: no. 8	09/09/98 02:01:29
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+52.: heuristic_c
+30.: segment_position_c
+29.: orient_c
+28.: segment_order_c
+24.: HUX_position_c
+24.: swap_m
+24.: orient_flip
+20.: multi_swap_m
+14.: heuristic_flip
+8.: shunt_m
+253. -> TOTAL
+
+5000	0.389356848293411	0.235831195351933
+----------------------------------------------------------
+
+Beng 1: no. 9	09/09/98 02:03:35
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+43.: heuristic_c
+39.: orient_c
+35.: HUX_position_c
+34.: swap_m
+30.: multi_swap_m
+29.: segment_order_c
+28.: segment_position_c
+20.: shunt_m
+12.: heuristic_flip
+8.: orient_flip
+278. -> TOTAL
+
+5000	0.490536107602895	0.251298967904521
+----------------------------------------------------------
+
+Beng 2: no. 0	09/09/98 02:05:34
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+47.: orient_c
+46.: HUX_position_c
+45.: heuristic_c
+40.: swap_m
+34.: segment_position_c
+26.: shunt_m
+25.: segment_order_c
+24.: heuristic_flip
+20.: multi_swap_m
+14.: orient_flip
+321. -> TOTAL
+
+5000	0.423931215667542	0.130409227830431
+----------------------------------------------------------
+
+Beng 2: no. 1	09/09/98 02:07:40
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+50.: heuristic_c
+48.: swap_m
+45.: orient_c
+36.: shunt_m
+34.: multi_swap_m
+32.: HUX_position_c
+27.: segment_order_c
+26.: orient_flip
+23.: segment_position_c
+20.: heuristic_flip
+341. -> TOTAL
+
+5000	0.483912301459643	0.233098396414356
+----------------------------------------------------------
+
+Beng 2: no. 2	09/09/98 02:09:46
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+57.: heuristic_c
+47.: HUX_position_c
+39.: orient_c
+34.: swap_m
+32.: segment_position_c
+32.: multi_swap_m
+30.: shunt_m
+19.: segment_order_c
+14.: heuristic_flip
+12.: orient_flip
+316. -> TOTAL
+
+5000	0.394723382301271	0.203089244851259
+----------------------------------------------------------
+
+Beng 2: no. 3	09/09/98 02:11:55
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+52.: orient_c
+48.: heuristic_c
+46.: multi_swap_m
+35.: HUX_position_c
+29.: segment_order_c
+26.: shunt_m
+24.: swap_m
+24.: segment_position_c
+24.: orient_flip
+20.: heuristic_flip
+328. -> TOTAL
+
+5000	0.4307206988595	0.307379267051973
+----------------------------------------------------------
+
+Beng 2: no. 4	09/09/98 02:14:04
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+57.: heuristic_c
+42.: orient_c
+35.: segment_order_c
+32.: shunt_m
+30.: segment_position_c
+27.: HUX_position_c
+26.: swap_m
+22.: multi_swap_m
+22.: heuristic_flip
+18.: orient_flip
+311. -> TOTAL
+
+5000	0.342059215749755	0.250847582182614
+----------------------------------------------------------
+
+Beng 2: no. 5	09/09/98 02:16:15
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+58.: heuristic_c
+52.: orient_c
+30.: HUX_position_c
+26.: shunt_m
+26.: segment_order_c
+22.: swap_m
+18.: segment_position_c
+16.: multi_swap_m
+14.: heuristic_flip
+6.: orient_flip
+268. -> TOTAL
+
+5000	0.45292513083795	0.252731637444719
+----------------------------------------------------------
+
+Beng 2: no. 6	09/09/98 02:18:21
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+42.: swap_m
+38.: orient_c
+33.: heuristic_c
+33.: HUX_position_c
+28.: segment_order_c
+15.: segment_position_c
+14.: multi_swap_m
+14.: shunt_m
+12.: heuristic_flip
+6.: orient_flip
+235. -> TOTAL
+
+5000	0.39022996086708	0.365557294670072
+----------------------------------------------------------
+
+Beng 2: no. 7	09/09/98 02:20:28
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+51.: heuristic_c
+51.: orient_c
+38.: HUX_position_c
+36.: swap_m
+35.: segment_order_c
+30.: heuristic_flip
+28.: shunt_m
+24.: orient_flip
+21.: segment_position_c
+20.: multi_swap_m
+334. -> TOTAL
+
+5000	0.464222198974788	0.409344587426779
+----------------------------------------------------------
+
+Beng 2: no. 8	09/09/98 02:22:32
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+41.: heuristic_c
+36.: swap_m
+28.: shunt_m
+25.: orient_c
+21.: segment_order_c
+20.: segment_position_c
+19.: HUX_position_c
+16.: multi_swap_m
+12.: orient_flip
+12.: heuristic_flip
+230. -> TOTAL
+
+5000	0.402070379305268	0.379883916036024
+----------------------------------------------------------
+
+Beng 2: no. 9	09/09/98 02:24:38
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+57.: heuristic_c
+52.: HUX_position_c
+50.: orient_c
+40.: swap_m
+38.: shunt_m
+34.: segment_position_c
+33.: segment_order_c
+28.: multi_swap_m
+14.: heuristic_flip
+6.: orient_flip
+352. -> TOTAL
+
+5000	0.439609973078533	0.267507015465673
+----------------------------------------------------------
+
+Beng 3: no. 0	09/09/98 02:26:47
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+40.: swap_m
+39.: orient_c
+35.: heuristic_c
+35.: HUX_position_c
+29.: segment_order_c
+28.: shunt_m
+26.: multi_swap_m
+21.: segment_position_c
+20.: heuristic_flip
+18.: orient_flip
+291. -> TOTAL
+
+5000	0.447770983431212	0.327999113016483
+----------------------------------------------------------
+
+Beng 3: no. 1	09/09/98 02:28:48
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+57.: heuristic_c
+44.: swap_m
+40.: orient_c
+34.: shunt_m
+33.: HUX_position_c
+28.: segment_position_c
+26.: multi_swap_m
+23.: segment_order_c
+10.: orient_flip
+8.: heuristic_flip
+303. -> TOTAL
+
+5000	0.401293181407126	0.230917137824357
+----------------------------------------------------------
+
+Beng 3: no. 2	09/09/98 02:30:54
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+57.: orient_c
+45.: heuristic_c
+36.: swap_m
+36.: multi_swap_m
+32.: orient_flip
+32.: HUX_position_c
+27.: segment_position_c
+26.: shunt_m
+20.: segment_order_c
+18.: heuristic_flip
+329. -> TOTAL
+
+5000	0.436226188808525	0.389985608981753
+----------------------------------------------------------
+
+Beng 3: no. 3	09/09/98 02:32:54
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+67.: heuristic_c
+50.: orient_c
+41.: HUX_position_c
+34.: shunt_m
+32.: swap_m
+29.: segment_order_c
+27.: segment_position_c
+26.: multi_swap_m
+20.: heuristic_flip
+16.: orient_flip
+342. -> TOTAL
+
+5000	0.449155587495508	0.272904783136791
+----------------------------------------------------------
+
+Beng 3: no. 4	09/09/98 02:35:01
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+44.: orient_c
+43.: heuristic_c
+34.: shunt_m
+34.: swap_m
+32.: HUX_position_c
+28.: multi_swap_m
+27.: segment_order_c
+25.: segment_position_c
+14.: orient_flip
+14.: heuristic_flip
+295. -> TOTAL
+
+5000	0.393683323352629	0.228552151094218
+----------------------------------------------------------
+
+Beng 3: no. 5	09/09/98 02:37:06
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+53.: HUX_position_c
+52.: swap_m
+48.: heuristic_c
+48.: orient_c
+38.: shunt_m
+36.: orient_flip
+33.: segment_position_c
+30.: multi_swap_m
+26.: segment_order_c
+16.: heuristic_flip
+380. -> TOTAL
+
+5000	0.438208308182645	0.283735331682606
+----------------------------------------------------------
+
+Beng 3: no. 6	09/09/98 02:39:15
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+59.: heuristic_c
+50.: orient_c
+36.: shunt_m
+34.: swap_m
+34.: multi_swap_m
+28.: segment_order_c
+26.: segment_position_c
+20.: orient_flip
+19.: HUX_position_c
+12.: heuristic_flip
+318. -> TOTAL
+
+5000	0.459311472694903	0.31427165110358
+----------------------------------------------------------
+
+Beng 3: no. 7	09/09/98 02:41:16
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+56.: heuristic_c
+46.: multi_swap_m
+43.: HUX_position_c
+36.: orient_c
+32.: swap_m
+25.: segment_order_c
+24.: shunt_m
+18.: segment_position_c
+14.: orient_flip
+12.: heuristic_flip
+306. -> TOTAL
+
+5000	0.427484225229999	0.360040567951318
+----------------------------------------------------------
+
+Beng 3: no. 8	09/09/98 02:43:22
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+47.: heuristic_c
+38.: HUX_position_c
+38.: orient_c
+36.: multi_swap_m
+34.: swap_m
+26.: shunt_m
+25.: segment_order_c
+22.: segment_position_c
+14.: orient_flip
+14.: heuristic_flip
+294. -> TOTAL
+
+5000	0.385400382143477	0.315980232988692
+----------------------------------------------------------
+
+Beng 3: no. 9	09/09/98 02:45:26
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+55.: heuristic_c
+47.: orient_c
+40.: swap_m
+33.: segment_position_c
+29.: segment_order_c
+28.: shunt_m
+27.: HUX_position_c
+26.: orient_flip
+22.: multi_swap_m
+20.: heuristic_flip
+327. -> TOTAL
+
+5000	0.400568694710236	0.184391062798921
+----------------------------------------------------------
+
+Beng 4: no. 0	09/09/98 02:47:32
+Beginning Evolution for... Test 120
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+24.: invert_m
+20.: swap_m
+20.: multi_swap_m
+18.: orient_flip
+16.: shunt_m
+12.: heuristic_flip
+110. -> TOTAL
+
+5000	0.428268107899435	0.428268107899435
+----------------------------------------------------------
+
+Beng 4: no. 1	09/09/98 02:50:55
+Beginning Evolution for... Test 120
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+24.: swap_m
+14.: orient_flip
+14.: shunt_m
+12.: multi_swap_m
+10.: heuristic_flip
+8.: invert_m
+82. -> TOTAL
+
+5000	0.411641929499072	0.411641929499072
+----------------------------------------------------------
+
+Beng 4: no. 2	09/09/98 02:54:14
+Beginning Evolution for... Test 120
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+36.: swap_m
+28.: shunt_m
+20.: invert_m
+10.: heuristic_flip
+8.: multi_swap_m
+8.: orient_flip
+110. -> TOTAL
+
+5000	0.446773539931486	0.446773539931486
+----------------------------------------------------------
+
+Beng 4: no. 3	09/09/98 02:57:34
+Beginning Evolution for... Test 120
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+28.: swap_m
+28.: invert_m
+22.: multi_swap_m
+18.: orient_flip
+14.: shunt_m
+12.: heuristic_flip
+122. -> TOTAL
+
+5000	0.429917407416378	0.429917407416378
+----------------------------------------------------------
+
+Beng 4: no. 4	09/09/98 03:00:58
+Beginning Evolution for... Test 120
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+24.: swap_m
+22.: invert_m
+22.: multi_swap_m
+16.: heuristic_flip
+12.: shunt_m
+4.: orient_flip
+100. -> TOTAL
+
+5000	0.481848561105184	0.481848561105184
+----------------------------------------------------------
+
+Beng 4: no. 5	09/09/98 03:04:23
+Beginning Evolution for... Test 120
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+28.: invert_m
+24.: shunt_m
+22.: swap_m
+18.: multi_swap_m
+10.: orient_flip
+6.: heuristic_flip
+108. -> TOTAL
+
+5000	0.457150215697637	0.457150215697637
+----------------------------------------------------------
+
+Beng 4: no. 6	09/09/98 03:07:47
+Beginning Evolution for... Test 120
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+28.: swap_m
+20.: shunt_m
+18.: invert_m
+12.: multi_swap_m
+12.: orient_flip
+8.: heuristic_flip
+98. -> TOTAL
+
+5000	0.37718448252414	0.37718448252414
+----------------------------------------------------------
+
+Beng 4: no. 7	09/09/98 03:11:10
+Beginning Evolution for... Test 120
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+32.: swap_m
+20.: shunt_m
+18.: invert_m
+16.: multi_swap_m
+12.: orient_flip
+10.: heuristic_flip
+108. -> TOTAL
+
+5000	0.459521941849116	0.459521941849116
+----------------------------------------------------------
+
+Beng 4: no. 8	09/09/98 03:14:29
+Beginning Evolution for... Test 120
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+26.: swap_m
+20.: invert_m
+18.: shunt_m
+18.: multi_swap_m
+8.: heuristic_flip
+6.: orient_flip
+96. -> TOTAL
+
+5000	0.447351176974646	0.447351176974646
+----------------------------------------------------------
+
+Beng 4: no. 9	09/09/98 03:17:49
+Beginning Evolution for... Test 120
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+28.: multi_swap_m
+28.: swap_m
+24.: shunt_m
+14.: orient_flip
+14.: heuristic_flip
+10.: invert_m
+118. -> TOTAL
+
+5000	0.444494528334961	0.444494528334961
+----------------------------------------------------------
+
+Beng 5: no. 0	09/09/98 03:21:10
+Beginning Evolution for... Test 120
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+176.: multi_swap_m
+162.: shunt_m
+146.: swap_m
+144.: invert_m
+44.: orient_flip
+30.: heuristic_flip
+702. -> TOTAL
+
+3215	0.295644121095832	0.295644121095832
+----------------------------------------------------------
+
+Beng 5: no. 1	09/09/98 03:23:22
+Beginning Evolution for... Test 120
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+174.: shunt_m
+168.: invert_m
+162.: swap_m
+146.: multi_swap_m
+48.: orient_flip
+36.: heuristic_flip
+734. -> TOTAL
+
+3215	0.299662015011801	0.299662015011801
+----------------------------------------------------------
+
+Beng 5: no. 2	09/09/98 03:26:02
+Beginning Evolution for... Test 120
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+168.: multi_swap_m
+168.: shunt_m
+156.: swap_m
+154.: invert_m
+60.: orient_flip
+34.: heuristic_flip
+740. -> TOTAL
+
+3215	0.292560555914503	0.292560555914503
+----------------------------------------------------------
+
+Beng 5: no. 3	09/09/98 03:28:53
+Beginning Evolution for... Test 120
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+176.: shunt_m
+152.: multi_swap_m
+140.: swap_m
+138.: invert_m
+58.: orient_flip
+56.: heuristic_flip
+720. -> TOTAL
+
+3215	0.325255990207504	0.325255990207504
+----------------------------------------------------------
+
+Beng 5: no. 4	09/09/98 03:31:07
+Beginning Evolution for... Test 120
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+172.: invert_m
+160.: shunt_m
+154.: swap_m
+150.: multi_swap_m
+52.: heuristic_flip
+48.: orient_flip
+736. -> TOTAL
+
+3215	0.30514010658415	0.30514010658415
+----------------------------------------------------------
+
+Beng 5: no. 5	09/09/98 03:33:21
+Beginning Evolution for... Test 120
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+194.: swap_m
+158.: shunt_m
+156.: multi_swap_m
+134.: invert_m
+50.: heuristic_flip
+30.: orient_flip
+722. -> TOTAL
+
+3215	0.290923990985454	0.290923990985454
+----------------------------------------------------------
+
+Beng 5: no. 6	09/09/98 03:35:34
+Beginning Evolution for... Test 120
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+176.: shunt_m
+154.: swap_m
+148.: invert_m
+146.: multi_swap_m
+60.: orient_flip
+42.: heuristic_flip
+726. -> TOTAL
+
+3215	0.317324675881894	0.317324675881894
+----------------------------------------------------------
+
+Beng 5: no. 7	09/09/98 03:37:48
+Beginning Evolution for... Test 120
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+178.: invert_m
+160.: multi_swap_m
+156.: shunt_m
+126.: swap_m
+68.: heuristic_flip
+58.: orient_flip
+746. -> TOTAL
+
+3215	0.337524339783376	0.337524339783376
+----------------------------------------------------------
+
+Beng 5: no. 8	09/09/98 03:40:02
+Beginning Evolution for... Test 120
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+188.: multi_swap_m
+158.: swap_m
+146.: shunt_m
+118.: invert_m
+58.: heuristic_flip
+48.: orient_flip
+716. -> TOTAL
+
+3215	0.294015338490335	0.294015338490335
+----------------------------------------------------------
+
+Beng 5: no. 9	09/09/98 03:42:17
+Beginning Evolution for... Test 120
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+178.: multi_swap_m
+172.: shunt_m
+150.: swap_m
+142.: invert_m
+38.: heuristic_flip
+32.: orient_flip
+712. -> TOTAL
+
+3215	0.371626572870213	0.371626572870213
+----------------------------------------------------------
+
+Beng 1: no. 0	09/09/98 03:44:33
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+36.: orient_c
+30.: segment_position_c
+27.: heuristic_c
+26.: HUX_position_c
+20.: segment_order_c
+14.: swap_m
+14.: multi_swap_m
+12.: shunt_m
+6.: heuristic_flip
+2.: orient_flip
+187. -> TOTAL
+
+5000	0.752118644067796	0.521139931209529
+----------------------------------------------------------
+
+Beng 1: no. 1	09/09/98 03:45:38
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+31.: heuristic_c
+22.: orient_c
+21.: HUX_position_c
+16.: segment_position_c
+14.: segment_order_c
+10.: multi_swap_m
+8.: swap_m
+6.: heuristic_flip
+4.: orient_flip
+2.: shunt_m
+134. -> TOTAL
+
+5000	0.723091941140316	0.577558829654311
+----------------------------------------------------------
+
+Beng 1: no. 2	09/09/98 03:46:42
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+36.: heuristic_c
+26.: orient_c
+20.: segment_order_c
+14.: HUX_position_c
+13.: segment_position_c
+12.: swap_m
+10.: shunt_m
+10.: heuristic_flip
+8.: orient_flip
+6.: multi_swap_m
+155. -> TOTAL
+
+5000	0.743337186123256	0.678340492532522
+----------------------------------------------------------
+
+Beng 1: no. 3	09/09/98 03:47:45
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+38.: HUX_position_c
+26.: multi_swap_m
+26.: heuristic_c
+23.: orient_c
+16.: segment_order_c
+16.: swap_m
+16.: heuristic_flip
+14.: orient_flip
+13.: segment_position_c
+10.: shunt_m
+198. -> TOTAL
+
+5000	0.719971606753536	0.662313432835821
+----------------------------------------------------------
+
+Beng 1: no. 4	09/09/98 03:48:48
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+30.: segment_order_c
+20.: heuristic_c
+19.: HUX_position_c
+19.: segment_position_c
+18.: orient_c
+16.: swap_m
+16.: multi_swap_m
+16.: orient_flip
+12.: shunt_m
+6.: heuristic_flip
+172. -> TOTAL
+
+5000	0.811474941425224	0.504368112000978
+----------------------------------------------------------
+
+Beng 1: no. 5	09/09/98 03:49:52
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+34.: orient_c
+30.: swap_m
+21.: segment_position_c
+18.: heuristic_c
+18.: shunt_m
+18.: segment_order_c
+18.: heuristic_flip
+12.: HUX_position_c
+8.: multi_swap_m
+8.: orient_flip
+185. -> TOTAL
+
+5000	0.74225040915247	0.579710144927536
+----------------------------------------------------------
+
+Beng 1: no. 6	09/09/98 03:50:58
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+33.: orient_c
+24.: multi_swap_m
+16.: heuristic_flip
+13.: segment_order_c
+12.: swap_m
+12.: heuristic_c
+11.: HUX_position_c
+10.: shunt_m
+6.: segment_position_c
+4.: orient_flip
+141. -> TOTAL
+
+5000	0.784121430590896	0.485918625739999
+----------------------------------------------------------
+
+Beng 1: no. 7	09/09/98 03:52:02
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+28.: segment_position_c
+26.: HUX_position_c
+26.: orient_c
+24.: heuristic_c
+22.: swap_m
+18.: segment_order_c
+16.: multi_swap_m
+10.: shunt_m
+10.: heuristic_flip
+8.: orient_flip
+188. -> TOTAL
+
+5000	0.726232754529237	0.630795713254484
+----------------------------------------------------------
+
+Beng 1: no. 8	09/09/98 03:53:08
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+36.: HUX_position_c
+32.: orient_c
+25.: segment_order_c
+24.: heuristic_c
+20.: segment_position_c
+18.: multi_swap_m
+10.: shunt_m
+10.: orient_flip
+8.: swap_m
+4.: heuristic_flip
+187. -> TOTAL
+
+5000	0.699679724069968	0.494027142268684
+----------------------------------------------------------
+
+Beng 1: no. 9	09/09/98 03:54:13
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+29.: HUX_position_c
+27.: heuristic_c
+24.: segment_order_c
+22.: orient_c
+10.: shunt_m
+9.: segment_position_c
+8.: heuristic_flip
+6.: swap_m
+6.: multi_swap_m
+6.: orient_flip
+147. -> TOTAL
+
+5000	0.779424938085117	0.339033553816563
+----------------------------------------------------------
+
+Beng 2: no. 0	09/09/98 03:55:18
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+43.: HUX_position_c
+30.: orient_c
+29.: segment_position_c
+28.: multi_swap_m
+26.: heuristic_c
+26.: segment_order_c
+20.: swap_m
+18.: shunt_m
+18.: orient_flip
+16.: heuristic_flip
+254. -> TOTAL
+
+5000	0.787226965295487	0.764057035243476
+----------------------------------------------------------
+
+Beng 2: no. 1	09/09/98 03:56:22
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+26.: multi_swap_m
+25.: segment_order_c
+23.: heuristic_c
+20.: HUX_position_c
+20.: shunt_m
+16.: orient_c
+16.: swap_m
+12.: segment_position_c
+6.: heuristic_flip
+4.: orient_flip
+168. -> TOTAL
+
+5000	0.754338508874633	0.269633700718745
+----------------------------------------------------------
+
+Beng 2: no. 2	09/09/98 03:57:27
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+24.: orient_c
+22.: swap_m
+18.: heuristic_c
+17.: segment_order_c
+16.: segment_position_c
+15.: HUX_position_c
+14.: shunt_m
+12.: multi_swap_m
+10.: heuristic_flip
+6.: orient_flip
+154. -> TOTAL
+
+5000	0.796793076204841	0.490141088147733
+----------------------------------------------------------
+
+Beng 2: no. 3	09/09/98 03:58:32
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+41.: heuristic_c
+38.: HUX_position_c
+27.: segment_order_c
+25.: segment_position_c
+22.: orient_c
+20.: swap_m
+20.: multi_swap_m
+18.: orient_flip
+14.: shunt_m
+8.: heuristic_flip
+233. -> TOTAL
+
+5000	0.701669776414408	0.579710144927536
+----------------------------------------------------------
+
+Beng 2: no. 4	09/09/98 03:59:39
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+41.: orient_c
+30.: swap_m
+29.: segment_position_c
+26.: segment_order_c
+23.: heuristic_c
+22.: HUX_position_c
+22.: shunt_m
+14.: heuristic_flip
+12.: multi_swap_m
+6.: orient_flip
+225. -> TOTAL
+
+5000	0.729394227820637	0.496590312991782
+----------------------------------------------------------
+
+Beng 2: no. 5	09/09/98 04:00:45
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+28.: segment_order_c
+27.: orient_c
+24.: swap_m
+21.: heuristic_c
+16.: HUX_position_c
+14.: segment_position_c
+14.: multi_swap_m
+12.: shunt_m
+12.: orient_flip
+8.: heuristic_flip
+176. -> TOTAL
+
+5000	0.823283858998145	0.602103120759837
+----------------------------------------------------------
+
+Beng 2: no. 6	09/09/98 04:01:48
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+41.: heuristic_c
+36.: orient_c
+30.: swap_m
+27.: segment_position_c
+18.: segment_order_c
+16.: HUX_position_c
+16.: shunt_m
+12.: multi_swap_m
+12.: heuristic_flip
+6.: orient_flip
+214. -> TOTAL
+
+5000	0.779424938085117	0.569397072657472
+----------------------------------------------------------
+
+Beng 2: no. 7	09/09/98 04:02:53
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+40.: heuristic_c
+36.: orient_c
+30.: segment_order_c
+25.: segment_position_c
+22.: HUX_position_c
+22.: swap_m
+18.: multi_swap_m
+16.: orient_flip
+14.: shunt_m
+6.: heuristic_flip
+229. -> TOTAL
+
+5000	0.752118644067796	0.252485739889902
+----------------------------------------------------------
+
+Beng 2: no. 8	09/09/98 04:04:02
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+31.: heuristic_c
+22.: orient_c
+20.: swap_m
+20.: HUX_position_c
+15.: segment_position_c
+13.: segment_order_c
+10.: multi_swap_m
+8.: heuristic_flip
+4.: shunt_m
+0.: orient_flip
+143. -> TOTAL
+
+5000	0.771403737505432	0.74348469180727
+----------------------------------------------------------
+
+Beng 2: no. 9	09/09/98 04:05:04
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+27.: heuristic_c
+27.: segment_order_c
+26.: HUX_position_c
+26.: swap_m
+18.: orient_c
+16.: segment_position_c
+16.: orient_flip
+14.: multi_swap_m
+10.: heuristic_flip
+6.: shunt_m
+186. -> TOTAL
+
+5000	0.810733656865544	0.475951064186358
+----------------------------------------------------------
+
+Beng 3: no. 0	09/09/98 04:06:09
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+32.: HUX_position_c
+31.: orient_c
+31.: segment_position_c
+26.: heuristic_c
+24.: swap_m
+24.: multi_swap_m
+16.: shunt_m
+12.: heuristic_flip
+11.: segment_order_c
+10.: orient_flip
+217. -> TOTAL
+
+5000	0.741901776384535	0.263888527539184
+----------------------------------------------------------
+
+Beng 3: no. 1	09/09/98 04:07:15
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+38.: heuristic_c
+36.: swap_m
+32.: multi_swap_m
+32.: orient_c
+28.: heuristic_flip
+22.: segment_order_c
+16.: segment_position_c
+16.: orient_flip
+15.: HUX_position_c
+8.: shunt_m
+243. -> TOTAL
+
+5000	0.73002007041095	0.543478260869565
+----------------------------------------------------------
+
+Beng 3: no. 2	09/09/98 04:08:19
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+39.: heuristic_c
+25.: HUX_position_c
+22.: orient_c
+20.: segment_order_c
+17.: segment_position_c
+14.: swap_m
+14.: heuristic_flip
+12.: multi_swap_m
+10.: orient_flip
+8.: shunt_m
+181. -> TOTAL
+
+5000	0.725183530162783	0.61496992710441
+----------------------------------------------------------
+
+Beng 3: no. 3	09/09/98 04:09:23
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+28.: HUX_position_c
+25.: segment_order_c
+24.: multi_swap_m
+24.: heuristic_c
+22.: shunt_m
+20.: swap_m
+20.: orient_c
+19.: segment_position_c
+12.: orient_flip
+2.: heuristic_flip
+196. -> TOTAL
+
+5000	0.790052460596134	0.748945147679325
+----------------------------------------------------------
+
+Beng 3: no. 4	09/09/98 04:10:27
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+45.: heuristic_c
+35.: orient_c
+22.: swap_m
+22.: segment_order_c
+22.: HUX_position_c
+21.: segment_position_c
+14.: heuristic_flip
+10.: multi_swap_m
+10.: orient_flip
+6.: shunt_m
+207. -> TOTAL
+
+5000	0.73425994870522	0.585064216978069
+----------------------------------------------------------
+
+Beng 3: no. 5	09/09/98 04:11:31
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+36.: heuristic_c
+33.: HUX_position_c
+31.: segment_order_c
+23.: orient_c
+22.: swap_m
+22.: shunt_m
+17.: segment_position_c
+14.: multi_swap_m
+14.: heuristic_flip
+8.: orient_flip
+220. -> TOTAL
+
+5000	0.73002007041095	0.504368112000978
+----------------------------------------------------------
+
+Beng 3: no. 6	09/09/98 04:12:35
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+32.: orient_c
+27.: heuristic_c
+24.: swap_m
+20.: shunt_m
+20.: multi_swap_m
+19.: HUX_position_c
+19.: segment_position_c
+14.: heuristic_flip
+10.: orient_flip
+4.: segment_order_c
+189. -> TOTAL
+
+5000	0.752118644067796	0.678340492532522
+----------------------------------------------------------
+
+Beng 3: no. 7	09/09/98 04:13:39
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+36.: heuristic_c
+32.: swap_m
+26.: segment_position_c
+24.: HUX_position_c
+22.: orient_c
+14.: heuristic_flip
+12.: multi_swap_m
+12.: segment_order_c
+10.: shunt_m
+10.: orient_flip
+198. -> TOTAL
+
+5000	0.729394227820637	0.568017040511215
+----------------------------------------------------------
+
+Beng 3: no. 8	09/09/98 04:14:43
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+36.: orient_c
+32.: heuristic_c
+32.: multi_swap_m
+24.: segment_order_c
+23.: segment_position_c
+23.: HUX_position_c
+16.: swap_m
+16.: shunt_m
+16.: orient_flip
+8.: heuristic_flip
+226. -> TOTAL
+
+5000	0.688637099887296	0.514492753623188
+----------------------------------------------------------
+
+Beng 3: no. 9	09/09/98 04:15:47
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+32.: heuristic_c
+25.: HUX_position_c
+24.: swap_m
+24.: orient_c
+21.: segment_position_c
+19.: segment_order_c
+18.: shunt_m
+10.: multi_swap_m
+10.: orient_flip
+8.: heuristic_flip
+191. -> TOTAL
+
+5000	0.730452674897119	0.658874929298544
+----------------------------------------------------------
+
+Beng 4: no. 0	09/09/98 04:16:52
+Beginning Evolution for... Test 121
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+12.: invert_m
+12.: shunt_m
+12.: orient_flip
+10.: swap_m
+6.: multi_swap_m
+6.: heuristic_flip
+58. -> TOTAL
+
+5000	0.698687893657734	0.698687893657734
+----------------------------------------------------------
+
+Beng 4: no. 1	09/09/98 04:18:34
+Beginning Evolution for... Test 121
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+18.: invert_m
+14.: swap_m
+10.: multi_swap_m
+8.: shunt_m
+8.: heuristic_flip
+6.: orient_flip
+64. -> TOTAL
+
+5000	0.752118644067796	0.752118644067796
+----------------------------------------------------------
+
+Beng 4: no. 2	09/09/98 04:20:16
+Beginning Evolution for... Test 121
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+20.: orient_flip
+18.: swap_m
+10.: shunt_m
+10.: invert_m
+10.: multi_swap_m
+10.: heuristic_flip
+78. -> TOTAL
+
+5000	0.692033090878078	0.692033090878078
+----------------------------------------------------------
+
+Beng 4: no. 3	09/09/98 04:21:58
+Beginning Evolution for... Test 121
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+14.: multi_swap_m
+12.: invert_m
+10.: swap_m
+8.: heuristic_flip
+6.: orient_flip
+4.: shunt_m
+54. -> TOTAL
+
+5000	0.754338508874633	0.754338508874633
+----------------------------------------------------------
+
+Beng 4: no. 4	09/09/98 04:23:40
+Beginning Evolution for... Test 121
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+12.: multi_swap_m
+12.: swap_m
+10.: shunt_m
+10.: invert_m
+10.: heuristic_flip
+2.: orient_flip
+56. -> TOTAL
+
+5000	0.726232754529237	0.726232754529237
+----------------------------------------------------------
+
+Beng 4: no. 5	09/09/98 04:25:23
+Beginning Evolution for... Test 121
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+18.: invert_m
+14.: heuristic_flip
+14.: swap_m
+10.: orient_flip
+8.: shunt_m
+6.: multi_swap_m
+70. -> TOTAL
+
+5000	0.73002007041095	0.73002007041095
+----------------------------------------------------------
+
+Beng 4: no. 6	09/09/98 04:27:05
+Beginning Evolution for... Test 121
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+16.: multi_swap_m
+14.: swap_m
+10.: heuristic_flip
+10.: invert_m
+6.: orient_flip
+4.: shunt_m
+60. -> TOTAL
+
+5000	0.766327359937485	0.766327359937485
+----------------------------------------------------------
+
+Beng 4: no. 7	09/09/98 04:28:49
+Beginning Evolution for... Test 121
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+16.: shunt_m
+16.: swap_m
+12.: invert_m
+12.: orient_flip
+4.: multi_swap_m
+4.: heuristic_flip
+64. -> TOTAL
+
+5000	0.719971606753536	0.719971606753536
+----------------------------------------------------------
+
+Beng 4: no. 8	09/09/98 04:30:32
+Beginning Evolution for... Test 121
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+20.: swap_m
+14.: invert_m
+12.: heuristic_flip
+10.: multi_swap_m
+10.: shunt_m
+8.: orient_flip
+74. -> TOTAL
+
+5000	0.688637099887296	0.688637099887296
+----------------------------------------------------------
+
+Beng 4: no. 9	09/09/98 04:32:15
+Beginning Evolution for... Test 121
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+24.: swap_m
+10.: invert_m
+8.: heuristic_flip
+8.: multi_swap_m
+6.: orient_flip
+4.: shunt_m
+60. -> TOTAL
+
+5000	0.711749480222387	0.711749480222387
+----------------------------------------------------------
+
+Beng 5: no. 0	09/09/98 04:33:58
+Beginning Evolution for... Test 121
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+174.: multi_swap_m
+162.: shunt_m
+158.: swap_m
+150.: invert_m
+56.: heuristic_flip
+48.: orient_flip
+748. -> TOTAL
+
+3215	0.620534175045699	0.620534175045699
+----------------------------------------------------------
+
+Beng 5: no. 1	09/09/98 04:35:01
+Beginning Evolution for... Test 121
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+158.: multi_swap_m
+156.: invert_m
+156.: shunt_m
+132.: swap_m
+56.: heuristic_flip
+44.: orient_flip
+702. -> TOTAL
+
+3215	0.656163127698586	0.656163127698586
+----------------------------------------------------------
+
+Beng 5: no. 2	09/09/98 04:36:05
+Beginning Evolution for... Test 121
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+198.: shunt_m
+174.: invert_m
+142.: multi_swap_m
+132.: swap_m
+48.: orient_flip
+40.: heuristic_flip
+734. -> TOTAL
+
+3215	0.62482399324134	0.62482399324134
+----------------------------------------------------------
+
+Beng 5: no. 3	09/09/98 04:37:10
+Beginning Evolution for... Test 121
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+184.: multi_swap_m
+158.: swap_m
+152.: shunt_m
+134.: invert_m
+56.: orient_flip
+46.: heuristic_flip
+730. -> TOTAL
+
+3215	0.610096670247046	0.610096670247046
+----------------------------------------------------------
+
+Beng 5: no. 4	09/09/98 04:38:13
+Beginning Evolution for... Test 121
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+170.: invert_m
+168.: multi_swap_m
+138.: swap_m
+118.: shunt_m
+60.: orient_flip
+60.: heuristic_flip
+714. -> TOTAL
+
+3215	0.630795713254484	0.630795713254484
+----------------------------------------------------------
+
+Beng 5: no. 5	09/09/98 04:39:16
+Beginning Evolution for... Test 121
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+156.: shunt_m
+150.: invert_m
+144.: multi_swap_m
+132.: swap_m
+72.: orient_flip
+60.: heuristic_flip
+714. -> TOTAL
+
+3215	0.629947528032665	0.629947528032665
+----------------------------------------------------------
+
+Beng 5: no. 6	09/09/98 04:40:22
+Beginning Evolution for... Test 121
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+162.: multi_swap_m
+146.: swap_m
+140.: shunt_m
+126.: invert_m
+82.: orient_flip
+48.: heuristic_flip
+704. -> TOTAL
+
+3215	0.656163127698586	0.656163127698586
+----------------------------------------------------------
+
+Beng 5: no. 7	09/09/98 04:41:25
+Beginning Evolution for... Test 121
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+170.: multi_swap_m
+168.: shunt_m
+146.: invert_m
+120.: swap_m
+66.: heuristic_flip
+38.: orient_flip
+708. -> TOTAL
+
+3215	0.630795713254484	0.630795713254484
+----------------------------------------------------------
+
+Beng 5: no. 8	09/09/98 04:42:29
+Beginning Evolution for... Test 121
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+176.: shunt_m
+172.: multi_swap_m
+142.: invert_m
+140.: swap_m
+82.: heuristic_flip
+48.: orient_flip
+760. -> TOTAL
+
+3215	0.59824738793394	0.59824738793394
+----------------------------------------------------------
+
+Beng 5: no. 9	09/09/98 04:43:32
+Beginning Evolution for... Test 121
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+170.: shunt_m
+154.: swap_m
+142.: multi_swap_m
+138.: invert_m
+56.: orient_flip
+56.: heuristic_flip
+716. -> TOTAL
+
+3215	0.623913643321751	0.623913643321751
+----------------------------------------------------------
+
+Beng 1: no. 0	09/09/98 04:44:36
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+44.: swap_m
+34.: heuristic_c
+34.: orient_c
+32.: HUX_position_c
+27.: segment_position_c
+22.: segment_order_c
+16.: multi_swap_m
+14.: shunt_m
+8.: orient_flip
+4.: heuristic_flip
+235. -> TOTAL
+
+5000	0.562898008693015	0.401321222130471
+----------------------------------------------------------
+
+Beng 1: no. 1	09/09/98 04:46:54
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+30.: swap_m
+30.: segment_position_c
+28.: heuristic_c
+26.: HUX_position_c
+23.: orient_c
+18.: segment_order_c
+12.: shunt_m
+10.: multi_swap_m
+10.: orient_flip
+10.: heuristic_flip
+197. -> TOTAL
+
+5000	0.578442718806292	0.242859141697815
+----------------------------------------------------------
+
+Beng 1: no. 2	09/09/98 04:49:09
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+32.: orient_c
+31.: heuristic_c
+31.: HUX_position_c
+28.: segment_order_c
+26.: swap_m
+15.: segment_position_c
+14.: heuristic_flip
+12.: multi_swap_m
+10.: orient_flip
+4.: shunt_m
+203. -> TOTAL
+
+5000	0.59147532045438	0.424073677446991
+----------------------------------------------------------
+
+Beng 1: no. 3	09/09/98 04:51:25
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+37.: HUX_position_c
+34.: heuristic_c
+27.: orient_c
+25.: segment_order_c
+20.: segment_position_c
+18.: orient_flip
+14.: shunt_m
+12.: swap_m
+6.: multi_swap_m
+6.: heuristic_flip
+199. -> TOTAL
+
+5000	0.57019255997901	0.274061592805376
+----------------------------------------------------------
+
+Beng 1: no. 4	09/09/98 04:53:42
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+42.: heuristic_c
+39.: segment_order_c
+37.: orient_c
+33.: HUX_position_c
+28.: segment_position_c
+26.: swap_m
+22.: multi_swap_m
+16.: orient_flip
+14.: shunt_m
+12.: heuristic_flip
+269. -> TOTAL
+
+5000	0.617208692736749	0.214270701251171
+----------------------------------------------------------
+
+Beng 1: no. 5	09/09/98 04:55:55
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+42.: HUX_position_c
+40.: swap_m
+36.: heuristic_c
+31.: orient_c
+29.: segment_order_c
+29.: segment_position_c
+24.: multi_swap_m
+18.: shunt_m
+18.: heuristic_flip
+12.: orient_flip
+279. -> TOTAL
+
+5000	0.602963657735902	0.367529984011827
+----------------------------------------------------------
+
+Beng 1: no. 6	09/09/98 04:58:10
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+35.: heuristic_c
+26.: HUX_position_c
+26.: segment_position_c
+24.: shunt_m
+23.: orient_c
+22.: swap_m
+22.: multi_swap_m
+20.: segment_order_c
+12.: heuristic_flip
+8.: orient_flip
+218. -> TOTAL
+
+5000	0.567444842365818	0.440055341939299
+----------------------------------------------------------
+
+Beng 1: no. 7	09/09/98 05:00:29
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+28.: segment_position_c
+25.: orient_c
+22.: segment_order_c
+21.: heuristic_c
+21.: HUX_position_c
+18.: shunt_m
+16.: swap_m
+14.: multi_swap_m
+14.: orient_flip
+6.: heuristic_flip
+185. -> TOTAL
+
+5000	0.577967939969175	0.563007559845618
+----------------------------------------------------------
+
+Beng 1: no. 8	09/09/98 05:02:45
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+40.: orient_c
+39.: HUX_position_c
+34.: shunt_m
+29.: heuristic_c
+29.: segment_order_c
+23.: segment_position_c
+22.: heuristic_flip
+20.: swap_m
+20.: multi_swap_m
+14.: orient_flip
+270. -> TOTAL
+
+5000	0.580506450071667	0.435173124176724
+----------------------------------------------------------
+
+Beng 1: no. 9	09/09/98 05:05:00
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+31.: segment_order_c
+29.: orient_c
+22.: swap_m
+22.: heuristic_c
+20.: multi_swap_m
+20.: shunt_m
+19.: segment_position_c
+19.: HUX_position_c
+16.: heuristic_flip
+14.: orient_flip
+212. -> TOTAL
+
+5000	0.553267809148479	0.377627712477396
+----------------------------------------------------------
+
+Beng 2: no. 0	09/09/98 05:07:16
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+33.: orient_c
+28.: heuristic_c
+25.: segment_order_c
+24.: segment_position_c
+20.: heuristic_flip
+19.: HUX_position_c
+14.: swap_m
+14.: shunt_m
+14.: orient_flip
+4.: multi_swap_m
+195. -> TOTAL
+
+5000	0.561735415684208	0.400264087446547
+----------------------------------------------------------
+
+Beng 2: no. 1	09/09/98 05:09:30
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+34.: swap_m
+29.: orient_c
+26.: segment_position_c
+22.: HUX_position_c
+22.: multi_swap_m
+20.: shunt_m
+19.: heuristic_c
+19.: segment_order_c
+12.: orient_flip
+2.: heuristic_flip
+205. -> TOTAL
+
+5000	0.590572579226869	0.37161438855322
+----------------------------------------------------------
+
+Beng 2: no. 2	09/09/98 05:11:47
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+36.: heuristic_c
+34.: swap_m
+31.: orient_c
+21.: segment_order_c
+21.: HUX_position_c
+14.: segment_position_c
+12.: multi_swap_m
+12.: shunt_m
+10.: orient_flip
+8.: heuristic_flip
+199. -> TOTAL
+
+5000	0.557946256813081	0.340367987072893
+----------------------------------------------------------
+
+Beng 2: no. 3	09/09/98 05:14:06
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+27.: heuristic_c
+22.: segment_order_c
+21.: orient_c
+20.: swap_m
+19.: HUX_position_c
+14.: segment_position_c
+14.: shunt_m
+14.: heuristic_flip
+12.: multi_swap_m
+6.: orient_flip
+169. -> TOTAL
+
+5000	0.621956531451036	0.227867855057631
+----------------------------------------------------------
+
+Beng 2: no. 4	09/09/98 05:16:19
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+43.: orient_c
+35.: heuristic_c
+26.: multi_swap_m
+25.: HUX_position_c
+22.: heuristic_flip
+22.: swap_m
+19.: segment_position_c
+17.: segment_order_c
+14.: orient_flip
+12.: shunt_m
+235. -> TOTAL
+
+5000	0.586601005977932	0.234209028008876
+----------------------------------------------------------
+
+Beng 2: no. 5	09/09/98 05:18:39
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+27.: orient_c
+25.: HUX_position_c
+24.: heuristic_c
+24.: heuristic_flip
+22.: segment_order_c
+20.: swap_m
+20.: shunt_m
+18.: multi_swap_m
+10.: segment_position_c
+10.: orient_flip
+200. -> TOTAL
+
+5000	0.581463137890949	0.365745529776858
+----------------------------------------------------------
+
+Beng 2: no. 6	09/09/98 05:20:52
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+46.: HUX_position_c
+44.: orient_c
+40.: heuristic_c
+38.: segment_position_c
+31.: segment_order_c
+28.: heuristic_flip
+26.: swap_m
+22.: orient_flip
+20.: shunt_m
+16.: multi_swap_m
+311. -> TOTAL
+
+5000	0.560060577895354	0.473855513955072
+----------------------------------------------------------
+
+Beng 2: no. 7	09/09/98 05:23:07
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+36.: swap_m
+31.: HUX_position_c
+30.: shunt_m
+30.: orient_c
+25.: segment_order_c
+24.: segment_position_c
+24.: multi_swap_m
+20.: heuristic_c
+16.: orient_flip
+8.: heuristic_flip
+244. -> TOTAL
+
+5000	0.594401551270191	0.383559874729603
+----------------------------------------------------------
+
+Beng 2: no. 8	09/09/98 05:25:18
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+36.: heuristic_c
+32.: orient_c
+32.: HUX_position_c
+27.: segment_order_c
+26.: multi_swap_m
+20.: segment_position_c
+20.: shunt_m
+18.: swap_m
+18.: orient_flip
+12.: heuristic_flip
+241. -> TOTAL
+
+5000	0.62585783263536	0.439838327738956
+----------------------------------------------------------
+
+Beng 2: no. 9	09/09/98 05:27:35
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+42.: orient_c
+41.: segment_position_c
+37.: heuristic_c
+32.: multi_swap_m
+32.: swap_m
+27.: HUX_position_c
+24.: heuristic_flip
+24.: shunt_m
+20.: segment_order_c
+12.: orient_flip
+291. -> TOTAL
+
+5000	0.564405938994749	0.395557385935412
+----------------------------------------------------------
+
+Beng 3: no. 0	09/09/98 05:30:17
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+39.: heuristic_c
+38.: segment_order_c
+34.: swap_m
+32.: HUX_position_c
+30.: orient_c
+27.: segment_position_c
+26.: shunt_m
+20.: multi_swap_m
+20.: heuristic_flip
+10.: orient_flip
+276. -> TOTAL
+
+5000	0.542298028980991	0.506462944647181
+----------------------------------------------------------
+
+Beng 3: no. 1	09/09/98 05:33:06
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+32.: shunt_m
+28.: multi_swap_m
+28.: swap_m
+25.: segment_order_c
+25.: orient_c
+18.: segment_position_c
+16.: heuristic_c
+14.: heuristic_flip
+12.: HUX_position_c
+10.: orient_flip
+208. -> TOTAL
+
+5000	0.560060577895354	0.449714272447102
+----------------------------------------------------------
+
+Beng 3: no. 2	09/09/98 05:35:22
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+48.: multi_swap_m
+47.: segment_position_c
+42.: swap_m
+32.: shunt_m
+32.: orient_c
+29.: heuristic_c
+25.: HUX_position_c
+24.: segment_order_c
+16.: orient_flip
+16.: heuristic_flip
+311. -> TOTAL
+
+5000	0.561705196603123	0.389025210230795
+----------------------------------------------------------
+
+Beng 3: no. 3	09/09/98 05:37:40
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+32.: heuristic_c
+30.: segment_position_c
+30.: multi_swap_m
+28.: segment_order_c
+28.: HUX_position_c
+26.: orient_flip
+24.: swap_m
+21.: orient_c
+18.: shunt_m
+12.: heuristic_flip
+249. -> TOTAL
+
+5000	0.604864166923502	0.42564236487089
+----------------------------------------------------------
+
+Beng 3: no. 4	09/09/98 05:39:54
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+43.: orient_c
+43.: heuristic_c
+36.: swap_m
+34.: segment_order_c
+31.: segment_position_c
+24.: HUX_position_c
+22.: shunt_m
+18.: multi_swap_m
+18.: orient_flip
+14.: heuristic_flip
+283. -> TOTAL
+
+5000	0.624390617649161	0.326263039536294
+----------------------------------------------------------
+
+Beng 3: no. 5	09/09/98 05:42:13
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+38.: heuristic_c
+36.: swap_m
+32.: orient_c
+29.: HUX_position_c
+24.: multi_swap_m
+21.: segment_order_c
+20.: segment_position_c
+20.: shunt_m
+20.: heuristic_flip
+14.: orient_flip
+254. -> TOTAL
+
+5000	0.597557458737685	0.369558142293572
+----------------------------------------------------------
+
+Beng 3: no. 6	09/09/98 05:44:31
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+51.: orient_c
+44.: swap_m
+43.: heuristic_c
+36.: multi_swap_m
+35.: HUX_position_c
+29.: segment_position_c
+24.: segment_order_c
+18.: shunt_m
+16.: orient_flip
+12.: heuristic_flip
+308. -> TOTAL
+
+5000	0.626093995611018	0.385313959522574
+----------------------------------------------------------
+
+Beng 3: no. 7	09/09/98 05:46:49
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+33.: HUX_position_c
+32.: shunt_m
+30.: heuristic_c
+29.: segment_order_c
+28.: orient_c
+26.: multi_swap_m
+20.: swap_m
+20.: heuristic_flip
+12.: segment_position_c
+12.: orient_flip
+242. -> TOTAL
+
+5000	0.562207774999106	0.252109400200329
+----------------------------------------------------------
+
+Beng 3: no. 8	09/09/98 05:49:09
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+39.: segment_position_c
+38.: orient_c
+34.: heuristic_c
+34.: swap_m
+28.: shunt_m
+28.: multi_swap_m
+27.: HUX_position_c
+22.: segment_order_c
+14.: heuristic_flip
+12.: orient_flip
+276. -> TOTAL
+
+5000	0.578324951984749	0.498768472906404
+----------------------------------------------------------
+
+Beng 3: no. 9	09/09/98 05:51:27
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+36.: heuristic_c
+26.: swap_m
+25.: orient_c
+22.: segment_position_c
+21.: segment_order_c
+20.: shunt_m
+17.: HUX_position_c
+16.: heuristic_flip
+14.: multi_swap_m
+14.: orient_flip
+211. -> TOTAL
+
+5000	0.576349861831279	0.441968962634525
+----------------------------------------------------------
+
+Beng 4: no. 0	09/09/98 05:53:45
+Beginning Evolution for... Test 122
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+24.: invert_m
+16.: multi_swap_m
+14.: heuristic_flip
+12.: shunt_m
+12.: orient_flip
+10.: swap_m
+88. -> TOTAL
+
+5000	0.560667212860989	0.560667212860989
+----------------------------------------------------------
+
+Beng 4: no. 1	09/09/98 05:57:25
+Beginning Evolution for... Test 122
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+24.: swap_m
+16.: invert_m
+12.: heuristic_flip
+10.: multi_swap_m
+10.: shunt_m
+8.: orient_flip
+80. -> TOTAL
+
+5000	0.543618854239373	0.543618854239373
+----------------------------------------------------------
+
+Beng 4: no. 2	09/09/98 06:01:09
+Beginning Evolution for... Test 122
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+20.: swap_m
+16.: invert_m
+14.: orient_flip
+10.: shunt_m
+10.: heuristic_flip
+6.: multi_swap_m
+76. -> TOTAL
+
+5000	0.595646632022747	0.595646632022747
+----------------------------------------------------------
+
+Beng 4: no. 3	09/09/98 06:04:52
+Beginning Evolution for... Test 122
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+20.: multi_swap_m
+16.: heuristic_flip
+14.: invert_m
+12.: swap_m
+6.: orient_flip
+4.: shunt_m
+72. -> TOTAL
+
+5000	0.612724872091104	0.612724872091104
+----------------------------------------------------------
+
+Beng 4: no. 4	09/09/98 06:08:33
+Beginning Evolution for... Test 122
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+40.: swap_m
+22.: invert_m
+22.: multi_swap_m
+16.: shunt_m
+10.: orient_flip
+8.: heuristic_flip
+118. -> TOTAL
+
+5000	0.589671808922509	0.589671808922509
+----------------------------------------------------------
+
+Beng 4: no. 5	09/09/98 06:12:13
+Beginning Evolution for... Test 122
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+28.: shunt_m
+22.: swap_m
+16.: multi_swap_m
+10.: orient_flip
+10.: heuristic_flip
+4.: invert_m
+90. -> TOTAL
+
+5000	0.611665861562144	0.611665861562144
+----------------------------------------------------------
+
+Beng 4: no. 6	09/09/98 06:15:51
+Beginning Evolution for... Test 122
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+18.: swap_m
+16.: multi_swap_m
+12.: invert_m
+10.: shunt_m
+6.: orient_flip
+4.: heuristic_flip
+66. -> TOTAL
+
+5000	0.592073786614215	0.592073786614215
+----------------------------------------------------------
+
+Beng 4: no. 7	09/09/98 06:19:33
+Beginning Evolution for... Test 122
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+22.: multi_swap_m
+18.: swap_m
+12.: orient_flip
+12.: shunt_m
+12.: heuristic_flip
+8.: invert_m
+84. -> TOTAL
+
+5000	0.539018985446487	0.539018985446487
+----------------------------------------------------------
+
+Beng 4: no. 8	09/09/98 06:23:13
+Beginning Evolution for... Test 122
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+16.: swap_m
+14.: invert_m
+12.: heuristic_flip
+12.: multi_swap_m
+8.: shunt_m
+4.: orient_flip
+66. -> TOTAL
+
+5000	0.575138028823603	0.575138028823603
+----------------------------------------------------------
+
+Beng 4: no. 9	09/09/98 06:26:52
+Beginning Evolution for... Test 122
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+30.: swap_m
+20.: multi_swap_m
+16.: orient_flip
+14.: shunt_m
+12.: heuristic_flip
+8.: invert_m
+100. -> TOTAL
+
+5000	0.565459619456042	0.565459619456042
+----------------------------------------------------------
+
+Beng 5: no. 0	09/09/98 06:30:33
+Beginning Evolution for... Test 122
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+186.: multi_swap_m
+158.: invert_m
+154.: shunt_m
+144.: swap_m
+60.: orient_flip
+52.: heuristic_flip
+754. -> TOTAL
+
+3215	0.49248395419844	0.49248395419844
+----------------------------------------------------------
+
+Beng 5: no. 1	09/09/98 06:32:46
+Beginning Evolution for... Test 122
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+170.: swap_m
+154.: invert_m
+148.: multi_swap_m
+138.: shunt_m
+78.: heuristic_flip
+44.: orient_flip
+732. -> TOTAL
+
+3215	0.466571292721907	0.466571292721907
+----------------------------------------------------------
+
+Beng 5: no. 2	09/09/98 06:34:58
+Beginning Evolution for... Test 122
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+168.: shunt_m
+164.: invert_m
+150.: multi_swap_m
+146.: swap_m
+74.: orient_flip
+40.: heuristic_flip
+742. -> TOTAL
+
+3215	0.472752277806429	0.472752277806429
+----------------------------------------------------------
+
+Beng 5: no. 3	09/09/98 06:37:12
+Beginning Evolution for... Test 122
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+182.: shunt_m
+176.: invert_m
+150.: multi_swap_m
+134.: swap_m
+64.: orient_flip
+34.: heuristic_flip
+740. -> TOTAL
+
+3215	0.520554603899427	0.520554603899427
+----------------------------------------------------------
+
+Beng 5: no. 4	09/09/98 06:39:25
+Beginning Evolution for... Test 122
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+186.: multi_swap_m
+164.: shunt_m
+138.: swap_m
+138.: invert_m
+64.: orient_flip
+60.: heuristic_flip
+750. -> TOTAL
+
+3215	0.524251999483005	0.524251999483005
+----------------------------------------------------------
+
+Beng 5: no. 5	09/09/98 06:41:38
+Beginning Evolution for... Test 122
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+196.: multi_swap_m
+164.: invert_m
+164.: shunt_m
+162.: swap_m
+48.: heuristic_flip
+36.: orient_flip
+770. -> TOTAL
+
+3215	0.465595408215521	0.465595408215521
+----------------------------------------------------------
+
+Beng 5: no. 6	09/09/98 06:43:51
+Beginning Evolution for... Test 122
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+172.: invert_m
+166.: multi_swap_m
+152.: shunt_m
+136.: swap_m
+52.: heuristic_flip
+38.: orient_flip
+716. -> TOTAL
+
+3215	0.480440171628399	0.480440171628399
+----------------------------------------------------------
+
+Beng 5: no. 7	09/09/98 06:46:05
+Beginning Evolution for... Test 122
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+162.: shunt_m
+156.: multi_swap_m
+148.: invert_m
+144.: swap_m
+58.: heuristic_flip
+44.: orient_flip
+712. -> TOTAL
+
+3215	0.479373747427603	0.479373747427603
+----------------------------------------------------------
+
+Beng 5: no. 8	09/09/98 06:48:21
+Beginning Evolution for... Test 122
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+180.: shunt_m
+162.: invert_m
+150.: multi_swap_m
+144.: swap_m
+50.: heuristic_flip
+46.: orient_flip
+732. -> TOTAL
+
+3215	0.481197647478168	0.481197647478168
+----------------------------------------------------------
+
+Beng 5: no. 9	09/09/98 06:50:32
+Beginning Evolution for... Test 122
+least-fit selection
+COBRA Rate Adaptor
+Simulated Annealing Model
+COBRA operator rankings:
+182.: multi_swap_m
+166.: invert_m
+148.: swap_m
+128.: shunt_m
+56.: orient_flip
+54.: heuristic_flip
+734. -> TOTAL
+
+3215	0.497848801475108	0.497848801475108
+----------------------------------------------------------

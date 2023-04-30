@@ -1,0 +1,459 @@
+0.0D) 1 1, 1 1, 3 3, 4 4, 4 4, 5 5, 5 5, 6 6, 6 6:
+		Optimal Packing ! DYNAMIC 11 15
+
+0.1D) 2 2, 2 2, 6 6, 8 8, 8 8, 10 10, 10 10, 12 12, 12 12:
+		Optimal Packing ! DYNAMIC 22 30
+
+0.2D) 2 2, 2 2, 7 7, 8 8, 8 8, 10 10, 10 10, 12 12, 12 12:
+		Optimal Packing ! DYNAMIC 23 31
+
+
+0.3L) 15 10, 20 10, 5 5, 20 10:
+		Trap access fault ! LEFTMOST 30 30
+
+0.31L) 15 10, 20 10, 5 5, 20 10, 4 5:
+		Trap access fault ! LEFTMOST 30 30
+
+
+1.1L) 20 10, 20 15: 
+		Force abutting in y-axis with previous ! LEFTMOST 30 30
+
+1.2L) 20 10, 15 10, 20 10, 5 10: 
+		Force abutting in y-axis with previous and following ! LEFTMOST 30 30
+
+1.3L) 20 10, 15 10, 20 10, 4 5, 5 5: 
+		Force abutting in y-axis with following ! LEFTMOST 30 30
+
+2.1T) 10 20, 15 20: 
+		Force abutting in x-axis with previous ! TOPMOST 30 30
+
+2.2T) 10 20, 10 15, 10 20, 10 5: 
+		Force abutting in x-axis with previous and following ! TOPMOST 30 30
+
+2.3T) 10 20, 10 15, 10 20, 5 4, 5 5: 
+		Force abutting in x-axis with following ! TOPMOST 30 30
+
+3.1T) 10 5, 11 10, 10 6:
+		Top placed shape affecting left profile ! TOPMOST 30 30
+
+3.2T) 10 5, 11 10, 10 5:
+		Top placed shape not affecting left profile ! TOPMOST 30 30
+
+3.3T) 10 5, 11 10, 10 4:
+		Top placed shape not affecting left profile ! TOPMOST 30 30
+
+4.1L) 5 10, 10 11, 6 10:
+		Left placed shape affecting top profile ! LEFTMOST 30 30
+
+4.2L) 5 10, 10 11, 5 10:
+		Left placed shape not affecting top profile ! LEFTMOST 30 30
+
+4.3L) 5 10, 10 11, 4 10:
+		Left placed shape not affecting top profile ! LEFTMOST 30 30
+
+5.1T) 6 20, 5 15, 4 6, 3 3, 10 14, 2 5: 
+		Check for topmost placement ! TOPMOST 30 30
+
+5.2T) 6 20, 5 15, 4 6, 3 3, 10 14, 3 11:
+		Check for topmost placement, hidden from left profile ! TOPMOST 30 30
+
+5.3T) 6 20, 5 15, 4 6, 3 3, 10 14, 3 12: 
+		Masks edge 2 in left profile ! TOPMOST 30 30
+
+5.4T) 6 20, 5 15, 4 6, 3 3, 10 14, 3 13: 
+		Masks edge 2 and part of edge 3 in left profile ! TOPMOST 30 30
+
+5.5T) 6 20, 5 15, 4 6, 3 3, 10 14, 3 13, 4 10: 
+		Check for topmost placement, hidden from left profile ! TOPMOST 30 30
+
+5.6T) 6 20, 5 15, 4 6, 3 3, 10 14, 3 13, 4 11:
+		Partially masks edge 3 in left profile ! TOPMOST 30 30
+
+5.7T) 6 20, 5 15, 4 6, 3 3, 10 14, 3 13, 4 14: 
+		Masks edge 3 in left profile ! TOPMOST 30 30
+
+5.8T) 6 20, 5 15, 4 6, 3 3, 10 14, 3 13, 4 15: 
+		Masks edge 3 and part of edge 4 in left profile ! TOPMOST 30 30
+
+5.9T) 6 20, 5 15, 4 6, 3 3, 10 14, 3 13, 4 24: 
+		Masks edges 3,4 in left profile ! TOPMOST 30 30
+
+5.10T) 6 20, 5 15, 4 6, 3 3, 10 14, 3 13, 4 15, 8 5, 5 5: 
+		Check for topmost placement, shape 8 hidden from left profile ! TOPMOST 30 30
+
+5.11T) 6 20, 5 15, 4 6, 3 3, 10 14, 3 13, 4 15, 8 5, 5 6: 
+		Shape 8 hidden from left profile ! TOPMOST 30 30
+
+5.12T) 6 20, 5 15, 4 6, 3 3, 10 14, 3 13, 4 15, 8 5, 5 7: 
+		Shape 8 partially masking edge 4 in left profile ! TOPMOST 30 30
+
+5.13T) 6 20, 5 15, 4 6, 3 3, 10 14, 3 13, 4 15, 8 5, 5 15: 
+		Shape 8 masking edge 4 in left profile ! TOPMOST 30 30
+
+5.14T) 6 20, 5 15, 4 6, 3 3, 10 14, 3 13, 4 15, 8 5, 5 15, 19 9: 
+		Check for topmost placement ! TOPMOST 30 30
+
+6.1L) 20 6, 15 5, 6 4, 3 3, 14 10, 5 2: 
+		Check for leftmost placement ! LEFTMOST 30 30
+
+6.2L) 20 6, 15 5, 6 4, 3 3, 14 10, 11 3:
+		Check for leftmost placement, hidden from top profile ! LEFTMOST 30 30
+
+6.3L) 20 6, 15 5, 6 4, 3 3, 14 10, 12 3: 
+		Masks edge 2 in top profile ! LEFTMOST 30 30
+
+6.4L) 20 6, 15 5, 6 4, 3 3, 14 10, 13 3: 
+		Masks edge 2 and part of edge 3 in top profile ! LEFTMOST 30 30
+
+6.5L) 20 6, 15 5, 6 4, 3 3, 14 10, 13 3, 10 4: 
+		Check for leftmost placement, hidden from top profile ! LEFTMOST 30 30
+
+6.6L) 20 6, 15 5, 6 4, 3 3, 14 10, 13 3, 11 4:
+		Partially masks edge 3 in top profile ! LEFTMOST 30 30
+
+6.7L) 20 6, 15 5, 6 4, 3 3, 14 10, 13 3, 14 4: 
+		Masks edge 3 in top profile ! LEFTMOST 30 30
+
+6.8L) 20 6, 15 5, 6 4, 3 3, 14 10, 13 3, 15 4: 
+		Masks edge 3 and part of edge 4 in top profile ! LEFTMOST 30 30
+
+6.9L) 20 6, 15 5, 6 4, 3 3, 14 10, 13 3, 24 4: 
+		Masks edges 3,4 in top profile ! LEFTMOST 30 30
+
+6.10L) 20 6, 15 5, 6 4, 3 3, 14 10, 13 3, 15 4, 5 8, 5 5: 
+		Check for leftmost placement, shape 8 hidden from top profile ! LEFTMOST 30 30
+
+6.11L) 20 6, 15 5, 6 4, 3 3, 14 10, 13 3, 15 4, 5 8, 6 5: 
+		Shape 8 hidden from top profile ! LEFTMOST 30 30
+
+6.12L) 20 6, 15 5, 6 4, 3 3, 14 10, 13 3, 15 4, 5 8, 7 5: 
+		Shape 8 partially masking edge 4 in top profile ! LEFTMOST 30 30
+
+6.13L) 20 6, 15 5, 6 4, 3 3, 14 10, 13 3, 15 4, 5 8, 15 5: 
+		Shape 8 masking edge 4 in top profile ! LEFTMOST 30 30
+
+6.14L) 20 6, 15 5, 6 4, 3 3, 14 10, 13 3, 15 4, 5 8, 15 5, 9 19: 
+		Check for leftmost placement ! LEFTMOST 30 30
+
+7.1L) 5 10, 5 5, 6 11, 3 6, 3 11, 4 4, 6 1:
+		Top placed shape masking no edges in left profile
+		and partially masking edge 1 in left profile ! FLIP_TOP 30 30
+
+7.2L) 5 10, 5 5, 6 11, 3 6, 3 11, 4 4, 6 10:
+		Top placed shape masking no edges in left profile
+		and partially masking edge 1 in left profile ! FLIP_TOP 30 30
+
+7.3L) 5 10, 5 5, 6 11, 3 6, 3 11, 4 4, 6 11:
+		Top placed shape masking edge 1 in left profile 
+		! FLIP_TOP 30 30
+
+7.4L) 5 10, 5 5, 6 11, 3 6, 3 11, 4 4, 6 12:
+		Top placed shape masking edge 1 in left profile 
+		and partially masking edge 2 in left profile ! FLIP_TOP 30 30
+
+7.5L) 5 10, 5 5, 6 11, 3 6, 3 11, 4 4, 6 14:
+		Top placed shape masking edge 1 in left profile 
+		and partially masking edge 2 in left profile ! FLIP_TOP 30 30
+
+7.6L) 5 10, 5 5, 6 11, 3 6, 3 11, 4 4, 6 15:
+		Top placed shape masking edges 1,2 in left profile 
+		! FLIP_TOP 30 30
+
+7.7L) 5 10, 5 5, 6 11, 3 6, 3 11, 4 4, 6 16:
+		Top placed shape masking edges 1,2 in left profile 
+		and partially masking edge 3 in left profile ! FLIP_TOP 30 30
+
+7.8L) 5 10, 5 5, 6 11, 3 6, 3 11, 4 4, 6 20:
+		Top placed shape masking edges 1,2 in left profile 
+		and partially masking edge 3 in left profile ! FLIP_TOP 30 30
+
+7.9L) 5 10, 5 5, 6 11, 3 6, 3 11, 4 4, 6 21:
+		Top placed shape masking edges 1,2,3 in left profile 
+		! FLIP_TOP 30 30
+
+7.10L) 5 10, 5 5, 6 11, 3 6, 3 11, 4 4, 6 22:
+		Top placed shape masking edges 1,2,3 in left profile 
+		and partially masking edge 4 in left profile ! FLIP_TOP 30 30
+
+7.11L) 5 10, 5 5, 6 11, 3 6, 3 11, 4 4, 6 24:
+		Top placed shape masking edges 1,2,3 in left profile 
+		and partially masking edge 4 in left profile ! FLIP_TOP 30 30
+
+7.12L) 5 10, 5 5, 6 11, 3 6, 3 11, 4 4, 6 25:
+		Top placed shape masking edges 1,2,3,4 in left profile 
+		! FLIP_TOP 30 30
+
+7.13L) 5 10, 5 5, 6 11, 3 6, 3 11, 4 4, 6 26:
+		Top placed shape masking edges 1,2,3,4 in left profile 
+		and partially masking edge 5 in left profile ! FLIP_TOP 30 30
+
+7.14L) 5 10, 5 5, 6 11, 3 6, 3 11, 4 4, 6 29:
+		Top placed shape masking edges 1,2,3,4 in left profile 
+		and partially masking edge 5 in left profile ! FLIP_TOP 30 30
+
+7.15L) 5 10, 5 5, 6 11, 3 6, 3 11, 4 4, 6 30:
+		Top placed shape masking edges 1,2,3,4,5 in left profile 
+		! FLIP_TOP 30 30
+
+8.1L) 5 10, 5 5, 6 11, 3 6, 19 11, 4 4, 6 1:
+		Top placed shape masking no edges in left profile
+		and partially masking edge 2 in left profile ! FLIP_TOP 30 30
+
+8.2L) 5 10, 5 5, 6 11, 3 6, 19 11, 4 4, 6 4:
+		Top placed shape masking edge 2 in left profile 
+		! FLIP_TOP 30 30
+
+8.3L) 5 10, 5 5, 6 11, 3 6, 19 11, 4 4, 6 5:
+		Top placed shape masking edge 2 in left profile
+		and partially masking edge 3 in left profile ! FLIP_TOP 30 30
+
+8.4L) 5 10, 5 5, 6 11, 3 6, 19 11, 4 4, 6 10:
+		Top placed shape masking edges 2,3 in left profile 
+		! FLIP_TOP 30 30
+
+8.5L) 5 10, 5 5, 6 11, 3 6, 19 11, 4 4, 6 11:
+		Top placed shape masking edge 2,3 in left profile
+		and partially masking edge 4 in left profile ! FLIP_TOP 30 30
+
+8.6L) 5 10, 5 5, 6 11, 3 6, 19 11, 4 4, 6 14:
+		Top placed shape masking edges 2,3,4 in left profile 
+		! FLIP_TOP 30 30
+
+8.7L) 5 10, 5 5, 6 11, 3 6, 19 11, 4 4, 6 15:
+		Top placed shape masking edge 2,3,4 in left profile
+		and partially masking edge 5 in left profile ! FLIP_TOP 30 30
+
+8.8L) 5 10, 5 5, 6 11, 3 6, 19 11, 4 4, 6 19:
+		Top placed shape masking edges 2,3,4,5 in left profile 
+		! FLIP_TOP 30 30
+
+9.1L) 5 10, 5 5, 6 11, 3 6, 19 11, 4 4, 26 1:
+		Top placed shape masking no edges in left profile
+		and partially masking edge 3 in left profile ! FLIP_TOP 30 30
+
+9.2L) 5 10, 5 5, 6 11, 3 6, 19 11, 4 4, 26 6:
+		Top placed shape masking edge 3 in left profile 
+		! FLIP_TOP 30 30
+
+9.3L) 5 10, 5 5, 6 11, 3 6, 19 11, 4 4, 26 7:
+		Top placed shape masking edge 3 in left profile
+		and partially masking edge 4 in left profile ! FLIP_TOP 30 30
+
+9.4L) 5 10, 5 5, 6 11, 3 6, 19 11, 4 4, 26 10:
+		Top placed shape masking edges 3,4 in left profile 
+		! FLIP_TOP 30 30
+
+9.5L) 5 10, 5 5, 6 11, 3 6, 19 11, 4 4, 26 11:
+		Top placed shape masking edge 3,4 in left profile
+		and partially masking edge 5 in left profile ! FLIP_TOP 30 30
+
+9.6L) 5 10, 5 5, 6 11, 3 6, 19 11, 4 4, 26 15:
+		Top placed shape masking edges 3,4,5 in left profile 
+		! FLIP_TOP 30 30
+
+10.1L) 5 10, 5 5, 6 11, 4 6, 19 11, 2 4, 28 1:
+		Top placed shape masking no edges in left profile
+		and partially masking edge 4 in left profile ! FLIP_TOP 30 30
+
+10.2L) 5 10, 5 5, 6 11, 4 6, 19 11, 2 4, 28 4:
+		Top placed shape masking edge 4 in left profile 
+		! FLIP_TOP 30 30
+
+10.3L) 5 10, 5 5, 6 11, 4 6, 19 11, 2 4, 28 5:
+		Top placed shape masking edge 4 in left profile
+		and partially masking edge 5 in left profile ! FLIP_TOP 30 30
+
+10.4L) 5 10, 5 5, 6 11, 4 6, 19 11, 2 4, 28 9:
+		Top placed shape masking edges 4,5 in left profile 
+		! FLIP_TOP 30 30
+
+11.1L) 5 10, 5 5, 6 11, 4 6, 19 11, 2 4, 30 1:
+		Top placed shape masking no edges in left profile
+		and partially masking edge 5 in left profile ! FLIP_TOP 30 30
+
+11.2L) 5 10, 5 5, 6 11, 4 6, 19 11, 2 4, 30 5:
+		Top placed shape masking edge 5 in left profile 
+		! FLIP_TOP 30 30
+
+12.1T) 10 5, 5 5, 11 6, 6 3, 11 3, 4 4, 1 6:
+		Left placed shape masking no edges in top profile
+		and partially masking edge 1 in top profile ! FLIP_LEFT 30 30
+
+12.2T) 10 5, 5 5, 11 6, 6 3, 11 3, 4 4, 10 6:
+		Left placed shape masking no edges in top profile
+		and partially masking edge 1 in top profile ! FLIP_LEFT 30 30
+
+12.3T) 10 5, 5 5, 11 6, 6 3, 11 3, 4 4, 11 6:
+		Left placed shape masking edge 1 in top profile 
+		! FLIP_LEFT 30 30
+
+12.4T) 10 5, 5 5, 11 6, 6 3, 11 3, 4 4, 12 6:
+		Left placed shape masking edge 1 in top profile 
+		and partially masking edge 2 in top profile ! FLIP_LEFT 30 30
+
+12.5T) 10 5, 5 5, 11 6, 6 3, 11 3, 4 4, 14 6:
+		Left placed shape masking edge 1 in top profile 
+		and partially masking edge 2 in top profile ! FLIP_LEFT 30 30
+
+12.6T) 10 5, 5 5, 11 6, 6 3, 11 3, 4 4, 15 6:
+		Left placed shape masking edges 1,2 in top profile 
+		! FLIP_LEFT 30 30
+
+12.7T) 10 5, 5 5, 11 6, 6 3, 11 3, 4 4, 16 6:
+		Left placed shape masking edges 1,2 in top profile 
+		and partially masking edge 3 in top profile ! FLIP_LEFT 30 30
+
+12.8T) 10 5, 5 5, 11 6, 6 3, 11 3, 4 4, 20 6:
+		Left placed shape masking edges 1,2 in top profile 
+		and partially masking edge 3 in top profile ! FLIP_LEFT 30 30
+
+12.9T) 10 5, 5 5, 11 6, 6 3, 11 3, 4 4, 21 6:
+		Left placed shape masking edges 1,2,3 in top profile 
+		! FLIP_LEFT 30 30
+
+12.10T) 10 5, 5 5, 11 6, 6 3, 11 3, 4 4, 22 6:
+		Left placed shape masking edges 1,2,3 in top profile 
+		and partially masking edge 4 in top profile ! FLIP_LEFT 30 30
+
+12.11T) 10 5, 5 5, 11 6, 6 3, 11 3, 4 4, 24 6:
+		Left placed shape masking edges 1,2,3 in top profile 
+		and partially masking edge 4 in top profile ! FLIP_LEFT 30 30
+
+12.12T) 10 5, 5 5, 11 6, 6 3, 11 3, 4 4, 25 6:
+		Left placed shape masking edges 1,2,3,4 in top profile 
+		! FLIP_LEFT 30 30
+
+12.13T) 10 5, 5 5, 11 6, 6 3, 11 3, 4 4, 26 6:
+		Left placed shape masking edges 1,2,3,4 in top profile 
+		and partially masking edge 5 in top profile ! FLIP_LEFT 30 30
+
+12.14T) 10 5, 5 5, 11 6, 6 3, 11 3, 4 4, 29 6:
+		Left placed shape masking edges 1,2,3,4 in top profile 
+		and partially masking edge 5 in top profile ! FLIP_LEFT 30 30
+
+12.15T) 10 5, 5 5, 11 6, 6 3, 11 3, 4 4, 30 6:
+		Left placed shape masking edges 1,2,3,4,5 in top profile 
+		! FLIP_LEFT 30 30
+
+13.1T) 10 5, 5 5, 11 6, 6 3, 11 19, 4 4, 1 6:
+		Left placed shape masking no edges in top profile
+		and partially masking edge 2 in top profile ! FLIP_LEFT 30 30
+
+13.2T) 10 5, 5 5, 11 6, 6 3, 11 19, 4 4, 4 6:
+		Left placed shape masking edge 2 in top profile 
+		! FLIP_LEFT 30 30
+
+13.3T) 10 5, 5 5, 11 6, 6 3, 11 19, 4 4, 5 6:
+		Left placed shape masking edge 2 in top profile
+		and partially masking edge 3 in top profile ! FLIP_LEFT 30 30
+
+13.4T) 10 5, 5 5, 11 6, 6 3, 11 19, 4 4, 10 6:
+		Left placed shape masking edges 2,3 in top profile 
+		! FLIP_LEFT 30 30
+
+13.5T) 10 5, 5 5, 11 6, 6 3, 11 19, 4 4, 11 6:
+		Left placed shape masking edge 2,3 in top profile
+		and partially masking edge 4 in top profile ! FLIP_LEFT 30 30
+
+13.6T) 10 5, 5 5, 11 6, 6 3, 11 19, 4 4, 14 6:
+		Left placed shape masking edges 2,3,4 in top profile 
+		! FLIP_LEFT 30 30
+
+13.7T) 10 5, 5 5, 11 6, 6 3, 11 19, 4 4, 15 6:
+		Left placed shape masking edge 2,3,4 in top profile
+		and partially masking edge 5 in top profile ! FLIP_LEFT 30 30
+
+13.8T) 10 5, 5 5, 11 6, 6 3, 11 19, 4 4, 19 6:
+		Left placed shape masking edges 2,3,4,5 in top profile 
+		! FLIP_LEFT 30 30
+
+14.1T) 10 5, 5 5, 11 6, 6 3, 11 19, 4 4, 1 26:
+		Left placed shape masking no edges in top profile
+		and partially masking edge 3 in top profile ! FLIP_LEFT 30 30
+
+14.2T) 10 5, 5 5, 11 6, 6 3, 11 19, 4 4, 6 26:
+		Left placed shape masking edge 3 in top profile 
+		! FLIP_LEFT 30 30
+
+14.3T) 10 5, 5 5, 11 6, 6 3, 11 19, 4 4, 7 26:
+		Left placed shape masking edge 3 in top profile
+		and partially masking edge 4 in top profile ! FLIP_LEFT 30 30
+
+14.4T) 10 5, 5 5, 11 6, 6 3, 11 19, 4 4, 10 26:
+		Left placed shape masking edges 3,4 in top profile 
+		! FLIP_LEFT 30 30
+
+14.5T) 10 5, 5 5, 11 6, 6 3, 11 19, 4 4, 11 26:
+		Left placed shape masking edge 3,4 in top profile
+		and partially masking edge 5 in top profile ! FLIP_LEFT 30 30
+
+14.6T) 10 5, 5 5, 11 6, 6 3, 11 19, 4 4, 15 26:
+		Left placed shape masking edges 3,4,5 in top profile 
+		! FLIP_LEFT 30 30
+
+15.1T) 10 5, 5 5, 11 6, 6 4, 11 19, 4 2, 1 28:
+		Left placed shape masking no edges in top profile
+		and partially masking edge 4 in top profile ! FLIP_LEFT 30 30
+
+15.2T) 10 5, 5 5, 11 6, 6 4, 11 19, 4 2, 4 28:
+		Left placed shape masking edge 4 in top profile 
+		! FLIP_LEFT 30 30
+
+15.3T) 10 5, 5 5, 11 6, 6 4, 11 19, 4 2, 5 28:
+		Left placed shape masking edge 4 in top profile
+		and partially masking edge 5 in top profile ! FLIP_LEFT 30 30
+
+15.4T) 10 5, 5 5, 11 6, 6 4, 11 19, 4 2, 9 28:
+		Left placed shape masking edges 4,5 in top profile 
+		! FLIP_LEFT 30 30
+
+16.1T) 10 5, 5 5, 11 6, 6 4, 11 19, 4 2, 1 30:
+		Left placed shape masking no edges in top profile
+		and partially masking edge 5 in top profile ! FLIP_LEFT 30 30
+
+16.2T) 10 5, 5 5, 11 6, 6 4, 11 19, 4 2, 5 30:
+		Left placed shape masking edge 5 in top profile 
+		! FLIP_LEFT 30 30
+
+17.1T) 10 5, 5 5, 11 6, 6 3, 11 19, 4 4, 15 26, 15 26, 16 26, 15 26:
+		Multiple sheet test
+		! DYNAMIC 30 30
+
+17.2T) 10 5, 5 5, 11 6, 6 3, 11 19, 4 4, 15 26, 15 26:
+		2 sheet test
+		! FLIP_LEFT 30 30
+
+17.3T) 30 30:
+		oversized shape test
+		! FLIP_LEFT 30 30
+
+18.1L) 15 10, 20 10, 5 5, 20 10:
+		Test Dynamic Placement ! DYNAMIC 30 30
+
+19.1) 8 6, 11 4, 10 3, 4 7, 12 6, 11 6, 12 8, 3 6, 4 3, 3 8, 9 1, 1 3, 8 6, 11 3, 11 1,9 8,9 1, 11 5, 1 7, 7 8:
+		Main Test 1 - 20 shapes ! DYNAMIC 25 10
+
+19.2) 8 6, 11 4, 10 3, 4 7, 12 6, 11 6, 12 8, 3 6, 4 3, 3 8, 9 1, 1 3, 8 6, 11 3, 11 1,9 8,9 1, 11 5, 1 7, 7 8,
+      10 3, 2 8, 8 3, 7 3, 8 4, 2 7, 12 7, 1 2, 3 8, 1 1, 12 7, 3 4, 8 4, 11 5, 5 6, 8 8, 4 1, 10 3, 12 7, 12 3:
+		Main Test 2 - 40 shapes ! DYNAMIC 40 25
+
+20.1) 17 17, 7 17, 16 15, 10 15, 6 15, 18 7, 6 9, 18 2, 13 4, 11 4:
+      Optimum Layout - 10 shapes ! TOPMOST 40 30
+
+20.2) 13 1, 24 2, 3 22, 8 5, 5 5, 24 5, 9 9, 4 1, 21 12, 7 12, 9 7, 1 3, 27 3, 5 8,
+      17 2, 4 8, 14 3, 4 6, 13 6, 14 5:
+	  Optimum Layout - 20 shapes ! TOPMOST 40 30
+
+20.3) 3 12, 25 1, 3 8, 9 2, 10 11, 8 3, 7 1, 7 4, 9 6, 3 8, 2 5, 3 2, 10 2, 6 1, 1 8,
+      6 15, 9 5, 8 2, 4 1, 4 5, 6 5, 3 6, 5 6, 1 14, 5 2, 4 13, 5 17, 5 3, 5 1, 6 2, 3 9,
+	  5 6, 2 6, 8 12, 3 9, 3 7, 13 3, 3 2, 21 4, 6 2:
+	  Optimum Layout - 40 shapes ! TOPMOST 40 30
+
+20.4) 10 3, 2 1, 12 3, 9 3, 3 3, 4 2, 2 6, 4 2, 2 1, 2 1, 2 2, 4 2, 12 2, 7 2, 5 4,
+      4 1, 4 6, 10 3, 1 2, 7 5, 11 2, 3 5, 3 3, 5 2, 5 2, 3 3, 5 2, 4 2, 1 2, 4 4,
+	  6 1, 1 20, 1 15, 2 12, 6 2, 5 2, 5 2, 1 3, 3 4, 1 4, 8 4, 4 1, 4 3, 2 2, 9 2,
+	  4 6, 5 2, 3 1, 8 3, 5 1, 2 5, 2 5, 3 6, 7 6, 8 2, 2 2, 18 2, 4 3, 2 2, 3 6, 6 7, 3 5,
+	  1 4, 7 1, 10 3, 9 1, 1 3, 5 7, 9 3, 5 3, 6 7, 3 2, 2 4, 7 4, 4 4, 1 1, 3 4,
+	  12 4, 4 1, 14 1:
+	  Optimum Layout - 80 shapes ! DYNAMIC 70 30
+

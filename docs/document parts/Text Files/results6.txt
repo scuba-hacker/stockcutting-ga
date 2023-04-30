@@ -1,0 +1,541 @@
+
+Hill 1: no. 0	09/09/98 16:11:32
+Beginning Evolution for... Test 123
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+
+100	1.	1.
+----------------------------------------------------------
+
+Hill 1: no. 1	09/09/98 16:11:33
+Beginning Evolution for... Test 123
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+
+200	1.	1.
+----------------------------------------------------------
+
+Hill 1: no. 2	09/09/98 16:11:34
+Beginning Evolution for... Test 123
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+
+100	1.	1.
+----------------------------------------------------------
+
+Hill 1: no. 3	09/09/98 16:11:35
+Beginning Evolution for... Test 123
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+
+400	1.	1.
+----------------------------------------------------------
+
+Hill 1: no. 4	09/09/98 16:11:38
+Beginning Evolution for... Test 123
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+
+100	1.	1.
+----------------------------------------------------------
+
+Hill 1: no. 5	09/09/98 16:11:38
+Beginning Evolution for... Test 123
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+
+200	1.	1.
+----------------------------------------------------------
+
+Hill 1: no. 6	09/09/98 16:11:40
+Beginning Evolution for... Test 123
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+
+400	1.	1.
+----------------------------------------------------------
+
+Hill 1: no. 7	09/09/98 16:11:43
+Beginning Evolution for... Test 123
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+
+300	1.	1.
+----------------------------------------------------------
+
+Hill 1: no. 8	09/09/98 16:11:45
+Beginning Evolution for... Test 123
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+
+1300	1.	1.
+----------------------------------------------------------
+
+Hill 1: no. 9	09/09/98 16:11:56
+Beginning Evolution for... Test 123
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+
+100	1.	1.
+----------------------------------------------------------
+
+Hill 1: no. 0	09/09/98 16:11:57
+Beginning Evolution for... Test 124
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+50.: swap_m
+46.: multi_swap_m
+38.: invert_m
+32.: shunt_m
+166. -> TOTAL
+
+10000	0.856220890719458	0.856220890719458
+----------------------------------------------------------
+
+Hill 1: no. 1	09/09/98 16:13:59
+Beginning Evolution for... Test 124
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+50.: swap_m
+38.: shunt_m
+26.: invert_m
+24.: multi_swap_m
+138. -> TOTAL
+
+10000	0.846851593962889	0.846851593962889
+----------------------------------------------------------
+
+Hill 1: no. 2	09/09/98 16:16:08
+Beginning Evolution for... Test 124
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+44.: invert_m
+38.: swap_m
+34.: multi_swap_m
+28.: shunt_m
+144. -> TOTAL
+
+10000	0.881659282770173	0.881659282770173
+----------------------------------------------------------
+
+Hill 1: no. 3	09/09/98 16:18:11
+Beginning Evolution for... Test 124
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+50.: invert_m
+40.: shunt_m
+26.: swap_m
+24.: multi_swap_m
+140. -> TOTAL
+
+10000	0.877534566635039	0.877534566635039
+----------------------------------------------------------
+
+Hill 1: no. 4	09/09/98 16:20:17
+Beginning Evolution for... Test 124
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+48.: multi_swap_m
+46.: swap_m
+34.: shunt_m
+28.: invert_m
+156. -> TOTAL
+
+10000	0.852272727272727	0.852272727272727
+----------------------------------------------------------
+
+Hill 1: no. 5	09/09/98 16:22:18
+Beginning Evolution for... Test 124
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+44.: invert_m
+40.: swap_m
+32.: shunt_m
+30.: multi_swap_m
+146. -> TOTAL
+
+10000	0.881659282770173	0.881659282770173
+----------------------------------------------------------
+
+Hill 1: no. 6	09/09/98 16:24:35
+Beginning Evolution for... Test 124
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+40.: invert_m
+34.: swap_m
+34.: multi_swap_m
+26.: shunt_m
+134. -> TOTAL
+
+10000	0.88999644001424	0.88999644001424
+----------------------------------------------------------
+
+Hill 1: no. 7	09/09/98 16:26:51
+Beginning Evolution for... Test 124
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+46.: swap_m
+42.: shunt_m
+38.: multi_swap_m
+24.: invert_m
+150. -> TOTAL
+
+10000	0.886031164915627	0.886031164915627
+----------------------------------------------------------
+
+Hill 1: no. 8	09/09/98 16:29:42
+Beginning Evolution for... Test 124
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+50.: invert_m
+46.: swap_m
+32.: shunt_m
+28.: multi_swap_m
+156. -> TOTAL
+
+10000	0.877534566635039	0.877534566635039
+----------------------------------------------------------
+
+Hill 1: no. 9	09/09/98 16:33:22
+Beginning Evolution for... Test 124
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+46.: invert_m
+38.: multi_swap_m
+38.: shunt_m
+36.: swap_m
+158. -> TOTAL
+
+10000	0.873438728273212	0.873438728273212
+----------------------------------------------------------
+
+Hill 1: no. 0	09/09/98 16:36:09
+Beginning Evolution for... Test 125
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+48.: multi_swap_m
+44.: swap_m
+32.: shunt_m
+28.: invert_m
+152. -> TOTAL
+
+10000	0.814065238283679	0.814065238283679
+----------------------------------------------------------
+
+Hill 1: no. 1	09/09/98 16:40:08
+Beginning Evolution for... Test 125
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+52.: swap_m
+44.: multi_swap_m
+40.: invert_m
+32.: shunt_m
+168. -> TOTAL
+
+10000	0.845752881579913	0.845752881579913
+----------------------------------------------------------
+
+Hill 1: no. 2	09/09/98 16:43:34
+Beginning Evolution for... Test 125
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+40.: swap_m
+34.: multi_swap_m
+30.: shunt_m
+30.: invert_m
+134. -> TOTAL
+
+10000	0.806769694144645	0.806769694144645
+----------------------------------------------------------
+
+Hill 1: no. 3	09/09/98 16:47:35
+Beginning Evolution for... Test 125
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+48.: invert_m
+48.: swap_m
+30.: multi_swap_m
+28.: shunt_m
+154. -> TOTAL
+
+10000	0.8165190884018	0.8165190884018
+----------------------------------------------------------
+
+Hill 1: no. 4	09/09/98 16:52:06
+Beginning Evolution for... Test 125
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+46.: invert_m
+46.: swap_m
+44.: multi_swap_m
+36.: shunt_m
+172. -> TOTAL
+
+10000	0.778715120051914	0.778715120051914
+----------------------------------------------------------
+
+Hill 1: no. 5	09/09/98 16:55:29
+Beginning Evolution for... Test 125
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+44.: multi_swap_m
+44.: swap_m
+40.: shunt_m
+30.: invert_m
+158. -> TOTAL
+
+10000	0.857338820301783	0.857338820301783
+----------------------------------------------------------
+
+Hill 1: no. 6	09/09/98 16:58:55
+Beginning Evolution for... Test 125
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+52.: multi_swap_m
+46.: swap_m
+40.: invert_m
+36.: shunt_m
+174. -> TOTAL
+
+10000	0.841876824066452	0.841876824066452
+----------------------------------------------------------
+
+Hill 1: no. 7	09/09/98 17:02:19
+Beginning Evolution for... Test 125
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+48.: swap_m
+44.: invert_m
+36.: multi_swap_m
+14.: shunt_m
+142. -> TOTAL
+
+10000	0.79719387755102	0.79719387755102
+----------------------------------------------------------
+
+Hill 1: no. 8	09/09/98 17:05:45
+Beginning Evolution for... Test 125
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+52.: swap_m
+38.: multi_swap_m
+32.: shunt_m
+18.: invert_m
+140. -> TOTAL
+
+10000	0.826446280991735	0.826446280991735
+----------------------------------------------------------
+
+Hill 1: no. 9	09/09/98 17:09:07
+Beginning Evolution for... Test 125
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+52.: swap_m
+32.: multi_swap_m
+22.: invert_m
+16.: shunt_m
+122. -> TOTAL
+
+10000	0.80695053393227	0.80695053393227
+----------------------------------------------------------
+
+
+Hill 1: no. 0	09/09/98 17:41:05
+Beginning Evolution for... Test 126
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+36.: multi_swap_m
+36.: swap_m
+34.: shunt_m
+24.: invert_m
+130. -> TOTAL
+
+5000	0.84167999326656	0.84167999326656
+----------------------------------------------------------
+
+Hill 1: no. 1	09/09/98 17:44:15
+Beginning Evolution for... Test 126
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+40.: shunt_m
+36.: multi_swap_m
+34.: swap_m
+26.: invert_m
+136. -> TOTAL
+
+5000	0.802139037433155	0.802139037433155
+----------------------------------------------------------
+
+Hill 1: no. 2	09/09/98 17:47:17
+Beginning Evolution for... Test 126
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+52.: multi_swap_m
+52.: invert_m
+30.: shunt_m
+26.: swap_m
+160. -> TOTAL
+
+5000	0.861321805976497	0.861321805976497
+----------------------------------------------------------
+
+Hill 1: no. 3	09/09/98 17:50:17
+Beginning Evolution for... Test 126
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+42.: invert_m
+42.: swap_m
+36.: shunt_m
+36.: multi_swap_m
+156. -> TOTAL
+
+5000	0.849455286797341	0.849455286797341
+----------------------------------------------------------
+
+Hill 1: no. 4	09/09/98 17:54:01
+Beginning Evolution for... Test 126
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+40.: shunt_m
+38.: swap_m
+36.: invert_m
+24.: multi_swap_m
+138. -> TOTAL
+
+5000	0.831477905784315	0.831477905784315
+----------------------------------------------------------
+
+Hill 1: no. 5	09/09/98 17:57:37
+Beginning Evolution for... Test 126
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+48.: shunt_m
+46.: multi_swap_m
+42.: swap_m
+30.: invert_m
+166. -> TOTAL
+
+5000	0.816704325810579	0.816704325810579
+----------------------------------------------------------
+
+Hill 1: no. 6	09/09/98 18:00:52
+Beginning Evolution for... Test 126
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+58.: multi_swap_m
+32.: swap_m
+26.: shunt_m
+18.: invert_m
+134. -> TOTAL
+
+5000	0.818984050285621	0.818984050285621
+----------------------------------------------------------
+
+Hill 1: no. 7	09/09/98 18:05:55
+Beginning Evolution for... Test 126
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+44.: invert_m
+42.: multi_swap_m
+32.: swap_m
+28.: shunt_m
+146. -> TOTAL
+
+5000	0.849455286797341	0.849455286797341
+----------------------------------------------------------
+
+Hill 1: no. 8	09/09/98 18:09:34
+Beginning Evolution for... Test 126
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+50.: swap_m
+48.: multi_swap_m
+30.: invert_m
+28.: shunt_m
+156. -> TOTAL
+
+5000	0.810405151925641	0.810405151925641
+----------------------------------------------------------
+
+Hill 1: no. 9	09/09/98 18:12:36
+Beginning Evolution for... Test 126
+least-fit selection
+COBRA Rate Adaptor
+Hill Climbing Model
+COBRA operator rankings:
+42.: multi_swap_m
+38.: shunt_m
+28.: swap_m
+20.: invert_m
+128. -> TOTAL
+
+5000	0.830215700416665	0.830215700416665
+----------------------------------------------------------

@@ -1,0 +1,2440 @@
+
+newbeng 1: no. 0	09/10/98 01:17:53
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.681241495973228	0.367335041284295
+----------------------------------------------------------
+
+newbeng 1: no. 1	09/10/98 01:18:53
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.687524355619885	0.643441412966083
+----------------------------------------------------------
+
+newbeng 1: no. 2	09/10/98 01:19:51
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.666837050582425	0.594636236698926
+----------------------------------------------------------
+
+newbeng 1: no. 3	09/10/98 01:20:51
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.644291800712982	0.211809902756101
+----------------------------------------------------------
+
+newbeng 1: no. 4	09/10/98 01:21:50
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.680353306278348	0.332824290334172
+----------------------------------------------------------
+
+newbeng 1: no. 5	09/10/98 01:22:46
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.67594687294753	0.458637234658863
+----------------------------------------------------------
+
+newbeng 1: no. 6	09/10/98 01:23:41
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.676415817723737	0.185823823968414
+----------------------------------------------------------
+
+newbeng 1: no. 7	09/10/98 01:24:41
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.711140627339278	0.48030677407562
+----------------------------------------------------------
+
+newbeng 1: no. 8	09/10/98 01:25:38
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.731259621837129	0.196249801366598
+----------------------------------------------------------
+
+newbeng 1: no. 9	09/10/98 01:26:36
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.685717458496049	0.529747351263244
+----------------------------------------------------------
+
+newbeng 2: no. 0	09/10/98 01:27:34
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.672462610715842	0.414086773811387
+----------------------------------------------------------
+
+newbeng 2: no. 1	09/10/98 01:28:32
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.738341968911917	0.523018458810708
+----------------------------------------------------------
+
+newbeng 2: no. 2	09/10/98 01:29:25
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.693924183398262	0.385829789183853
+----------------------------------------------------------
+
+newbeng 2: no. 3	09/10/98 01:30:22
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.688853769638375	0.541673002023416
+----------------------------------------------------------
+
+newbeng 2: no. 4	09/10/98 01:31:21
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.776273885350318	0.423689079685567
+----------------------------------------------------------
+
+newbeng 2: no. 5	09/10/98 01:32:20
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.756369426751592	0.23880362285399
+----------------------------------------------------------
+
+newbeng 2: no. 6	09/10/98 01:33:18
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.693924183398262	0.508010245216065
+----------------------------------------------------------
+
+newbeng 2: no. 7	09/10/98 01:34:13
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.695774647887324	0.216666666666667
+----------------------------------------------------------
+
+newbeng 2: no. 8	09/10/98 01:35:09
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.720293016365524	0.585186027558234
+----------------------------------------------------------
+
+newbeng 2: no. 9	09/10/98 01:36:07
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.70232439994389	0.627983131745946
+----------------------------------------------------------
+
+newbeng 3: no. 0	09/10/98 01:37:06
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.693002637337972	0.548414408866995
+----------------------------------------------------------
+
+newbeng 3: no. 1	09/10/98 01:38:05
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.648475513704624	0.194502483122119
+----------------------------------------------------------
+
+newbeng 3: no. 2	09/10/98 01:39:06
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.656942848631857	0.375809435707678
+----------------------------------------------------------
+
+newbeng 3: no. 3	09/10/98 01:40:08
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.66535929401877	0.546584327413601
+----------------------------------------------------------
+
+newbeng 3: no. 4	09/10/98 01:41:04
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.644161859358863	0.514326170248209
+----------------------------------------------------------
+
+newbeng 3: no. 5	09/10/98 01:42:03
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.723788313895564	0.240784548195903
+----------------------------------------------------------
+
+newbeng 3: no. 6	09/10/98 01:43:03
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.621587976928265	0.570445825352737
+----------------------------------------------------------
+
+newbeng 3: no. 7	09/10/98 01:44:04
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.650164252021563	0.517082565734383
+----------------------------------------------------------
+
+newbeng 3: no. 8	09/10/98 01:45:04
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.604838709677419	0.564117555703754
+----------------------------------------------------------
+
+newbeng 3: no. 9	09/10/98 01:46:02
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.643139841688654	0.414625248159646
+----------------------------------------------------------
+
+newbeng 4: no. 0	09/10/98 01:47:01
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.693002637337972	0.227838760261968
+----------------------------------------------------------
+
+newbeng 4: no. 1	09/10/98 01:47:59
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.672462610715842	0.618491648276069
+----------------------------------------------------------
+
+newbeng 4: no. 2	09/10/98 01:48:57
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.672462610715842	0.255571880884879
+----------------------------------------------------------
+
+newbeng 4: no. 3	09/10/98 01:49:54
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.672462610715842	0.409083983119903
+----------------------------------------------------------
+
+newbeng 4: no. 4	09/10/98 01:50:56
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.611343768253685	0.415466803025002
+----------------------------------------------------------
+
+newbeng 4: no. 5	09/10/98 01:51:54
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.656942848631857	0.367609121865649
+----------------------------------------------------------
+
+newbeng 4: no. 6	09/10/98 01:52:52
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.630264966453913	0.401667815837746
+----------------------------------------------------------
+
+newbeng 4: no. 7	09/10/98 01:53:48
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.68392003396526	0.423196417965002
+----------------------------------------------------------
+
+newbeng 4: no. 8	09/10/98 01:54:45
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.609786204512912	0.4961579563381
+----------------------------------------------------------
+
+newbeng 4: no. 9	09/10/98 01:55:42
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.660437225486281	0.470390176272529
+----------------------------------------------------------
+
+newbeng 5: no. 0	09/10/98 01:56:39
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+98.: segment_order_c
+95.: HUX_position_c
+70.: segment_position_c
+64.: order_c
+53.: position_c
+52.: swap_m
+44.: shunt_m
+38.: invert_m
+30.: multi_swap_m
+544. -> TOTAL
+
+5000	0.651770070296173	0.456674473067916
+----------------------------------------------------------
+
+newbeng 5: no. 1	09/10/98 01:57:39
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+82.: HUX_position_c
+55.: segment_position_c
+47.: segment_order_c
+47.: order_c
+46.: multi_swap_m
+44.: invert_m
+41.: position_c
+32.: swap_m
+30.: shunt_m
+424. -> TOTAL
+
+5000	0.64332745280529	0.387331894821357
+----------------------------------------------------------
+
+newbeng 5: no. 2	09/10/98 01:58:37
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+62.: segment_position_c
+56.: HUX_position_c
+49.: segment_order_c
+48.: shunt_m
+38.: swap_m
+36.: invert_m
+31.: position_c
+31.: order_c
+12.: multi_swap_m
+363. -> TOTAL
+
+5000	0.679644420311921	0.36384169694589
+----------------------------------------------------------
+
+newbeng 5: no. 3	09/10/98 01:59:35
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+52.: HUX_position_c
+52.: segment_position_c
+48.: position_c
+43.: segment_order_c
+38.: shunt_m
+38.: swap_m
+37.: order_c
+28.: multi_swap_m
+20.: invert_m
+356. -> TOTAL
+
+5000	0.67159715047039	0.461436143714007
+----------------------------------------------------------
+
+newbeng 5: no. 4	09/10/98 02:00:32
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+62.: HUX_position_c
+47.: segment_position_c
+38.: segment_order_c
+37.: order_c
+36.: swap_m
+36.: multi_swap_m
+34.: invert_m
+32.: shunt_m
+30.: position_c
+352. -> TOTAL
+
+5000	0.67159715047039	0.356851156949014
+----------------------------------------------------------
+
+newbeng 5: no. 5	09/10/98 02:01:29
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+78.: HUX_position_c
+54.: segment_order_c
+49.: segment_position_c
+42.: invert_m
+38.: position_c
+30.: shunt_m
+28.: multi_swap_m
+25.: order_c
+24.: swap_m
+368. -> TOTAL
+
+5000	0.711577685845654	0.462740925032223
+----------------------------------------------------------
+
+newbeng 5: no. 6	09/10/98 02:02:25
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+75.: HUX_position_c
+66.: segment_order_c
+59.: segment_position_c
+50.: invert_m
+46.: order_c
+42.: position_c
+34.: multi_swap_m
+32.: swap_m
+32.: shunt_m
+436. -> TOTAL
+
+5000	0.656075024525342	0.605669260445956
+----------------------------------------------------------
+
+newbeng 5: no. 7	09/10/98 02:03:24
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+58.: segment_order_c
+56.: invert_m
+55.: HUX_position_c
+41.: order_c
+38.: shunt_m
+37.: segment_position_c
+34.: position_c
+28.: multi_swap_m
+26.: swap_m
+373. -> TOTAL
+
+5000	0.67159715047039	0.621865495780378
+----------------------------------------------------------
+
+newbeng 5: no. 8	09/10/98 02:04:22
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+65.: HUX_position_c
+58.: segment_position_c
+57.: segment_order_c
+40.: swap_m
+34.: invert_m
+25.: position_c
+24.: multi_swap_m
+22.: order_c
+20.: shunt_m
+345. -> TOTAL
+
+5000	0.648366571234574	0.377080814372428
+----------------------------------------------------------
+
+newbeng 5: no. 9	09/10/98 02:05:19
+Beginning Evolution for... Test 119
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+85.: HUX_position_c
+70.: segment_position_c
+54.: segment_order_c
+49.: position_c
+44.: order_c
+36.: invert_m
+32.: shunt_m
+30.: swap_m
+28.: multi_swap_m
+428. -> TOTAL
+
+5000	0.672462610715842	0.366751796638356
+----------------------------------------------------------
+
+newbeng 1: no. 0	09/10/98 02:06:16
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.365395502032834	0.231733069614572
+----------------------------------------------------------
+
+newbeng 1: no. 1	09/10/98 02:08:43
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.468090717299578	0.455387425662813
+----------------------------------------------------------
+
+newbeng 1: no. 2	09/10/98 02:10:54
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.474942438314342	0.279578631687048
+----------------------------------------------------------
+
+newbeng 1: no. 3	09/10/98 02:13:27
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.453756464431884	0.192467630197575
+----------------------------------------------------------
+
+newbeng 1: no. 4	09/10/98 02:15:32
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.49763797187995	0.200619377006194
+----------------------------------------------------------
+
+newbeng 1: no. 5	09/10/98 02:17:35
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.378642433550919	0.281143581214857
+----------------------------------------------------------
+
+newbeng 1: no. 6	09/10/98 02:19:40
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.398724082934609	0.256321390922613
+----------------------------------------------------------
+
+newbeng 1: no. 7	09/10/98 02:21:41
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.429067316431707	0.212683102177755
+----------------------------------------------------------
+
+newbeng 1: no. 8	09/10/98 02:23:40
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.436506179943832	0.277140225147158
+----------------------------------------------------------
+
+newbeng 1: no. 9	09/10/98 02:25:42
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.471673044217687	0.283193465011647
+----------------------------------------------------------
+
+newbeng 2: no. 0	09/10/98 02:27:47
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.511933088182277	0.309422121502658
+----------------------------------------------------------
+
+newbeng 2: no. 1	09/10/98 02:29:40
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.485068100828578	0.241588632404181
+----------------------------------------------------------
+
+newbeng 2: no. 2	09/10/98 02:31:39
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.465915951387248	0.345837384339314
+----------------------------------------------------------
+
+newbeng 2: no. 3	09/10/98 02:33:32
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.477209547417154	0.309045007399669
+----------------------------------------------------------
+
+newbeng 2: no. 4	09/10/98 02:35:28
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.587547955498621	0.232773758332317
+----------------------------------------------------------
+
+newbeng 2: no. 5	09/10/98 02:37:22
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.505698005698005	0.265414409086593
+----------------------------------------------------------
+
+newbeng 2: no. 6	09/10/98 02:39:23
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.532141336739038	0.335918486303988
+----------------------------------------------------------
+
+newbeng 2: no. 7	09/10/98 02:41:18
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.551146384479718	0.422327440576745
+----------------------------------------------------------
+
+newbeng 2: no. 8	09/10/98 02:43:14
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.481327215732214	0.451171775710437
+----------------------------------------------------------
+
+newbeng 2: no. 9	09/10/98 02:45:08
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.540762856446502	0.301755280717412
+----------------------------------------------------------
+
+newbeng 3: no. 0	09/10/98 02:47:05
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.434895527068878	0.306801486474808
+----------------------------------------------------------
+
+newbeng 3: no. 1	09/10/98 02:49:02
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.428247442578653	0.20396297181519
+----------------------------------------------------------
+
+newbeng 3: no. 2	09/10/98 02:51:04
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.438476227177621	0.225927575892573
+----------------------------------------------------------
+
+newbeng 3: no. 3	09/10/98 02:53:05
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.435791360282835	0.198131425318406
+----------------------------------------------------------
+
+newbeng 3: no. 4	09/10/98 02:55:03
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.434105266247154	0.277527612042978
+----------------------------------------------------------
+
+newbeng 3: no. 5	09/10/98 02:56:59
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.473522742430306	0.330701385033294
+----------------------------------------------------------
+
+newbeng 3: no. 6	09/10/98 02:58:53
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.500288899223495	0.477458575425005
+----------------------------------------------------------
+
+newbeng 3: no. 7	09/10/98 03:00:48
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.452604067061898	0.284932527174938
+----------------------------------------------------------
+
+newbeng 3: no. 8	09/10/98 03:02:48
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.402092238826933	0.331546407157667
+----------------------------------------------------------
+
+newbeng 3: no. 9	09/10/98 03:04:49
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.45404548128821	0.275449176135394
+----------------------------------------------------------
+
+newbeng 4: no. 0	09/10/98 03:06:54
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.510920751154249	0.417570422369542
+----------------------------------------------------------
+
+newbeng 4: no. 1	09/10/98 03:08:50
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.468520688817797	0.316466980459278
+----------------------------------------------------------
+
+newbeng 4: no. 2	09/10/98 03:10:45
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.509947568771098	0.486463968778605
+----------------------------------------------------------
+
+newbeng 4: no. 3	09/10/98 03:12:37
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.467667695096471	0.439911769808422
+----------------------------------------------------------
+
+newbeng 4: no. 4	09/10/98 03:14:30
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.471445664891109	0.14736405147364
+----------------------------------------------------------
+
+newbeng 4: no. 5	09/10/98 03:16:24
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.443079841739369	0.332474207493875
+----------------------------------------------------------
+
+newbeng 4: no. 6	09/10/98 03:18:16
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.452240821422202	0.418572843465547
+----------------------------------------------------------
+
+newbeng 4: no. 7	09/10/98 03:20:07
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.466525789019954	0.330989986387454
+----------------------------------------------------------
+
+newbeng 4: no. 8	09/10/98 03:22:01
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.45348751057073	0.332563908478412
+----------------------------------------------------------
+
+newbeng 4: no. 9	09/10/98 03:23:54
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.504043708398646	0.357511158376436
+----------------------------------------------------------
+
+newbeng 5: no. 0	09/10/98 03:25:46
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+90.: segment_order_c
+74.: HUX_position_c
+61.: segment_position_c
+60.: swap_m
+58.: multi_swap_m
+54.: invert_m
+50.: shunt_m
+29.: order_c
+20.: position_c
+496. -> TOTAL
+
+5000	0.447063860868689	0.315583607431772
+----------------------------------------------------------
+
+newbeng 5: no. 1	09/10/98 03:27:43
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+94.: segment_order_c
+75.: segment_position_c
+69.: HUX_position_c
+68.: swap_m
+62.: shunt_m
+62.: invert_m
+38.: order_c
+22.: multi_swap_m
+22.: position_c
+512. -> TOTAL
+
+5000	0.39923526765632	0.295332252944171
+----------------------------------------------------------
+
+newbeng 5: no. 2	09/10/98 03:29:40
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+82.: shunt_m
+76.: invert_m
+72.: swap_m
+66.: segment_position_c
+64.: HUX_position_c
+61.: segment_order_c
+52.: multi_swap_m
+34.: order_c
+22.: position_c
+529. -> TOTAL
+
+5000	0.482033066110495	0.401347623569846
+----------------------------------------------------------
+
+newbeng 5: no. 3	09/10/98 03:31:34
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+113.: HUX_position_c
+84.: segment_order_c
+72.: invert_m
+58.: segment_position_c
+58.: swap_m
+54.: multi_swap_m
+44.: shunt_m
+36.: position_c
+33.: order_c
+552. -> TOTAL
+
+5000	0.497308928306264	0.338493693528763
+----------------------------------------------------------
+
+newbeng 5: no. 4	09/10/98 03:33:32
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+64.: segment_position_c
+64.: segment_order_c
+58.: HUX_position_c
+46.: swap_m
+38.: shunt_m
+37.: order_c
+36.: invert_m
+32.: position_c
+26.: multi_swap_m
+401. -> TOTAL
+
+5000	0.469342048552443	0.240017308290401
+----------------------------------------------------------
+
+newbeng 5: no. 5	09/10/98 03:35:29
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+76.: segment_order_c
+69.: HUX_position_c
+65.: segment_position_c
+50.: multi_swap_m
+48.: shunt_m
+48.: swap_m
+40.: order_c
+39.: position_c
+36.: invert_m
+471. -> TOTAL
+
+5000	0.487932266754632	0.247179025850052
+----------------------------------------------------------
+
+newbeng 5: no. 6	09/10/98 03:37:21
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+76.: segment_position_c
+75.: segment_order_c
+62.: swap_m
+43.: HUX_position_c
+38.: invert_m
+32.: order_c
+30.: multi_swap_m
+30.: shunt_m
+28.: position_c
+414. -> TOTAL
+
+5000	0.437624892596989	0.278524869524829
+----------------------------------------------------------
+
+newbeng 5: no. 7	09/10/98 03:39:19
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+81.: HUX_position_c
+77.: segment_order_c
+65.: segment_position_c
+56.: swap_m
+42.: shunt_m
+37.: position_c
+32.: invert_m
+31.: order_c
+20.: multi_swap_m
+441. -> TOTAL
+
+5000	0.463398078529658	0.257657134562346
+----------------------------------------------------------
+
+newbeng 5: no. 8	09/10/98 03:41:12
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+79.: segment_position_c
+72.: invert_m
+68.: shunt_m
+63.: HUX_position_c
+57.: segment_order_c
+56.: swap_m
+50.: multi_swap_m
+26.: order_c
+19.: position_c
+490. -> TOTAL
+
+5000	0.40981240981241	0.347340448431195
+----------------------------------------------------------
+
+newbeng 5: no. 9	09/10/98 03:43:07
+Beginning Evolution for... Test 120
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+64.: HUX_position_c
+62.: invert_m
+56.: segment_order_c
+54.: segment_position_c
+48.: swap_m
+40.: shunt_m
+38.: multi_swap_m
+24.: position_c
+16.: order_c
+402. -> TOTAL
+
+5000	0.462634750516066	0.309244493923563
+----------------------------------------------------------
+
+newbeng 1: no. 0	09/10/98 03:45:03
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.740819576000785	0.658874929298544
+----------------------------------------------------------
+
+newbeng 1: no. 1	09/10/98 03:46:04
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.764057035243476	0.701669776414408
+----------------------------------------------------------
+
+newbeng 1: no. 2	09/10/98 03:47:04
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.73909830007391	0.29210317577864
+----------------------------------------------------------
+
+newbeng 1: no. 3	09/10/98 03:48:06
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.783456920903955	0.723273515557511
+----------------------------------------------------------
+
+newbeng 1: no. 4	09/10/98 03:49:06
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.710444027517198	0.694966484996554
+----------------------------------------------------------
+
+newbeng 1: no. 5	09/10/98 03:50:07
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.744820351429321	0.71242795446883
+----------------------------------------------------------
+
+newbeng 1: no. 6	09/10/98 03:51:06
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.808258351244035	0.519510167765199
+----------------------------------------------------------
+
+newbeng 1: no. 7	09/10/98 03:52:07
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.668298192771084	0.528186171490891
+----------------------------------------------------------
+
+newbeng 1: no. 8	09/10/98 03:53:09
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.813657994333044	0.633255737207788
+----------------------------------------------------------
+
+newbeng 1: no. 9	09/10/98 03:54:10
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.726232754529237	0.658874929298544
+----------------------------------------------------------
+
+newbeng 2: no. 0	09/10/98 03:55:10
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.842667457903716	0.810733656865544
+----------------------------------------------------------
+
+newbeng 2: no. 1	09/10/98 03:56:06
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.876543209876543	0.710444027517198
+----------------------------------------------------------
+
+newbeng 2: no. 2	09/10/98 03:57:03
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.780595066309352	0.725183530162783
+----------------------------------------------------------
+
+newbeng 2: no. 3	09/10/98 03:58:01
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.793185309314342	0.610096670247046
+----------------------------------------------------------
+
+newbeng 2: no. 4	09/10/98 03:58:59
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.793185309314342	0.675506927513825
+----------------------------------------------------------
+
+newbeng 2: no. 5	09/10/98 03:59:56
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.810733656865544	0.618938650975264
+----------------------------------------------------------
+
+newbeng 2: no. 6	09/10/98 04:00:52
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.842667457903716	0.764057035243476
+----------------------------------------------------------
+
+newbeng 2: no. 7	09/10/98 04:01:49
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.810733656865544	0.676095178965251
+----------------------------------------------------------
+
+newbeng 2: no. 8	09/10/98 04:02:46
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.824024372551864	0.652573529411765
+----------------------------------------------------------
+
+newbeng 2: no. 9	09/10/98 04:03:44
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.824024372551864	0.610096670247046
+----------------------------------------------------------
+
+newbeng 3: no. 0	09/10/98 04:04:40
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.726232754529237	0.355363892626049
+----------------------------------------------------------
+
+newbeng 3: no. 1	09/10/98 04:05:39
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.766327359937485	0.557682866961217
+----------------------------------------------------------
+
+newbeng 3: no. 2	09/10/98 04:06:38
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.728793769326507	0.618251480320446
+----------------------------------------------------------
+
+newbeng 3: no. 3	09/10/98 04:07:37
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.739004446516895	0.69820865228029
+----------------------------------------------------------
+
+newbeng 3: no. 4	09/10/98 04:08:37
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.742755518359661	0.725713140927359
+----------------------------------------------------------
+
+newbeng 3: no. 5	09/10/98 04:09:37
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.829640847308692	0.364786866850738
+----------------------------------------------------------
+
+newbeng 3: no. 6	09/10/98 04:10:38
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.764057035243476	0.724785626786443
+----------------------------------------------------------
+
+newbeng 3: no. 7	09/10/98 04:11:35
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.815718786118534	0.701669776414408
+----------------------------------------------------------
+
+newbeng 3: no. 8	09/10/98 04:12:35
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.722499236796581	0.290399950263896
+----------------------------------------------------------
+
+newbeng 3: no. 9	09/10/98 04:13:36
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.797303094209783	0.757686920562929
+----------------------------------------------------------
+
+newbeng 4: no. 0	09/10/98 04:14:58
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.856711915535445	0.810733656865544
+----------------------------------------------------------
+
+newbeng 4: no. 1	09/10/98 04:15:55
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.793185309314342	0.685741880961004
+----------------------------------------------------------
+
+newbeng 4: no. 2	09/10/98 04:17:10
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.824024372551864	0.630795713254484
+----------------------------------------------------------
+
+newbeng 4: no. 3	09/10/98 04:18:34
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.824024372551864	0.685741880961004
+----------------------------------------------------------
+
+newbeng 4: no. 4	09/10/98 04:19:31
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.821491133680905	0.688637099887296
+----------------------------------------------------------
+
+newbeng 4: no. 5	09/10/98 04:20:30
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.856711915535445	0.6496254360382
+----------------------------------------------------------
+
+newbeng 4: no. 6	09/10/98 04:21:29
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.808258351244035	0.74348469180727
+----------------------------------------------------------
+
+newbeng 4: no. 7	09/10/98 04:22:26
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.837431538497377	0.764057035243476
+----------------------------------------------------------
+
+newbeng 4: no. 8	09/10/98 04:23:24
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.835164421525128	0.810733656865544
+----------------------------------------------------------
+
+newbeng 4: no. 9	09/10/98 04:24:19
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.852686924586447	0.628040689960195
+----------------------------------------------------------
+
+newbeng 5: no. 0	09/10/98 04:25:15
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+43.: segment_position_c
+42.: segment_order_c
+30.: invert_m
+30.: swap_m
+29.: HUX_position_c
+25.: order_c
+24.: shunt_m
+22.: position_c
+14.: multi_swap_m
+259. -> TOTAL
+
+5000	0.808258351244035	0.577529232333503
+----------------------------------------------------------
+
+newbeng 5: no. 1	09/10/98 04:26:15
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+45.: segment_order_c
+36.: segment_position_c
+32.: HUX_position_c
+32.: swap_m
+30.: multi_swap_m
+26.: shunt_m
+25.: order_c
+24.: invert_m
+8.: position_c
+258. -> TOTAL
+
+5000	0.810733656865544	0.587991718426501
+----------------------------------------------------------
+
+newbeng 5: no. 2	09/10/98 04:27:10
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+54.: segment_position_c
+43.: segment_order_c
+40.: HUX_position_c
+34.: shunt_m
+28.: multi_swap_m
+24.: position_c
+20.: order_c
+20.: invert_m
+6.: swap_m
+269. -> TOTAL
+
+5000	0.793185309314342	0.752118644067796
+----------------------------------------------------------
+
+newbeng 5: no. 3	09/10/98 04:28:08
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+44.: HUX_position_c
+37.: segment_order_c
+30.: multi_swap_m
+26.: swap_m
+18.: order_c
+16.: shunt_m
+16.: invert_m
+12.: segment_position_c
+11.: position_c
+210. -> TOTAL
+
+5000	0.780595066309352	0.749302410009836
+----------------------------------------------------------
+
+newbeng 5: no. 4	09/10/98 04:29:04
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+39.: HUX_position_c
+36.: segment_order_c
+34.: multi_swap_m
+29.: segment_position_c
+23.: order_c
+22.: swap_m
+22.: invert_m
+18.: position_c
+18.: shunt_m
+241. -> TOTAL
+
+5000	0.806188347171954	0.672348484848485
+----------------------------------------------------------
+
+newbeng 5: no. 5	09/10/98 04:30:02
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+56.: swap_m
+51.: HUX_position_c
+51.: segment_position_c
+47.: segment_order_c
+44.: invert_m
+36.: shunt_m
+25.: position_c
+20.: order_c
+18.: multi_swap_m
+348. -> TOTAL
+
+5000	0.824024372551864	0.721544715447154
+----------------------------------------------------------
+
+newbeng 5: no. 6	09/10/98 04:30:58
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+64.: multi_swap_m
+55.: segment_order_c
+49.: segment_position_c
+36.: HUX_position_c
+36.: invert_m
+34.: swap_m
+30.: shunt_m
+29.: order_c
+24.: position_c
+357. -> TOTAL
+
+5000	0.789108085579327	0.699679724069968
+----------------------------------------------------------
+
+newbeng 5: no. 7	09/10/98 04:31:55
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+59.: segment_order_c
+43.: HUX_position_c
+38.: invert_m
+38.: segment_position_c
+34.: swap_m
+27.: order_c
+26.: shunt_m
+22.: multi_swap_m
+14.: position_c
+301. -> TOTAL
+
+5000	0.835164421525128	0.662313432835821
+----------------------------------------------------------
+
+newbeng 5: no. 8	09/10/98 04:32:52
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+43.: segment_order_c
+40.: swap_m
+31.: HUX_position_c
+30.: invert_m
+29.: segment_position_c
+24.: multi_swap_m
+17.: position_c
+13.: order_c
+8.: shunt_m
+235. -> TOTAL
+
+5000	0.810733656865544	0.712477998478709
+----------------------------------------------------------
+
+newbeng 5: no. 9	09/10/98 04:33:49
+Beginning Evolution for... Test 121
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+36.: swap_m
+36.: segment_position_c
+35.: segment_order_c
+28.: shunt_m
+25.: HUX_position_c
+24.: order_c
+24.: invert_m
+22.: multi_swap_m
+16.: position_c
+246. -> TOTAL
+
+5000	0.810733656865544	0.652573529411765
+----------------------------------------------------------
+
+newbeng 1: no. 0	09/10/98 04:34:47
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.677081684218525	0.395876838316968
+----------------------------------------------------------
+
+newbeng 1: no. 1	09/10/98 04:36:53
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.561251003921198	0.437369304626984
+----------------------------------------------------------
+
+newbeng 1: no. 2	09/10/98 04:39:06
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.576006206127473	0.495119378783551
+----------------------------------------------------------
+
+newbeng 1: no. 3	09/10/98 04:41:16
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.623390507392763	0.434011921445304
+----------------------------------------------------------
+
+newbeng 1: no. 4	09/10/98 04:43:21
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.592688183487215	0.377478393492628
+----------------------------------------------------------
+
+newbeng 1: no. 5	09/10/98 04:45:32
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.610409851508041	0.418015482054891
+----------------------------------------------------------
+
+newbeng 1: no. 6	09/10/98 04:47:39
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.566328557430017	0.425071083716581
+----------------------------------------------------------
+
+newbeng 1: no. 7	09/10/98 04:49:47
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.592548256770911	0.437385407232322
+----------------------------------------------------------
+
+newbeng 1: no. 8	09/10/98 04:51:53
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.593899828895526	0.572245269503331
+----------------------------------------------------------
+
+newbeng 1: no. 9	09/10/98 04:54:04
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.587308081209789	0.52502357008171
+----------------------------------------------------------
+
+newbeng 2: no. 0	09/10/98 04:56:14
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.626977924184694	0.456066451594851
+----------------------------------------------------------
+
+newbeng 2: no. 1	09/10/98 04:58:19
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.671439336850038	0.449021073585365
+----------------------------------------------------------
+
+newbeng 2: no. 2	09/10/98 05:00:24
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.715619540991506	0.333449764227439
+----------------------------------------------------------
+
+newbeng 2: no. 3	09/10/98 05:02:30
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.621171418213592	0.483678343949045
+----------------------------------------------------------
+
+newbeng 2: no. 4	09/10/98 05:04:38
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.707929445415541	0.523065362623428
+----------------------------------------------------------
+
+newbeng 2: no. 5	09/10/98 05:06:44
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.671439336850038	0.320795929144064
+----------------------------------------------------------
+
+newbeng 2: no. 6	09/10/98 05:08:50
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.640216672506778	0.543618854239373
+----------------------------------------------------------
+
+newbeng 2: no. 7	09/10/98 05:10:54
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.709554968610222	0.54288298282211
+----------------------------------------------------------
+
+newbeng 2: no. 8	09/10/98 05:12:55
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.677081684218525	0.59228303728414
+----------------------------------------------------------
+
+newbeng 2: no. 9	09/10/98 05:14:56
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.690082484606746	0.671439336850038
+----------------------------------------------------------
+
+newbeng 3: no. 0	09/10/98 05:16:55
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.595000393995772	0.465735184681512
+----------------------------------------------------------
+
+newbeng 3: no. 1	09/10/98 05:19:04
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.593844280833026	0.482334694805564
+----------------------------------------------------------
+
+newbeng 3: no. 2	09/10/98 05:21:11
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.606642703561195	0.431220562299998
+----------------------------------------------------------
+
+newbeng 3: no. 3	09/10/98 05:23:19
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.59324157360601	0.421951718494272
+----------------------------------------------------------
+
+newbeng 3: no. 4	09/10/98 05:25:26
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.690082484606746	0.616730635454051
+----------------------------------------------------------
+
+newbeng 3: no. 5	09/10/98 05:27:34
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.597156703033726	0.535651483862823
+----------------------------------------------------------
+
+newbeng 3: no. 6	09/10/98 05:29:42
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.599763056570244	0.431409448399524
+----------------------------------------------------------
+
+newbeng 3: no. 7	09/10/98 05:31:51
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.580883647245203	0.273543633433111
+----------------------------------------------------------
+
+newbeng 3: no. 8	09/10/98 05:34:02
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.638860042327764	0.234771143367966
+----------------------------------------------------------
+
+newbeng 3: no. 9	09/10/98 05:36:07
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.59076614611616	0.448217317487267
+----------------------------------------------------------
+
+newbeng 4: no. 0	09/10/98 05:38:14
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.649044765392049	0.578471510765024
+----------------------------------------------------------
+
+newbeng 4: no. 1	09/10/98 05:40:18
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.653972152970277	0.46404638727822
+----------------------------------------------------------
+
+newbeng 4: no. 2	09/10/98 05:42:19
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.677081684218525	0.601716682161678
+----------------------------------------------------------
+
+newbeng 4: no. 3	09/10/98 05:44:24
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.671439336850038	0.599330041838753
+----------------------------------------------------------
+
+newbeng 4: no. 4	09/10/98 05:46:27
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.695930641255956	0.436945124236756
+----------------------------------------------------------
+
+newbeng 4: no. 5	09/10/98 05:48:29
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.642883736412377	0.59085076542031
+----------------------------------------------------------
+
+newbeng 4: no. 6	09/10/98 05:50:31
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.695930641255956	0.545726489968065
+----------------------------------------------------------
+
+newbeng 4: no. 7	09/10/98 05:52:33
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.671439336850038	0.582600578154244
+----------------------------------------------------------
+
+newbeng 4: no. 8	09/10/98 05:54:37
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.655269118757416	0.57343164407336
+----------------------------------------------------------
+
+newbeng 4: no. 9	09/10/98 05:56:39
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+Adaptive Mutation Rate Adaptor
+State-State Model
+
+5000	0.695930641255956	0.671439336850038
+----------------------------------------------------------
+
+newbeng 5: no. 0	09/10/98 05:58:37
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+78.: segment_order_c
+60.: swap_m
+55.: segment_position_c
+49.: HUX_position_c
+48.: invert_m
+44.: multi_swap_m
+44.: shunt_m
+41.: position_c
+23.: order_c
+442. -> TOTAL
+
+5000	0.701663201663202	0.690082484606746
+----------------------------------------------------------
+
+newbeng 5: no. 1	09/10/98 06:00:40
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+68.: segment_order_c
+64.: swap_m
+56.: segment_position_c
+49.: HUX_position_c
+44.: shunt_m
+42.: invert_m
+34.: multi_swap_m
+23.: position_c
+19.: order_c
+399. -> TOTAL
+
+5000	0.651192976763154	0.501649174005452
+----------------------------------------------------------
+
+newbeng 5: no. 2	09/10/98 06:02:46
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+70.: segment_order_c
+66.: swap_m
+48.: multi_swap_m
+46.: HUX_position_c
+46.: invert_m
+46.: segment_position_c
+39.: order_c
+32.: position_c
+24.: shunt_m
+417. -> TOTAL
+
+5000	0.671439336850038	0.344367789437069
+----------------------------------------------------------
+
+newbeng 5: no. 3	09/10/98 06:04:53
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+69.: segment_order_c
+44.: invert_m
+44.: swap_m
+43.: segment_position_c
+42.: HUX_position_c
+39.: order_c
+28.: multi_swap_m
+20.: shunt_m
+16.: position_c
+345. -> TOTAL
+
+5000	0.653841139351819	0.517449147989876
+----------------------------------------------------------
+
+newbeng 5: no. 4	09/10/98 06:06:59
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+53.: segment_order_c
+52.: HUX_position_c
+48.: swap_m
+41.: segment_position_c
+32.: invert_m
+30.: shunt_m
+24.: multi_swap_m
+15.: position_c
+12.: order_c
+307. -> TOTAL
+
+5000	0.67382336147863	0.642965695507034
+----------------------------------------------------------
+
+newbeng 5: no. 5	09/10/98 06:09:03
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+64.: swap_m
+62.: multi_swap_m
+59.: segment_order_c
+54.: HUX_position_c
+42.: segment_position_c
+40.: invert_m
+31.: order_c
+29.: position_c
+18.: shunt_m
+399. -> TOTAL
+
+5000	0.662574223557451	0.535980686247774
+----------------------------------------------------------
+
+newbeng 5: no. 6	09/10/98 06:11:10
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+56.: segment_order_c
+44.: segment_position_c
+38.: HUX_position_c
+34.: multi_swap_m
+32.: invert_m
+32.: swap_m
+28.: shunt_m
+19.: order_c
+13.: position_c
+296. -> TOTAL
+
+5000	0.659731383444124	0.576817379358742
+----------------------------------------------------------
+
+newbeng 5: no. 7	09/10/98 06:13:13
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+79.: segment_order_c
+70.: HUX_position_c
+64.: multi_swap_m
+62.: swap_m
+58.: segment_position_c
+45.: position_c
+42.: invert_m
+42.: shunt_m
+35.: order_c
+497. -> TOTAL
+
+5000	0.643645058525227	0.578545131065471
+----------------------------------------------------------
+
+newbeng 5: no. 8	09/10/98 06:15:19
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+60.: segment_order_c
+50.: swap_m
+46.: HUX_position_c
+44.: segment_position_c
+40.: invert_m
+28.: multi_swap_m
+24.: shunt_m
+23.: order_c
+21.: position_c
+336. -> TOTAL
+
+5000	0.634985491306068	0.469441517386723
+----------------------------------------------------------
+
+newbeng 5: no. 9	09/10/98 06:17:23
+Beginning Evolution for... Test 122
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+56.: segment_position_c
+50.: segment_order_c
+43.: HUX_position_c
+42.: swap_m
+38.: invert_m
+32.: multi_swap_m
+26.: shunt_m
+24.: order_c
+21.: position_c
+332. -> TOTAL
+
+5000	0.682819664593259	0.478606401293473
+----------------------------------------------------------

@@ -1,0 +1,204 @@
+Class Descriptions:
+
+Shape Class
+
+Shape objects contain two pieces of data: the x-span and y-span describing a single rectangle. This data is
+initialised when the object is created. As this data is 'protected', it cannot be read or changed directly from
+outside the class. The public functions shape::height() and shape::width() return x-span and y-span values
+respectively. The shape may be 'rotated' by 90 degrees by calling the shape::rotate_90() public function, which
+swaps the x-span and y-span data. The overloaded insertion operator first reads the x-span value from a stream, skips 
+white space and then reads the y-span value. The overloaded extraction operator outputs x-span, followed by a 
+single comma and single space, followed by the y-span value.
+
+
+Shape_l Class (inherits from Shape and Coord Classes)
+
+Merges all properties of shape and coord classes. The result is that now a shape's dimensions and the coordinate 
+of its top-left vertex may be stored in the new class. Shape_l class also adds the functions: top(), bot() (to
+determine y-axis coordinates of top and bottom edges of shape); and left() and right() (which return x-axis coordinates 
+of left and right edges of shape). The overloaded extraction operator outputs data to a stream in the format:
+
+	(<x_position>,<y_position>):<x_size>, <y_size>;
+
+The insertion operator inputs data in the same format.
+
+Gene Class (Abstract Class - can't be instantiated itself)
+
+Forms base class for all gene sub-types, eg shape_g. Has clone() and create() virtual functions for self-duplication.
+Gene class contains no data, and cannot be instantiated. However, pointers to gene objects can be created and it is
+these and not the gene base-type that are manipulated by the application.
+
+
+Shape_g Class (inherits from Gene class)
+
+This is a gene class that contains two pieces of 'protected data': 
+	shape *p_piece			Points to a shape object, referred to as the 'tied shape'
+	angle orientation		Orientation of shape, _0_degrees or _90_degrees
+
+Public functions are provided to get/set both the tied shape and the orientation. height() and width() functions
+return the dimensions of the tied shape, taking into account orientation. The clone() and create() functions in Gene
+class are overrided with functions that enable shape_g objects to duplicate themselves. Overloaded insertion and
+extraction operators use the following format:
+
+	<shape data> <orientation>
+
+Where:	<shape data> is the data pointed to by p_piece.
+		<orientation> is one of : <0d> <90d>
+
+
+Shape_g_l Class (inherits from shape_g class and coord class)
+
+Merges all properties of shape_g and coord classes. The result is that shape_g_l contains a pointer to a shape, an
+orientation and a coord object that locates the shape's top-left vertex. Shape_g_l class also adds the functions: top(),
+bot() (to determine y-axis coordinates of top and bottom edges of rotated shape); and left() and right() (which return 
+x-axis coordinates of left and right edges of rotated shape).
+
+
+Shape_Group Class
+
+Aggregate class which stores an array of shape objects. The size of the array is stored in 'sequence_size length'. The 
+shape_group class provides an overloaded subscript operator to access array elements.The
+shape_group object allows the length of the stored array to change through overloaded assignment and insertion operators.
+The contained array is dynamically allocated, and its length is set to zero upon instantiation. The insertion operator
+allows an entire array of shapes to be built from a stream. The format of the streamed data is:
+
+<shape 1 data>, <shape 2 data>, ..., <shape n data>:
+
+Where <shape data> format is "x-span y-span" as determined by the insertion operator for the shape class. Each set of
+shape data is immediately followed by a single comma plus white space. The final set of shape data is immediately
+followed by a 'non-comma single character', eg a colon.
+
+
+The following algorithm is used to read a list of shapes from a stream:
+
+1) Initialise shape count (i) to zero, store current byte position of input stream in 'shapes_start'.
+2) Read in a single shape, followed by a single character from the input stream.
+3) If the single char is a comma: increment shape count (i) and Goto (2); else Goto (4)
+4) Set the shape_list pointer to point to a new array of (i) shapes.
+5) Clear any EOF flag in input_stream, seek the 'shapes_start' byte offset of input stream, reset (i) to zero.
+6) Read in a single shape (store in shape array element (i)), followed by a single character from the input stream.
+7) If the single char is a comma: increment shape count (i) and Goto (6); else Goto (8)
+8) shape_group now contains an array of (i+1) shapes storing valid x-span and y-span values.
+
+
+Coord Class
+
+Coord objects contain two public pieces of data: an x-position and a y-position. The overloaded insertion operator first
+expects '(', x-position value, ',', y-position value, '):'. The overloaded extraction operator outputs in the
+same format.
+
+
+Coord_Group Class
+
+Aggregate class which stores an array of coord objects, of constant size 'max_coord_list'.
+The coord_group class provides an overloaded subscript operator to access array elements.
+
+
+Edge_node Class
+
+Edge_node objects are used as nodes in edge_lists, and each contains an indexing object consisting of a coord 
+object (called 'hotspot'), a y_size_t object (called 'length') and an edge_node pointer. The class provides
+set and get functions for the coord and y_size_t objects (and their components). The list class requires the
+following functions to be provided by the node object:
+
+get_index, set_index, get_data, set_data, set_to_first_index, set_to_next_index, compare_index, compare_data,
+get_pointer, set_pointer_to.
+
+where, in this case, 'index' refers to the coord object and 'data' refers to the y_size_t object. The comparison
+functions have two parameters, which are index or data objects respectively, and return an enumeration of type
+'compare' which can take on one of the following values: LARGER, EQUAL, SMALLER, so LARGER would mean the value of
+the first parameter is larger than the second. These functions are required for list ordering.
+
+Comparison between data items, ie 'y_size_t length' values uses a straightforward boolean expression.
+Comparison between index items, ie 'coord hotspot' is more complex. A list which is being used to store a top 
+profile orders its list nodes in increasing 'hotspot.x-position' order, whilst a list used to store a
+left profile orders list nodes in increasing 'hotspot.y_position' order. The public static data member 'compare_method'
+is a pointer to member-function which points to either compare_index_x or compare_index_y function.
+Before operations on a left profile list, compare_method must be set to point to compare_index_y function,
+and respectively when using a top profile list, compare_method must be set to point to compare_index_x function.
+Compare_method is initialised to compare_index_y when the application begins. Compare_method is static to the edge_node
+class, meaning that it is common to all edge_node objects.
+
+
+Test_Set Class
+
+Contains all data for a single layout test:
+
+Member Variable			Purpose
+
+char id[10]				Test identifier string
+shape_group shapes		Stores an array of shapes for the test
+char description[1000]	Freetext test descriptor
+placement_rule rule		Determines placement regime of test shapes
+x_size_t sheet_width	Width of macro sheet to layout test shapes onto
+y_size_t sheet_height	Height of macro sheet to layout test shapes onto
+
+The insertion operator reads data into these variables in the following format:
+
+<id> <shape_group data> <test descriptor> <!> <rule_regime> <sheet_width> <sheet_height>
+
+
+Notes:
+1. each field <> is separated by white space
+2. <id> is delimited by white space (max length is 9 chars)
+3. <shape_group data> is read in by the shape_group class insertion operator in the relevant format
+4. <test descriptor> (max length 1000 chars) may contain white space and is delimited by the single character <!>
+5. <rule_regime> may be one of: <LEFTMOST> <TOPMOST> <FLIP_LEFT> <FLIP_TOP>
+6. <sheet_width> and <sheet_height> and non-negative integers.
+
+Test_Set_Group Class
+
+Aggregate class which stores an array of test_set objects. The size of the array is stored in 'sequence_size length'. 
+The test_set_group class provides an overloaded subscript operator to access array elements. The
+test_set_group object allows the length of the stored array to change by use of the insertion operator.
+The contained array is dynamically allocated, and its length is set to zero upon instantiation. The insertion operator
+allows an entire array of test_sets to be built from a stream. The format of the streamed data is:
+
+<test set 1> <test set 2> ... <test set n>
+
+Where <test set> format is determined by the insertion operator for the test_set class, and each test is separated by
+white space.
+
+The following algorithm is used to read a list of test sets from a stream:
+
+1) Initialise test set count to zero, store current byte position of input stream in 'test_sets_start'.
+2) Read in a single test set from the input stream, increment count and if not EOF then Goto (2)
+3) Set the test_list pointer to point to a new array of (count) test_sets.
+4) Clear any EOF flag in input stream, seek the 'test_sets_start' byte offset of input stream, reset count to zero.
+5) Read in a single test set (store in element (count) of test_sets array) from the input stream.
+6) If not EOF, increment count and Goto (5).
+7) test_list now contains an array of (count+1) test sets, each fully loaded with test data.
+
+
+Chromosome Class (Abstract Class - can't be instantiated itself)
+
+Forms base class for all chromosome sub-types, eg LDA_c. Chromosome objects are aggregate groups of ordered gene objects.
+The chromosome class contains a pointer (gene **sequence) to an array of gene pointers, of length 'sequence_length_base'. 
+These two variables are set to NULL and zero in the chromosome constructor. Classes derived from chromosome are
+responsible for calling chromosome::generate_place_holders function, passing the length of chromosome required, within
+their constructor functions. The chromosome class then allocates sufficient space for the array of gene pointers, and
+sets sequence_length_base appropriately. The derived class is then responsible for allocating memory for the individual 
+gene objects that are pointed to by the elements of this array. The chromosome class provides an overloaded subscript 
+operator to access array elements. The class has clone() and create() virtual functions for self-duplication.
+Chromosome class objects cannot be instantiated. However, pointers to gene objects can be created and it is
+these and not the gene base-type that are manipulated by the application.
+
+
+LDA_c Class (Inherits from chromosome class - specialises class for use in LDA environment)
+
+This class allows an ordered sequence of shape_g gene objects to be stored in an array, and be manipulated as a generic
+chromosome. The constructor is responsible for calling chromosome::generate_place_holders, passing the number of genes
+required in the chromosome. This value is stored in a public static data member: LDA_length, and is common to all
+LDA_c objects. The constructor then allocates memory for each shape_g, and stores its pointer in the chromosome gene**
+array. In the copy constructor and overloaded assignment operators, the LDA_c::clone() member function is used to 
+allocate memory and copy member data for new shape_g objects contained in the new LDA_c chromosome object.
+The LDA_c class provides an overloaded subscript operator to access array elements.
+
+Environment Class
+Contains nothing for now
+
+LDA_e Class (Inherits from environment class)
+
+
+
+

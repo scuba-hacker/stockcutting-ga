@@ -1,0 +1,679 @@
+nnewga 1: no. 0	09/09/98 10:54:35
+Beginning Evolution for... Test 124
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+103.: HUX_position_c
+92.: segment_position_c
+75.: segment_order_c
+72.: swap_m
+52.: multi_swap_m
+394. -> TOTAL
+
+5400	0.995018687694728	0.563997236413541
+----------------------------------------------------------
+
+nnewga 1: no. 1	09/09/98 10:55:12
+Beginning Evolution for... Test 124
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+101.: HUX_position_c
+67.: segment_position_c
+65.: segment_order_c
+48.: swap_m
+36.: multi_swap_m
+317. -> TOTAL
+
+10000	0.89433439162903	0.629881582262535
+----------------------------------------------------------
+
+nnewga 1: no. 2	09/09/98 10:56:41
+Beginning Evolution for... Test 124
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+101.: HUX_position_c
+85.: segment_position_c
+71.: segment_order_c
+62.: multi_swap_m
+52.: swap_m
+371. -> TOTAL
+
+10000	0.945653801396941	0.607287449392713
+----------------------------------------------------------
+
+nnewga 1: no. 3	09/09/98 10:58:10
+Beginning Evolution for... Test 124
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+110.: segment_position_c
+107.: HUX_position_c
+92.: segment_order_c
+66.: swap_m
+56.: multi_swap_m
+431. -> TOTAL
+
+10000	0.933510700366403	0.262167866084654
+----------------------------------------------------------
+
+nnewga 1: no. 4	09/09/98 11:00:33
+Beginning Evolution for... Test 124
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+74.: segment_order_c
+70.: swap_m
+69.: segment_position_c
+57.: HUX_position_c
+40.: multi_swap_m
+310. -> TOTAL
+
+10000	0.858663406925955	0.811622433244055
+----------------------------------------------------------
+
+nnewga 1: no. 5	09/09/98 11:03:15
+Beginning Evolution for... Test 124
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+113.: HUX_position_c
+92.: segment_position_c
+89.: segment_order_c
+74.: swap_m
+60.: multi_swap_m
+428. -> TOTAL
+
+10000	0.910145850872602	0.696377483020963
+----------------------------------------------------------
+
+nnewga 1: no. 6	09/09/98 11:05:46
+Beginning Evolution for... Test 124
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+93.: HUX_position_c
+86.: segment_position_c
+84.: multi_swap_m
+77.: segment_order_c
+54.: swap_m
+394. -> TOTAL
+
+10000	0.933510700366403	0.630875023657813
+----------------------------------------------------------
+
+nnewga 1: no. 7	09/09/98 11:07:56
+Beginning Evolution for... Test 124
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+95.: HUX_position_c
+87.: segment_order_c
+70.: segment_position_c
+64.: swap_m
+46.: multi_swap_m
+362. -> TOTAL
+
+10000	0.945653801396941	0.690734941978265
+----------------------------------------------------------
+
+nnewga 1: no. 8	09/09/98 11:09:03
+Beginning Evolution for... Test 124
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+111.: segment_position_c
+98.: HUX_position_c
+90.: swap_m
+71.: segment_order_c
+56.: multi_swap_m
+426. -> TOTAL
+
+10000	0.933510700366403	0.276650522955942
+----------------------------------------------------------
+
+nnewga 1: no. 9	09/09/98 11:10:10
+Beginning Evolution for... Test 124
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+75.: segment_order_c
+72.: segment_position_c
+69.: HUX_position_c
+46.: multi_swap_m
+44.: swap_m
+306. -> TOTAL
+
+6300	0.995018687694728	0.88999644001424
+----------------------------------------------------------
+
+nnewga 2: no. 0	09/09/98 11:10:51
+Beginning Evolution for... Test 124
+rank selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+105.: segment_order_c
+101.: segment_position_c
+96.: HUX_position_c
+94.: swap_m
+74.: multi_swap_m
+470. -> TOTAL
+
+10000	0.945653801396941	0.623268698060942
+----------------------------------------------------------
+
+nnewga 2: no. 1	09/09/98 11:11:57
+Beginning Evolution for... Test 124
+rank selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+103.: segment_position_c
+96.: HUX_position_c
+94.: segment_order_c
+82.: swap_m
+68.: multi_swap_m
+443. -> TOTAL
+
+10000	0.902725667311739	0.768507829974047
+----------------------------------------------------------
+
+nnewga 2: no. 2	09/09/98 11:13:04
+Beginning Evolution for... Test 124
+rank selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+110.: segment_position_c
+104.: HUX_position_c
+102.: segment_order_c
+88.: swap_m
+72.: multi_swap_m
+476. -> TOTAL
+
+10000	0.879765395894428	0.624241373331021
+----------------------------------------------------------
+
+nnewga 2: no. 3	09/09/98 11:14:11
+Beginning Evolution for... Test 124
+rank selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+94.: segment_position_c
+92.: swap_m
+92.: segment_order_c
+78.: HUX_position_c
+78.: multi_swap_m
+434. -> TOTAL
+
+10000	0.902725667311739	0.671862402579952
+----------------------------------------------------------
+
+nnewga 2: no. 4	09/09/98 11:15:19
+Beginning Evolution for... Test 124
+rank selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+108.: segment_position_c
+104.: swap_m
+103.: segment_order_c
+98.: HUX_position_c
+96.: multi_swap_m
+509. -> TOTAL
+
+10000	0.933510700366403	0.585803777702111
+----------------------------------------------------------
+
+nnewga 2: no. 5	09/09/98 11:16:25
+Beginning Evolution for... Test 124
+rank selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+103.: HUX_position_c
+91.: segment_order_c
+82.: segment_position_c
+82.: swap_m
+78.: multi_swap_m
+436. -> TOTAL
+
+10000	0.877534566635039	0.603318250377074
+----------------------------------------------------------
+
+nnewga 2: no. 6	09/09/98 11:17:33
+Beginning Evolution for... Test 124
+rank selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+88.: swap_m
+86.: HUX_position_c
+74.: multi_swap_m
+70.: segment_order_c
+60.: segment_position_c
+378. -> TOTAL
+
+10000	0.881659282770173	0.296634679560387
+----------------------------------------------------------
+
+nnewga 2: no. 7	09/09/98 11:18:40
+Beginning Evolution for... Test 124
+rank selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+124.: HUX_position_c
+121.: segment_order_c
+118.: segment_position_c
+104.: swap_m
+56.: multi_swap_m
+523. -> TOTAL
+
+10000	0.924556213017751	0.751779210798891
+----------------------------------------------------------
+
+nnewga 2: no. 8	09/09/98 11:19:47
+Beginning Evolution for... Test 124
+rank selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+134.: HUX_position_c
+114.: segment_position_c
+113.: segment_order_c
+78.: swap_m
+40.: multi_swap_m
+479. -> TOTAL
+
+10000	0.936524453694069	0.21870903951799
+----------------------------------------------------------
+
+nnewga 2: no. 9	09/09/98 11:20:54
+Beginning Evolution for... Test 124
+rank selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+122.: segment_order_c
+83.: HUX_position_c
+76.: multi_swap_m
+67.: segment_position_c
+62.: swap_m
+410. -> TOTAL
+
+10000	0.902725667311739	0.877534566635039
+----------------------------------------------------------
+
+nnewga 1: no. 0	09/09/98 11:22:01
+Beginning Evolution for... Test 125
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+112.: HUX_position_c
+104.: segment_position_c
+93.: segment_order_c
+72.: multi_swap_m
+52.: swap_m
+433. -> TOTAL
+
+10000	0.873650695037664	0.289276519424918
+----------------------------------------------------------
+
+nnewga 1: no. 1	09/09/98 11:24:45
+Beginning Evolution for... Test 125
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+120.: segment_order_c
+108.: segment_position_c
+96.: HUX_position_c
+78.: swap_m
+72.: multi_swap_m
+474. -> TOTAL
+
+10000	0.901523574841482	0.530288300072473
+----------------------------------------------------------
+
+nnewga 1: no. 2	09/09/98 11:29:10
+Beginning Evolution for... Test 125
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+109.: segment_order_c
+91.: segment_position_c
+75.: HUX_position_c
+66.: multi_swap_m
+62.: swap_m
+403. -> TOTAL
+
+10000	0.873650695037664	0.739061884115097
+----------------------------------------------------------
+
+nnewga 1: no. 3	09/09/98 11:33:44
+Beginning Evolution for... Test 125
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+105.: HUX_position_c
+91.: segment_order_c
+85.: segment_position_c
+72.: swap_m
+68.: multi_swap_m
+421. -> TOTAL
+
+10000	0.831477905784315	0.670030467774326
+----------------------------------------------------------
+
+nnewga 1: no. 4	09/09/98 11:38:11
+Beginning Evolution for... Test 125
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+113.: segment_position_c
+101.: segment_order_c
+98.: HUX_position_c
+80.: swap_m
+68.: multi_swap_m
+460. -> TOTAL
+
+10000	0.873438728273212	0.309065934065934
+----------------------------------------------------------
+
+nnewga 1: no. 5	09/09/98 11:43:12
+Beginning Evolution for... Test 125
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+104.: segment_order_c
+75.: segment_position_c
+71.: HUX_position_c
+56.: swap_m
+54.: multi_swap_m
+360. -> TOTAL
+
+10000	0.873438728273212	0.346020761245675
+----------------------------------------------------------
+
+nnewga 1: no. 6	09/09/98 11:47:20
+Beginning Evolution for... Test 125
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+90.: HUX_position_c
+88.: segment_order_c
+82.: segment_position_c
+56.: multi_swap_m
+46.: swap_m
+362. -> TOTAL
+
+10000	0.836750062756255	0.660282711047447
+----------------------------------------------------------
+
+nnewga 1: no. 7	09/09/98 11:51:55
+Beginning Evolution for... Test 125
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+92.: segment_order_c
+92.: segment_position_c
+70.: swap_m
+65.: HUX_position_c
+62.: multi_swap_m
+381. -> TOTAL
+
+10000	0.873438728273212	0.282131661442006
+----------------------------------------------------------
+
+nnewga 1: no. 8	09/09/98 11:55:28
+Beginning Evolution for... Test 125
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+117.: segment_order_c
+86.: segment_position_c
+68.: multi_swap_m
+68.: swap_m
+67.: HUX_position_c
+406. -> TOTAL
+
+10000	0.839111939863644	0.739061884115097
+----------------------------------------------------------
+
+nnewga 1: no. 9	09/09/98 11:58:53
+Beginning Evolution for... Test 125
+tournament selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+89.: segment_order_c
+87.: HUX_position_c
+78.: segment_position_c
+38.: swap_m
+38.: multi_swap_m
+330. -> TOTAL
+
+10000	0.80695053393227	0.616865091604466
+----------------------------------------------------------
+
+nnewga 2: no. 0	09/09/98 12:01:26
+Beginning Evolution for... Test 125
+rank selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+163.: segment_order_c
+156.: HUX_position_c
+142.: segment_position_c
+94.: swap_m
+86.: multi_swap_m
+641. -> TOTAL
+
+10000	0.873438728273212	0.820220719117123
+----------------------------------------------------------
+
+nnewga 2: no. 1	09/09/98 12:04:03
+Beginning Evolution for... Test 125
+rank selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+150.: segment_order_c
+132.: swap_m
+114.: segment_position_c
+91.: HUX_position_c
+84.: multi_swap_m
+571. -> TOTAL
+
+10000	0.873438728273212	0.36978744155625
+----------------------------------------------------------
+
+nnewga 2: no. 2	09/09/98 12:06:41
+Beginning Evolution for... Test 125
+rank selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+140.: segment_order_c
+126.: segment_position_c
+111.: HUX_position_c
+102.: swap_m
+70.: multi_swap_m
+549. -> TOTAL
+
+10000	0.826636050516648	0.717171118522986
+----------------------------------------------------------
+
+nnewga 2: no. 3	09/09/98 12:09:14
+Beginning Evolution for... Test 125
+rank selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+154.: swap_m
+136.: segment_order_c
+136.: segment_position_c
+107.: HUX_position_c
+82.: multi_swap_m
+615. -> TOTAL
+
+10000	0.873438728273212	0.29840848806366
+----------------------------------------------------------
+
+nnewga 2: no. 4	09/09/98 12:11:56
+Beginning Evolution for... Test 125
+rank selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+150.: segment_position_c
+145.: HUX_position_c
+131.: segment_order_c
+126.: swap_m
+86.: multi_swap_m
+638. -> TOTAL
+
+10000	0.857338820301783	0.46230526594592
+----------------------------------------------------------
+
+nnewga 2: no. 5	09/09/98 12:14:10
+Beginning Evolution for... Test 125
+rank selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+139.: segment_order_c
+128.: HUX_position_c
+106.: segment_position_c
+96.: multi_swap_m
+70.: swap_m
+539. -> TOTAL
+
+10000	0.845752881579913	0.671862402579952
+----------------------------------------------------------
+
+nnewga 2: no. 6	09/09/98 12:16:09
+Beginning Evolution for... Test 125
+rank selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+128.: segment_position_c
+120.: swap_m
+116.: multi_swap_m
+114.: segment_order_c
+100.: HUX_position_c
+578. -> TOTAL
+
+10000	0.873438728273212	0.790123456790123
+----------------------------------------------------------
+
+nnewga 2: no. 7	09/09/98 12:18:06
+Beginning Evolution for... Test 125
+rank selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+148.: segment_position_c
+130.: segment_order_c
+122.: swap_m
+105.: HUX_position_c
+88.: multi_swap_m
+593. -> TOTAL
+
+10000	0.873438728273212	0.511363636363636
+----------------------------------------------------------
+
+nnewga 2: no. 8	09/09/98 12:20:04
+Beginning Evolution for... Test 125
+rank selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+135.: segment_order_c
+132.: segment_position_c
+124.: swap_m
+110.: HUX_position_c
+100.: multi_swap_m
+601. -> TOTAL
+
+10000	0.873438728273212	0.714285714285714
+----------------------------------------------------------
+
+nnewga 2: no. 9	09/09/98 12:22:00
+Beginning Evolution for... Test 125
+rank selection
+least-fit selection
+COBRA Rate Adaptor
+State-State Model
+COBRA operator rankings:
+135.: segment_position_c
+123.: HUX_position_c
+119.: segment_order_c
+86.: multi_swap_m
+78.: swap_m
+541. -> TOTAL
+
+10000	0.873438728273212	0.796008899821727
+----------------------------------------------------------

@@ -1,0 +1,361 @@
+
+random 1: no. 0	09/09/98 15:38:57
+Beginning Evolution for... Test 123
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+1500	1.	1.
+----------------------------------------------------------
+
+random 1: no. 1	09/09/98 15:39:03
+Beginning Evolution for... Test 123
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+900	1.	1.
+----------------------------------------------------------
+
+random 1: no. 2	09/09/98 15:39:08
+Beginning Evolution for... Test 123
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+700	1.	1.
+----------------------------------------------------------
+
+random 1: no. 3	09/09/98 15:39:11
+Beginning Evolution for... Test 123
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+300	1.	1.
+----------------------------------------------------------
+
+random 1: no. 4	09/09/98 15:39:13
+Beginning Evolution for... Test 123
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+900	1.	1.
+----------------------------------------------------------
+
+random 1: no. 5	09/09/98 15:39:17
+Beginning Evolution for... Test 123
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+2700	1.	1.
+----------------------------------------------------------
+
+random 1: no. 6	09/09/98 15:39:26
+Beginning Evolution for... Test 123
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+500	1.	1.
+----------------------------------------------------------
+
+random 1: no. 7	09/09/98 15:39:28
+Beginning Evolution for... Test 123
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+500	1.	1.
+----------------------------------------------------------
+
+random 1: no. 8	09/09/98 15:39:30
+Beginning Evolution for... Test 123
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+1200	1.	1.
+----------------------------------------------------------
+
+random 1: no. 9	09/09/98 15:39:34
+Beginning Evolution for... Test 123
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+1200	1.	1.
+----------------------------------------------------------
+
+random 1: no. 0	09/09/98 15:39:38
+Beginning Evolution for... Test 124
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+10000	0.858663406925955	0.858663406925955
+----------------------------------------------------------
+
+random 1: no. 1	09/09/98 15:40:35
+Beginning Evolution for... Test 124
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+10000	0.778546712802768	0.778546712802768
+----------------------------------------------------------
+
+random 1: no. 2	09/09/98 15:41:29
+Beginning Evolution for... Test 124
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+10000	0.830215700416665	0.830215700416665
+----------------------------------------------------------
+
+random 1: no. 3	09/09/98 15:42:23
+Beginning Evolution for... Test 124
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+10000	0.852272727272727	0.852272727272727
+----------------------------------------------------------
+
+random 1: no. 4	09/09/98 15:43:16
+Beginning Evolution for... Test 124
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+10000	0.826446280991735	0.826446280991735
+----------------------------------------------------------
+
+random 1: no. 5	09/09/98 15:44:10
+Beginning Evolution for... Test 124
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+10000	0.807978790556748	0.807978790556748
+----------------------------------------------------------
+
+random 1: no. 6	09/09/98 15:45:05
+Beginning Evolution for... Test 124
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+10000	0.808160172856481	0.808160172856481
+----------------------------------------------------------
+
+random 1: no. 7	09/09/98 15:46:25
+Beginning Evolution for... Test 124
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+10000	0.781921964187974	0.781921964187974
+----------------------------------------------------------
+
+random 1: no. 8	09/09/98 15:47:20
+Beginning Evolution for... Test 124
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+10000	0.807978790556748	0.807978790556748
+----------------------------------------------------------
+
+random 1: no. 9	09/09/98 15:48:29
+Beginning Evolution for... Test 124
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+10000	0.817686560299273	0.817686560299273
+----------------------------------------------------------
+
+random 1: no. 0	09/09/98 15:49:30
+Beginning Evolution for... Test 125
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+10000	0.751779210798891	0.751779210798891
+----------------------------------------------------------
+
+random 1: no. 1	09/09/98 15:51:35
+Beginning Evolution for... Test 125
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+10000	0.790123456790123	0.790123456790123
+----------------------------------------------------------
+
+random 1: no. 2	09/09/98 15:53:10
+Beginning Evolution for... Test 125
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+10000	0.732748355895876	0.732748355895876
+----------------------------------------------------------
+
+random 1: no. 3	09/09/98 15:54:45
+Beginning Evolution for... Test 125
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+10000	0.767877139657655	0.767877139657655
+----------------------------------------------------------
+
+random 1: no. 4	09/09/98 15:56:19
+Beginning Evolution for... Test 125
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+10000	0.761652892561984	0.761652892561984
+----------------------------------------------------------
+
+random 1: no. 5	09/09/98 15:57:55
+Beginning Evolution for... Test 125
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+10000	0.761652892561984	0.761652892561984
+----------------------------------------------------------
+
+random 1: no. 6	09/09/98 15:59:29
+Beginning Evolution for... Test 125
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+10000	0.739061884115097	0.739061884115097
+----------------------------------------------------------
+
+random 1: no. 7	09/09/98 16:01:05
+Beginning Evolution for... Test 125
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+10000	0.730513551026372	0.730513551026372
+----------------------------------------------------------
+
+random 1: no. 8	09/09/98 16:02:39
+Beginning Evolution for... Test 125
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+10000	0.724309642372114	0.724309642372114
+----------------------------------------------------------
+
+random 1: no. 9	09/09/98 16:04:17
+Beginning Evolution for... Test 125
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+10000	0.739061884115097	0.739061884115097
+----------------------------------------------------------
+
+
+random 1: no. 0	09/09/98 18:25:35
+Beginning Evolution for... Test 126
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+5000	0.750694000964433	0.750694000964433
+----------------------------------------------------------
+
+random 1: no. 1	09/09/98 18:27:03
+Beginning Evolution for... Test 126
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+5000	0.750694000964433	0.750694000964433
+----------------------------------------------------------
+
+random 1: no. 2	09/09/98 18:28:30
+Beginning Evolution for... Test 126
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+5000	0.811622433244055	0.811622433244055
+----------------------------------------------------------
+
+random 1: no. 3	09/09/98 18:29:58
+Beginning Evolution for... Test 126
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+5000	0.79719387755102	0.79719387755102
+----------------------------------------------------------
+
+random 1: no. 4	09/09/98 18:31:28
+Beginning Evolution for... Test 126
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+5000	0.783146683373796	0.783146683373796
+----------------------------------------------------------
+
+random 1: no. 5	09/09/98 18:32:56
+Beginning Evolution for... Test 126
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+5000	0.787787542452995	0.787787542452995
+----------------------------------------------------------
+
+random 1: no. 6	09/09/98 18:34:23
+Beginning Evolution for... Test 126
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+5000	0.783146683373796	0.783146683373796
+----------------------------------------------------------
+
+random 1: no. 7	09/09/98 18:35:50
+Beginning Evolution for... Test 126
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+5000	0.758499939952088	0.758499939952088
+----------------------------------------------------------
+
+random 1: no. 8	09/09/98 18:37:17
+Beginning Evolution for... Test 126
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+5000	0.750694000964433	0.750694000964433
+----------------------------------------------------------
+
+random 1: no. 9	09/09/98 18:38:47
+Beginning Evolution for... Test 126
+least-fit selection
+COBRA Rate Adaptor
+Random Model
+
+5000	0.777403052710626	0.777403052710626
+----------------------------------------------------------
