@@ -1,0 +1,45 @@
+Test performed: 09/08/98 22:11:58
+Test 119 of 124
+Test Description: 19.1) Main Test 1 - 20 shapes 
+Sheet Size = 25x10
+Number of Sheets Used = 6
+
+Fitness Report:
+Sheet 0: Area Used = 23x9
+Sheet 1: Area Used = 23x6
+Sheet 2: Area Used = 20x9
+Sheet 3: Area Used = 19x6
+Sheet 4: Area Used = 21x9
+Sheet 5: Area Used = 7x8
+
+Overall Fitness Of Layout: 0.257127
+
+
+Formatted Output: 
+Col 1: S=New Sheet, -=No New Sheet
+Col 2: Shape ID
+Col 3: Rotation=0 or 90 Degrees
+Col 4: Shape Size: (X-size x Y-size)
+Col 5: Location: (X , Y)
+
+
+S ID=0	R=0D	8x6	(0,0)
+- ID=1	R=0D	11x4	(8,0)
+- ID=2	R=0D	10x3	(0,6)
+- ID=3	R=0D	4x7	(19,0)
+S ID=4	R=0D	12x6	(0,0)
+- ID=5	R=0D	11x6	(12,0)
+S ID=6	R=0D	12x8	(0,0)
+- ID=7	R=0D	3x6	(12,0)
+- ID=8	R=0D	4x3	(12,6)
+- ID=9	R=0D	3x8	(16,0)
+- ID=10	R=0D	9x1	(0,8)
+- ID=11	R=0D	1x3	(19,0)
+S ID=12	R=0D	8x6	(0,0)
+- ID=13	R=0D	11x3	(8,0)
+- ID=14	R=0D	11x1	(8,3)
+S ID=15	R=0D	9x8	(0,0)
+- ID=16	R=0D	9x1	(0,8)
+- ID=17	R=0D	11x5	(9,0)
+- ID=18	R=0D	1x7	(20,0)
+S ID=19	R=0D	7x8	(0,0)

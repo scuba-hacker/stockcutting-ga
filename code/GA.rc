@@ -1,0 +1,770 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\GA.ico"
+IDR_GATYPE              ICON    DISCARDABLE     "res\\GADoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\bmp00001.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_CONTEXT_HELP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Export Layout\tAlt+L",       ID_EXPORT_CURRENT
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Refresh\tAlt+R",             ID_VIEW_REFRESH
+        MENUITEM "Normalise Chromosome\tAlt+N", ID_VIEW_NORMALISE
+        MENUITEM "Shuffle Chromosome\tAlt+W",   ID_VIEW_SHUFFLE
+        MENUITEM "Order Chromosome...\tAlt+O",  ID_VIEW_ORDER
+        MENUITEM SEPARATOR
+        MENUITEM "Next Test\tAlt+X",            ID_VIEW_NEXTTEST
+        MENUITEM "Previous Test\tAlt+Z",        ID_VIEW_PREVTEST
+        MENUITEM "Next 10th Test\tAlt+D",       ID_VIEW_NEXT10TEST
+        MENUITEM "Previous 10th Test\tAlt+A",   ID_VIEW_PREV10TEST
+        MENUITEM SEPARATOR
+        MENUITEM "Goto Test...\tAlt+G",         ID_VIEW_GOTO_TEST
+        MENUITEM SEPARATOR
+        MENUITEM "View next sheet\tAlt+0",      ID_VIEW_NEXT_SHEET
+        MENUITEM "View previous sheet\tAlt+9",  ID_VIEW_PREV_SHEET
+        MENUITEM SEPARATOR
+        MENUITEM "Set Regime for this &Test\tAlt+T", ID_SET_REGIME
+    END
+    POPUP "Evolve &Layout"
+    BEGIN
+        MENUITEM "GA &Settings\tAlt+S",         ID_GA_SETTINGS
+        MENUITEM "Run GA\tAlt+E",               ID_RUN_GA
+        MENUITEM SEPARATOR
+        MENUITEM "Batch Process\tAlt+B",        ID_BATCH_PROCESS
+        MENUITEM SEPARATOR
+        MENUITEM "Detailed Output",             ID_DETAILED_OUTPUT, CHECKED
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About GA...",                ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "0",            ID_VIEW_NEXT_SHEET,     VIRTKEY, ALT, NOINVERT
+    "9",            ID_VIEW_PREV_SHEET,     VIRTKEY, ALT, NOINVERT
+    "A",            ID_VIEW_PREV10TEST,     VIRTKEY, ALT, NOINVERT
+    "D",            ID_VIEW_NEXT10TEST,     VIRTKEY, ALT, NOINVERT
+    "E",            ID_RUN_GA,              VIRTKEY, ALT, NOINVERT
+    "G",            ID_VIEW_GOTO_TEST,      VIRTKEY, ALT, NOINVERT
+    "L",            ID_EXPORT_CURRENT,      VIRTKEY, ALT, NOINVERT
+    "N",            ID_VIEW_NORMALISE,      VIRTKEY, ALT, NOINVERT
+    "O",            ID_VIEW_ORDER,          VIRTKEY, ALT, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "R",            ID_VIEW_REFRESH,        VIRTKEY, ALT, NOINVERT
+    "S",            ID_GA_SETTINGS,         VIRTKEY, ALT, NOINVERT
+    "T",            ID_SET_REGIME,          VIRTKEY, ALT, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    "W",            ID_VIEW_SHUFFLE,        VIRTKEY, ALT, NOINVERT
+    "X",            ID_VIEW_NEXTTEST,       VIRTKEY, ALT, NOINVERT
+    "Z",            ID_VIEW_PREVTEST,       VIRTKEY, ALT, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 217, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About GA"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "GA Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 1998",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,32,14,WS_GROUP
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "GA MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "GA\0"
+            VALUE "LegalCopyright", "Copyright (C) 1998\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "GA.EXE\0"
+            VALUE "ProductName", "GA Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "GA\n\nGA\n\n\nGA.Document\nGA Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "GA"
+    AFX_IDS_IDLEMESSAGE     "For Help, press F1"
+    AFX_IDS_HELPMODEMESSAGE "Select an object on which to get Help"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+    ID_HELP_INDEX           "Opens Help\nHelp Topics"
+    ID_HELP_FINDER          "List Help topics\nHelp Topics"
+    ID_HELP_USING           "Display instructions about how to use help\nHelp"
+    ID_CONTEXT_HELP         "Display help for clicked on buttons, menus and windows\nHelp"
+    ID_HELP                 "Display help for current task or command\nHelp"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_REFRESH         "Reload Test Data"
+    ID_VIEW_NEXTTEST        "Layout and Display layout for next test"
+    ID_VIEW_PREVTEST        "Layout and Display shapes in previous test"
+    ID_VIEW_GOTO_TEST       "Goto a specified test"
+    ID_VIEW_NEXT10TEST      "Move forward 10 tests"
+    ID_VIEW_PREV10TEST      "Move back 10 tests"
+    ID_VIEW_SET_CHECK1      "Set Check Point 1 Memory Snapshot"
+    ID_VIEW_DIAGNOSE        "Calculate difference between memory snapshots"
+    ID_VIEW_SET_CHECK2      "Set Check Point 2 Memory Snapshot"
+    ID_VIEW_SHUFFLE         "Randomize gene order of current test"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_NORMALISE       "Revert chromosome to order described in test"
+    ID_VIEW_ORDER           "User provides chromosome order"
+    ID_POP_CREATE           "Create population object"
+    ID_OPERATORS_ORDER      "order based operator on two permutations of current test"
+    ID_OPERATORS_POSITION   "Position based crossover"
+    ID_OPERATORS_SWAP       "Swap Mutation"
+    ID_OPERATORS_INVERT     "Invert Mutation"
+    ID_OPERATORS_SHUNT      "Shunt Mutation"
+    ID_VIEW_NEXT_SHEET      "Look at next sheet"
+    ID_VIEW_PREV_SHEET      "Look at previous sheet"
+    ID_OPERATORS_HUXP       "Half Uniform Crossover for permutation chromosome"
+    ID_OPERATORS_NSWAP      "Swap N pairs of genes"
+    ID_GA_SETTINGS          "GA Settings Dialog"
+    ID_RUN_GA               "Run the GA using the current GA Settings"
+    ID_SET_REGIME           "Change Placement Regime for this test"
+    ID_EXPORT_CURRENT       "Output all shapes and their locations to a file"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_BATCH_PROCESS        "Process all test settings"
+    ID_DETAILED_OUTPUT      "Set Detailed Output"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.K.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\GA.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_GOTO_TEST_DIALOG DIALOG DISCARDABLE  0, 0, 112, 57
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_TEST_NUMBER,60,10,45,12,ES_AUTOHSCROLL | ES_NUMBER
+    DEFPUSHBUTTON   "OK",IDOK,5,35,45,15
+    PUSHBUTTON      "Cancel",IDCANCEL,60,35,45,15
+    LTEXT           "Goto Test...",IDC_STATIC,5,10,40,10
+END
+
+IDD_ORDER_DIALOG DIALOG DISCARDABLE  0, 0, 186, 97
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Provide Gene Order"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_GENE_ORDER,30,55,120,15,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+END
+
+IDD_N_SWAP_DIALOG DIALOG DISCARDABLE  0, 0, 112, 57
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_SWAP_NUMBER,60,10,45,12,ES_AUTOHSCROLL | ES_NUMBER
+    DEFPUSHBUTTON   "OK",IDOK,5,35,45,15
+    PUSHBUTTON      "Cancel",IDCANCEL,60,35,45,15
+    LTEXT           "Number of Pairs to Swap...",IDC_STATIC,5,10,50,20
+END
+
+IDD_GA_SETTINGS DIALOG DISCARDABLE  0, 0, 492, 247
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "GA Settings"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_SIMILARITIES_INDEX,235,200,30,12,ES_AUTOHSCROLL
+    GROUPBOX        "Mutation Operators",IDC_STATIC,171,0,105,75
+    DEFPUSHBUTTON   "OK",IDOK,290,230,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,350,230,50,14
+    COMBOBOX        IDC_BREED_SELECTION,75,69,75,65,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Breed Selection",IDC_STATIC,10,69,60,10
+    RTEXT           "Removal Selection",IDC_STATIC,10,84,60,15
+    COMBOBOX        IDC_REMOVAL_SELECTION,75,84,75,40,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Operator Adaptor",IDC_STATIC,15,55,55,10
+    COMBOBOX        IDC_OPERATOR_ADAPTOR,75,55,75,60,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Generation Model",IDC_STATIC,10,25,60,10
+    COMBOBOX        IDC_GENERATION_MODEL,75,25,75,60,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Order-Based",IDC_ORDER_CHECK,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,311,20,80,10
+    CONTROL         "Position-Based",IDC_POSITION_CHECK,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,311,30,80,10
+    CONTROL         "Half-Uniform",IDC_HALF_UNIFORM_CHECK,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,311,60,80,10
+    CONTROL         "Heuristic N-Point",IDC_HEURISTIC_N_POINT_CHECK,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,311,71,80,10
+    CONTROL         "Orientation N-Point",IDC_ORIENTATION_N_POINT_CHECK,
+                    "Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,311,
+                    81,80,10
+    CONTROL         "Single-Gene Swap",IDC_SINGLE_SWAP_CHECK,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,185,10,80,10
+    CONTROL         "Multi-Gene Swap",IDC_MULTI_SWAP_CHECK,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,185,20,80,10
+    CONTROL         "Inversion",IDC_INVERSION_CHECK,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,185,30,80,10
+    CONTROL         "Heuristic-Flip",IDC_HEURISTIC_FLIP_CHECK,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,185,50,80,10
+    CONTROL         "Shunt",IDC_SHUNT_CHECK,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,185,40,80,10
+    CONTROL         "Orientation-Flip",IDC_ORIENTATION_FLIP_CHECK,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,185,60,80,10
+    GROUPBOX        "Crossover Operators",IDC_CROSSOVER_OPERATORS,285,0,115,
+                    100
+    RTEXT           "Population Size",IDC_STATIC,10,10,60,15
+    COMBOBOX        IDC_POPULATION_SIZE,75,10,75,40,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Cataclysms Active",IDC_CATACLYSMS_ACTIVE,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,173,185,93,10
+    RTEXT           "Report Every",IDC_STATIC,185,230,45,15
+    COMBOBOX        IDC_REPORT_EVERY,235,230,30,40,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Cataclysmic Mutation",IDC_CATACLYSMIC_MUTATION,171,175,
+                    230,45
+    RTEXT           "Similarities Index",IDC_STATIC,175,200,55,10
+    RTEXT           "Cataclysm Trigger",IDC_STATIC,290,199,65,10
+    RTEXT           "Mutation Rate",IDC_STATIC,290,185,65,10
+    EDITTEXT        IDC_MUTATION_RATE,360,185,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CATACLYSM_TRIGGER,360,199,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_GENERATION_EPOCH,75,40,70,12,ES_AUTOHSCROLL
+    RTEXT           "Generation Epoch",IDC_STATIC,10,40,60,10
+    GROUPBOX        "Hill-Climbing Settings",IDC_HILL_CLIMBING_SETTINGS,5,
+                    105,155,65
+    GROUPBOX        "Evolution Settings",IDC_STATIC,5,0,155,100
+    EDITTEXT        IDC_RESTART_THRESHOLD,75,135,70,12,ES_AUTOHSCROLL
+    RTEXT           "Restart Threshold",IDC_STATIC,10,135,60,10
+    EDITTEXT        IDC_NEIGHBOURHOOD,75,150,70,12,ES_AUTOHSCROLL
+    RTEXT           "Neighbourhood",IDC_STATIC,10,150,60,10
+    GROUPBOX        "Simulated Annealing Settings",
+                    IDC_SIMULATED_ANNEALING_SETTINGS,5,175,155,65
+    EDITTEXT        IDC_START_TEMP,75,190,70,12,ES_AUTOHSCROLL
+    RTEXT           "Start Temperature",IDC_STATIC,10,190,60,10
+    EDITTEXT        IDC_END_TEMP,75,205,70,12,ES_AUTOHSCROLL
+    RTEXT           "End Temperature",IDC_STATIC,10,205,60,10
+    EDITTEXT        IDC_COOLING_RATIO,75,220,70,12,ES_AUTOHSCROLL
+    RTEXT           "Cooling Ratio",IDC_STATIC,10,220,60,10
+    CONTROL         "Edge Recombination",IDC_EDGE_RECOMBINATION,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,311,10,80,10
+    CONTROL         "Seg Position-Based",IDC_SEG_POSITION_BASED,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,311,40,80,10
+    CONTROL         "Seg Order-Based",IDC_SEG_ORDER_BASED,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,311,50,80,10
+    GROUPBOX        "Other Settings",IDC_STATIC,171,80,105,90
+    EDITTEXT        IDC_TOURNAMENT_SIZE,235,105,30,12,ES_AUTOHSCROLL
+    RTEXT           "Tournament Size",IDC_STATIC,175,105,55,10
+    EDITTEXT        IDC_MULTI_SWAP_SIZE,235,120,30,12,ES_AUTOHSCROLL
+    RTEXT           "Multi-Swap Size",IDC_STATIC,181,120,50,10
+    EDITTEXT        IDC_MAX_SEGMENT_LENGTH,361,150,30,12,ES_AUTOHSCROLL
+    RTEXT           "Max Segment Length",IDC_STATIC,287,150,70,10
+    EDITTEXT        IDC_MIN_SEGMENT_LENGTH,361,135,30,12,ES_AUTOHSCROLL
+    RTEXT           "Min Segment Length",IDC_STATIC,291,135,65,10
+    CONTROL         "Segment Restrictions",IDC_SEGMENT_RESTRICTIONS,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,291,120,100,
+                    10
+    EDITTEXT        IDC_N_POINT_SIZE,235,150,30,12,ES_AUTOHSCROLL
+    RTEXT           "N-Point N Size",IDC_STATIC,181,150,50,10
+    GROUPBOX        "Segment Settings",IDC_SEGMENT_SETTINGS,285,105,115,65
+    EDITTEXT        IDC_COBRA_ITERATIONS,235,90,30,12,ES_AUTOHSCROLL
+    RTEXT           "COBRA Iterations",IDC_STATIC,175,90,55,10
+    EDITTEXT        IDC_FLIP_SIZE,235,135,30,12,ES_AUTOHSCROLL
+    RTEXT           "Flip Size",IDC_STATIC,181,135,50,10
+    RTEXT           "Stored GA Settings",IDC_STATIC,405,10,60,10
+    COMBOBOX        IDC_SETTINGS,405,25,75,195,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Add To Setups",IDC_STORE,405,45,75,15,BS_CENTER | 
+                    BS_VCENTER | BS_MULTILINE
+    PUSHBUTTON      "Remove From Setups",IDC_REMOVE_FROM_SETUPS,405,85,75,15,
+                    BS_CENTER | BS_VCENTER | BS_MULTILINE
+END
+
+IDD_SET_REGIME_DIALOG DIALOG DISCARDABLE  0, 0, 152, 113
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Set Regime For Current Test"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,95,10,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,95,27,50,14
+    CONTROL         "Leftmost",IDC_LEFTMOST,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,15,15,50,15
+    CONTROL         "Inner Topmost",IDC_ITOPMOST,"Button",BS_AUTORADIOBUTTON,
+                    15,60,60,15
+    CONTROL         "Topmost",IDC_TOPMOST,"Button",BS_AUTORADIOBUTTON,15,45,
+                    40,15
+    CONTROL         "Dynamic",IDC_DYNAMIC,"Button",BS_AUTORADIOBUTTON,15,75,
+                    40,15
+    GROUPBOX        "Regime Setting",IDC_STATIC,10,5,75,90
+    CONTROL         "Inner Leftmost",IDC_ILEFTMOST,"Button",
+                    BS_AUTORADIOBUTTON,15,30,60,15
+END
+
+IDD_BATCH_SETTINGS DIALOG DISCARDABLE  0, 0, 186, 97
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Batch Process Settings"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+    LTEXT           "Number of Different Layouts to Process",IDC_STATIC,5,5,
+                    75,20
+    EDITTEXT        IDC_LAYOUT_COUNT,85,5,30,15,ES_AUTOHSCROLL
+    LTEXT           "Number of Times to run each experiment",IDC_STATIC,5,30,
+                    75,20
+    EDITTEXT        IDC_EXPERIMENT_COUNT,85,30,30,15,ES_AUTOHSCROLL
+    CTEXT           "The experiments run are those with setting name: '<prefix> x'",
+                    IDC_STATIC,45,75,95,20
+    LTEXT           "Use Settings Prefixed with...",IDC_STATIC,5,55,79,20
+    EDITTEXT        IDC_PREFIX,85,55,30,15,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_GOTO_TEST_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 105
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 50
+    END
+
+    IDD_ORDER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 90
+    END
+
+    IDD_N_SWAP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 105
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 50
+    END
+
+    IDD_GA_SETTINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 485
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 240
+    END
+
+    IDD_SET_REGIME_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 145
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 106
+    END
+
+    IDD_BATCH_SETTINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 90
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_GA_SETTINGS DLGINIT
+BEGIN
+    IDC_BREED_SELECTION, 0x403, 5, 0
+0x6152, 0x6b6e, "\000" 
+    IDC_BREED_SELECTION, 0x403, 11, 0
+0x6f54, 0x7275, 0x616e, 0x656d, 0x746e, "\000" 
+    IDC_REMOVAL_SELECTION, 0x403, 10, 0
+0x654c, 0x7361, 0x2d74, 0x6946, 0x0074, 
+    IDC_REMOVAL_SELECTION, 0x403, 14, 0
+0x6e49, 0x6576, 0x7472, 0x6465, 0x5220, 0x6e61, 0x006b, 
+    IDC_OPERATOR_ADAPTOR, 0x403, 18, 0
+0x6441, 0x7061, 0x6974, 0x6576, 0x4d20, 0x7475, 0x7461, 0x6f69, 0x006e, 
+
+    IDC_OPERATOR_ADAPTOR, 0x403, 6, 0
+0x4f43, 0x5242, 0x0041, 
+    IDC_OPERATOR_ADAPTOR, 0x403, 11, 0
+0x6946, 0x6578, 0x2064, 0x6152, 0x6574, "\000" 
+    IDC_OPERATOR_ADAPTOR, 0x403, 7, 0
+0x6152, 0x646e, 0x6d6f, "\000" 
+    IDC_GENERATION_MODEL, 0x403, 13, 0
+0x7453, 0x6165, 0x7964, 0x532d, 0x6174, 0x6574, "\000" 
+    IDC_GENERATION_MODEL, 0x403, 14, 0
+0x6948, 0x6c6c, 0x4320, 0x696c, 0x626d, 0x6e69, 0x0067, 
+    IDC_GENERATION_MODEL, 0x403, 17, 0
+0x4153, 0x4820, 0x6c69, 0x206c, 0x6c43, 0x6d69, 0x6962, 0x676e, "\000" 
+    IDC_GENERATION_MODEL, 0x403, 20, 0
+0x6953, 0x756d, 0x616c, 0x6574, 0x2064, 0x6e41, 0x656e, 0x6c61, 0x6e69, 
+0x0067, 
+    IDC_GENERATION_MODEL, 0x403, 7, 0
+0x6152, 0x646e, 0x6d6f, "\000" 
+    IDC_POPULATION_SIZE, 0x403, 3, 0
+0x3035, "\000" 
+    IDC_POPULATION_SIZE, 0x403, 4, 0
+0x3031, 0x0030, 
+    IDC_POPULATION_SIZE, 0x403, 4, 0
+0x3531, 0x0030, 
+    IDC_POPULATION_SIZE, 0x403, 4, 0
+0x3032, 0x0030, 
+    IDC_REPORT_EVERY, 0x403, 3, 0
+0x3035, "\000" 
+    IDC_REPORT_EVERY, 0x403, 4, 0
+0x3031, 0x0030, 
+    IDC_REPORT_EVERY, 0x403, 4, 0
+0x3532, 0x0030, 
+    IDC_REPORT_EVERY, 0x403, 5, 0
+0x3031, 0x3030, "\000" 
+    IDC_SETTINGS, 0x403, 8, 0
+0x6544, 0x6166, 0x6c75, 0x0074, 
+    0
+END
+
+#endif    // English (U.K.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\GA.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
