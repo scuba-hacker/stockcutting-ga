@@ -18,3 +18,9 @@ Crossover and Mutation Operators
 Cataclysmic Events
 
 Scuba Hacker hopes that he can repurpose the GA engine to optimise the Travelling Salesman NP-Hard problem as part of his Mercator Origins - Sat Nav and Telemetry Console - for scuba divers and snorkellers. This would allow efficient routes to be computed considering the diver's preferences, the length of the dive and the sea/lake conditions - eg colder dives will be shorter and slower to complete than warmer dives.
+
+The entire repo is published under the MIT licence, which has these features:
+
+Permits:            Commercial Use, Distribution, Modification, Private Use 
+Conditions of Use:  License and copyright notice must be included with the licensed material 
+Limitations to Use: Limitation of Liability and no warranty provided
