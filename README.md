@@ -10,23 +10,20 @@ The problem space is constrained to rectangular source material and rectangular 
 
 The engine is an educational demonstrator that explores all the different ways that a GA can be steered using much of the canon of GA techniques that were available at the end of the 20th Century, including:
 
-(list to be made complete...)
-
-Generational Models
-
-Stochastic Hill Climbing
-
-Crossover and Mutation Operators
-
-Cataclysmic Events
-
+* Gene and Chromosome Encoding
+* Layout Placement Algorithms
+* Crossover Operators: Order-based, Segment order-based, position-based, segmented position- based, half-uniform, edge-recombination, n-point feature
+* Mutation Operators: Single gene swap mutation, multiple gene swap mutation, inversion mutation, shunt mutation, standard mutation, cataclysmic mutation
+* Selector operators: Rank Selection, Tournament Selection, Best Selection, Worst Selection, Work by Rank (inverted selection)
+* Generational Models: Steady State, Stochastic, Special Mutator - Random, Stochistic Hill Climbing, Steepest Ascent Hill Climbing, Simulated Annealing
+* Evolution Drivers
+* Fitness Functions
+* Layout Determining Algorithms
 
 Scuba Hacker hopes that he can repurpose the GA engine to optimise the Travelling Salesman NP-Hard problem as part of his Mercator Origins - Sat Nav and Telemetry Console - for scuba divers and snorkellers. This would allow efficient routes to be computed considering the diver's preferences, the length of the dive and the sea/lake conditions - eg colder dives will be shorter and slower to complete than warmer dives.
 
 The entire repo is published under the MIT licence, which has these features:
 
 Permits:            Commercial Use, Distribution, Modification, Private Use
-
 Conditions of Use:  License and copyright notice must be included with the licensed material
-
 Limitations to Use: Limitation of Liability and no warranty provided
