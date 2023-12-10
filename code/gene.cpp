@@ -1,6 +1,8 @@
 #include "stdafx.h"
 #include "gene.h"
 #include "sort.h"
+#include <sstream>
+
 
 IMPLEMENT_DYNAMIC(shape , CObject);
 IMPLEMENT_DYNAMIC(shape_g , CObject);
@@ -21,7 +23,11 @@ IMPLEMENT_DYNAMIC(LDA_e , CObject);
 IMPLEMENT_DYNAMIC(LDA_new , CObject);
 
 
-ostream& operator<<(ostream& output_stream, layout_piece &l)
+
+std::ostream& operator<<(std::ostream& output_stream, const shape_l output_shape_l);
+std::istream& operator>>(std::istream& input_stream, shape_l& input_shape_l);
+
+std::ostream& operator<<(std::ostream& output_stream, layout_piece &l)
 {
 	char sheet_label;
 	if (l.new_sheet_needed)
@@ -50,7 +56,7 @@ void layout_piece::Dump( CDumpContext& dc ) const
 #endif
 
 
-ostream& operator<<(ostream& output_stream, shape_g_l &s)
+std::ostream& operator<<(std::ostream& output_stream, shape_g_l &s)
 {
 
 	int rotation;
@@ -147,17 +153,23 @@ void output_angle(CDumpContext& output_stream, const angle output_ang)
 	}
 }
 
-void str_out_angle(char *output, const angle output_ang)
+void str_out_angle(char *output, int string_size, const angle output_ang)
 {
 	switch (output_ang)
 	{
-		case _0_degrees: strcpy(output,"0d"); break;
-		case _90_degrees: strcpy(output,"90d"); break;
-		default: strcpy(output,"bad"); break;
+		case _0_degrees: 
+			strncpy_s(output, string_size, "0d", string_size);
+			break;
+		case _90_degrees: 
+			strncpy_s(output, string_size, "90d", string_size);
+			break;
+		default: 
+			strncpy_s(output, string_size, "bad", string_size);
+			break;
 	}
 }
 
-istream& operator>>(istream& input_stream, angle &input_angle)
+std::istream& operator>>(std::istream& input_stream, angle &input_angle)
 {
 	char first_char;
 	input_stream >> first_char;
@@ -189,9 +201,12 @@ edge_node::~edge_node()
 
 edge_node& edge_node::operator=(const edge_node &source)
 {	
-	next_edge_node=source.next_edge_node;
-	hotspot=source.hotspot;
-	length=source.length;
+	if (this != &source)
+	{
+		next_edge_node = source.next_edge_node;
+		hotspot = source.hotspot;
+		length = source.length;
+	}
 	return *this; 
 }
 
@@ -289,10 +304,10 @@ edge_node* edge_node::get_pointer()
 	
 // Define method for outputting name_object contents on standard output
 void edge_node::print_node()	
-{	cout << hotspot << ' ' << length; }
+{	std::cout << hotspot << ' ' << length; }
 
 // Define overloaded output operator for edge_node
-ostream& operator<<(ostream& output_stream, const edge_node &a)
+std::ostream& operator<<(std::ostream& output_stream, const edge_node &a)
 {
 	output_stream << a.hotspot << ' ' << a.length;
 	return output_stream;
@@ -339,8 +354,11 @@ shape::~shape()
 
 shape& shape::operator=(const shape &source)
 {	
-	x_size=source.x_size;	y_size=source.y_size; id=source.id;
-	rotation_ok=source.rotation_ok;
+	if (this != &source)
+	{
+		x_size = source.x_size;	y_size = source.y_size; id = source.id;
+		rotation_ok = source.rotation_ok;
+	}
 	return *this;
 }
 
@@ -356,12 +374,12 @@ bool shape::is_rotation_ok()
 { return rotation_ok;}
 
 
-ostream& operator<<(ostream& output_stream, const shape output_shape)
+std::ostream& operator<<(std::ostream& output_stream, const shape output_shape)
 {
 	return output_stream << output_shape.x_size << ", " << output_shape.y_size << ";";
 }
 
-istream& operator>>(istream& input_stream, shape& input_shape)
+ std::istream& operator>>(std::istream& input_stream, shape& input_shape)
 {
 	return input_stream >> input_shape.x_size >> input_shape.y_size;
 }
@@ -415,16 +433,16 @@ void shape_l::Dump( CDumpContext& dc ) const
 }
 #endif
 
-ostream& operator<<(ostream& output_stream, const shape_l output_shape_l)
+std::ostream& operator<<(std::ostream& output_stream, const shape_l output_shape_l)
 {
 	return output_stream << "(" << output_shape_l.x_pos << ", " << output_shape_l.y_pos << "):" <<
 													output_shape_l.x_size << ", " << output_shape_l.y_size << ";";
 }
 
-istream& operator>>(istream& input_stream, shape_l& input_shape_l)
+std::istream& operator>>(std::istream& input_stream, shape_l& input_shape_l)
 {
-	return input_stream >> "(" >> input_shape_l.x_pos >> ", " >> input_shape_l.y_pos >> "):" >>
-													input_shape_l.x_size >> "," >> input_shape_l.y_size >> ";";
+	return input_stream >> std::string("(") >> input_shape_l.x_pos >> std::string(", ") >> input_shape_l.y_pos >> std::string("):") >>
+													input_shape_l.x_size >> std::string(",") >> input_shape_l.y_size >> std::string(";");
 }
 
 coord::coord()
@@ -450,7 +468,11 @@ coord::~coord()
 
 coord& coord::operator=(const coord &source)
 {	
-	x_pos=source.x_pos;	y_pos=source.y_pos;
+	if (this != &source)
+	{
+		x_pos = source.x_pos;	
+		y_pos = source.y_pos;
+	}
 	return *this;
 }
 
@@ -461,14 +483,14 @@ coord operator-(const coord a, const coord b)
 {	return coord(a.x_pos-b.x_pos, a.y_pos-b.y_pos); }
 
 
-ostream& operator<<(ostream& output_stream, const coord output_coord)
+std::ostream& operator<<(std::ostream& output_stream, const coord output_coord)
 {
-	return output_stream << "(" << output_coord.x_pos << ", " << output_coord.y_pos << "):";
+	return output_stream << std::string("(") << output_coord.x_pos << std::string(", ") << output_coord.y_pos << std::string("):");
 }
 
-istream& operator>>(istream& input_stream, coord& input_coord)
+ std::istream& operator>>(std::istream& input_stream, coord& input_coord)
 {
-	return input_stream >> "(" >> input_coord.x_pos >> ", " >> input_coord.y_pos >> "):";
+	return input_stream >> std::string("(") >> input_coord.x_pos >> std::string(", ") >> input_coord.y_pos >> std::string("):");
 }
 
 int operator==(const coord &coord1, const coord &coord2)
@@ -496,12 +518,24 @@ shape_g::~shape_g()
 }
 
 shape_g& shape_g::operator=(const shape_g &source)
-{	p_piece=source.p_piece;	orientation=source.orientation; heuristic=source.heuristic;
+{	
+	if (this != &source)
+	{
+		p_piece = source.p_piece;
+		orientation = source.orientation;
+		heuristic = source.heuristic;
+	}
 	return *this;
 }
 
 shape_g& shape_g::operator=(const shape_g_l &source)
-{	p_piece=source.p_piece;	orientation=source.orientation; heuristic=source.heuristic;
+{	
+	if (this != &source)
+	{
+		p_piece = source.p_piece;
+		orientation = source.orientation;
+		heuristic = source.heuristic;
+	}
 	return *this;
 }
 
@@ -591,7 +625,7 @@ void shape_g::set_heuristic(const placement_rule &h)
 }
 
 
-ostream& operator<<(ostream& output_stream, const shape_g output_shape_g)
+std::ostream& operator<<(std::ostream& output_stream, const shape_g output_shape_g)
 {
 	if (output_shape_g.p_piece==NULL)
 		return output_stream << " *Shape_Gene contains no shape* ";
@@ -600,7 +634,7 @@ ostream& operator<<(ostream& output_stream, const shape_g output_shape_g)
 }
 
 
-istream& operator>>(istream& input_stream, shape_g& input_shape_g)
+ std::istream& operator>>(std::istream& input_stream, shape_g& input_shape_g)
 {
 	input_stream >> *input_shape_g.p_piece >> input_shape_g.orientation;
 	// note doesn't read in heuristic from stream
@@ -642,19 +676,25 @@ shape_g_l::~shape_g_l()
 
 shape_g_l& shape_g_l::operator=(const shape_g &source)
 {
-	p_piece=source.get_tied_shape();
-	orientation=source.get_orientation();
-	heuristic=source.get_heuristic();
+	if (this != &source)
+	{
+		p_piece = source.get_tied_shape();
+		orientation = source.get_orientation();
+		heuristic = source.get_heuristic();
+	}
 	return *this;
 }
 
 shape_g_l& shape_g_l::operator=(const shape_g_l &source)
 {
-	p_piece=source.get_tied_shape();
-	orientation=source.get_orientation();
-	heuristic=source.get_heuristic();
-	x_pos=source.x_pos;
-	y_pos=source.y_pos;
+	if (this != &source)
+	{
+		p_piece = source.get_tied_shape();
+		orientation = source.get_orientation();
+		heuristic = source.get_heuristic();
+		x_pos = source.x_pos;
+		y_pos = source.y_pos;
+	}
 	return *this;
 }
 
@@ -682,8 +722,10 @@ shape_group::shape_group()
 
 shape_group::~shape_group()
 {
-	if (shape_list!=NULL && length!=0)
+	if (shape_list != NULL && length!=0)
+	{
 		delete[] shape_list;
+	}
 }
 
 shape_group::shape_group(const shape_group &source)
@@ -692,16 +734,19 @@ shape_group::shape_group(const shape_group &source)
 	total_area=source.total_area;
 	shape_list=new shape[length];
 	for (array_index i=0; i<length; i++)
-		shape_list[i]=source.shape_list[i];
+		shape_list[i] = source.shape_list[i];
 }
 
 shape_group& shape_group::operator=(const shape_group &source)
 {
-	length=source.length;
-	total_area=source.total_area;
-	shape_list=new shape[length];
-	for (array_index i=0; i<length; i++)
-		shape_list[i]=source.shape_list[i];
+	if (this != &source)
+	{
+		length = source.length;
+		total_area = source.total_area;
+		shape_list = new shape[length];
+		for (array_index i = 0; i < length; i++)
+			shape_list[i] = source.shape_list[i];
+	}
 	return *this;
 }
 void shape_group::set_rotation_validities(xy_size_t wide, xy_size_t high)
@@ -720,43 +765,48 @@ shape& shape_group::operator[](const array_index &i)
 	return shape_list[i];
 }
 
-istream& operator>>(istream& input_stream, shape_group& shape_group_to_input)
+ std::istream& operator>>(std::istream& input_stream, shape_group& shape_group_to_input)
 {
-	if (shape_group_to_input.shape_list!=NULL)
+	if (shape_group_to_input.shape_list != NULL)
+	{
 		delete[] shape_group_to_input.shape_list;
+		shape_group_to_input.shape_list = NULL;
+		shape_group_to_input.length = 0;
+	}
 
 	shape one_shape;
 	array_index i=0;
-	streampos shapes_start=input_stream.tellg();
+	std::streampos shapes_start=input_stream.tellg();
 	unsigned char comma;
+
 	while (input_stream >> one_shape && input_stream >> comma)		// Establish number of shapes in file
 	{
 		i++;
-		if (comma!=',') break;
+		if (comma != ',') break;
 	}
-
 
 	input_stream.clear();			// Clear error indicating eof reached
 	input_stream.seekg(shapes_start);		// Reset stream pointer to start of stream
-
+	
 	shape_group_to_input.length=i;
 	shape_group_to_input.shape_list=new shape[i];
 
-	i=0;
-	while (input_stream >> shape_group_to_input.shape_list[i] &&
+	array_index j=0;
+	while (j < i && input_stream >> shape_group_to_input.shape_list[j] &&
 				 input_stream >> comma)	// read in x then y format
 	{
-		i++;
-		if (comma!=',') break;
+		j++;
+		if (comma != ',') break;
 	}
 
 	shape_group_to_input.total_area=0;
-	for (i=0; i<shape_group_to_input.length; i++)
+	for (array_index k=0; k<shape_group_to_input.length; k++)
 	{
 		shape_group_to_input.total_area+=
-		shape_group_to_input.shape_list[i].width()*
-		shape_group_to_input.shape_list[i].height();
-		shape_group_to_input.shape_list[i].set_id(i);
+			shape_group_to_input.shape_list[k].width()*
+			shape_group_to_input.shape_list[k].height();
+	
+		shape_group_to_input.shape_list[k].set_id(k);
 	}
 
 	return input_stream;
@@ -783,34 +833,42 @@ test_set::~test_set()
 
 test_set& test_set::operator=(const test_set &source)
 {	
-	strcpy(id,source.id);
-	shapes=source.shapes;
-	rule=source.rule;
-	sheet_width=source.sheet_width;
-	sheet_height=source.sheet_height;
-	strcpy(description,source.description);
+	if (this != &source)
+	{
+		strncpy_s(id, source.id, id_size);
+		shapes = source.shapes;
+		rule = source.rule;
+		sheet_width = source.sheet_width;
+		sheet_height = source.sheet_height;
+		strncpy_s(description, source.description,description_size);
+	}
 	return *this;
 }
 
-ostream& operator<<(ostream& output_stream, const test_set shape_l_to_output)
+std::ostream& operator<<(std::ostream& output_stream, const test_set shape_l_to_output)
 {
 	return output_stream;
 }
 
-istream& operator>>(istream& input_stream, test_set& input)
+ std::istream& operator>>(std::istream& input_stream, test_set& input)
 {
 	if (!(input_stream >> input.id))
 		return input_stream;
+
 	if (*input.id!='\0') 
 		input.id[strlen(input.id)-1]='\0';
+
 	input_stream >> input.shapes;
 	input.description[0]='\0';
-	char test_word[20];
+
+	const int test_word_size = 20;
+
+	char test_word[test_word_size];
 	while (input_stream >> test_word)
 	{
 		if (test_word[0]=='!') break;
-		strcat(test_word," ");
-		strcat(input.description, test_word);
+		strcat_s(test_word, test_word_size," ");
+		strcat_s(input.description, input.description_size, test_word);
 	}
 
 	char rule_digit[20];
@@ -866,6 +924,23 @@ test_set_group::test_set_group(const test_set_group &source)
 	for (array_index i=0; i<length; i++)
 		test_list[i]=source.test_list[i];
 }
+
+test_set_group& test_set_group::operator=(const test_set_group& source)
+{
+	if (this != &source)
+	{
+		if (test_list != NULL)
+			delete[] test_list;
+
+		length = source.length;
+		current = source.current;
+		test_list = new test_set[length];
+		for (array_index i = 0; i < length; i++)
+			test_list[i] = source.test_list[i];
+	}
+	return *this;
+}
+
 
 test_set& test_set_group::next_current()
 {
@@ -924,14 +999,18 @@ test_set& test_set_group::operator[](const array_index &i)
 	return test_list[i];
 }
 
-istream& operator>>(istream& input_stream, test_set_group& input)
+ std::istream& operator>>(std::istream& input_stream, test_set_group& input)
 {
-	if (input.test_list!=NULL)
-		delete[] input.test_list;
+	 if (input.test_list != NULL)
+	 {
+		 delete[] input.test_list;
+		 input.test_list = NULL;
+		 input.length = 0;
+	 }
 
 	test_set one_test_set;
 	array_index count=0;
-	streampos test_sets_start=input_stream.tellg();
+	std::streampos test_sets_start=input_stream.tellg();
 
 	test_set one_test;
 	while (input_stream >> one_test)			// establish number of test sets in file
@@ -944,7 +1023,7 @@ istream& operator>>(istream& input_stream, test_set_group& input)
 	input.test_list=new test_set[count];
 
 	count=0;
-	while (input_stream >> input.test_list[count])	// read in x then y format
+	while (count < input.length && input_stream >> input.test_list[count])	// read in x then y format
 		count++;
 
 	return input_stream;
@@ -982,7 +1061,8 @@ chromosome::chromosome(const chromosome &source)
 
 void chromosome::generate_place_holders(const sequence_size &length)
 {
-	sequence=new gene*[length];
+	if (sequence == NULL)
+		sequence=new gene*[length];
 }
 
 gene*& chromosome::operator[](const array_index &i)
@@ -994,8 +1074,10 @@ gene*& chromosome::operator[](const array_index &i)
 LDA_c::LDA_c()
 {
 	generate_place_holders(LDA_length);
+	
 	for (array_index i=0; i<LDA_length; i++)
 		sequence[i]=new shape_g;
+
 	fitness_value=0;
 }
 
@@ -1016,14 +1098,16 @@ LDA_c::LDA_c(const LDA_c &source)
 
 LDA_c& LDA_c::operator=(const LDA_c &source)
 {	
-	// place holders already present
-	
-	for (array_index i=0; i<LDA_length; i++)
+	if (this != &source)
 	{
-		delete sequence[i];
-		sequence[i]=source.sequence[i]->clone();
+		// place holders already present
+		for (array_index i = 0; i < LDA_length; i++)
+		{
+			delete sequence[i];
+			sequence[i] = source.sequence[i]->clone();
+		}
+		fitness_value = source.fitness_value;
 	}
-	fitness_value=source.fitness_value;
 	return *this; 
 }
 
@@ -1192,7 +1276,7 @@ void shape_g::randomize_all_features()
 sequence_size LDA_c::LDA_length=3;
 LDA_e* LDA_c::_environment=NULL;
 
-ostream& operator<<(ostream& output_stream, const LDA_c &LDA_c_to_output)
+std::ostream& operator<<(std::ostream& output_stream, const LDA_c &LDA_c_to_output)
 {
 	for (array_index i=0; i<LDA_c::LDA_length; i++)
 		output_stream << LDA_c_to_output.sequence[i];
@@ -1261,7 +1345,7 @@ LDA_e::~LDA_e()
 	if (master_LDA)
 	{
 		delete[] layout;
-		delete[] _ftable;
+		delete _ftable;
 	}
 }
 
@@ -1299,7 +1383,7 @@ status LDA_e::add_to_layout(shape_g &item)
 		}
 		else
 		{
-			cout << "First piece to high to fit on macrosheet\n";
+			std::cout << "First piece to high to fit on macrosheet\n";
 			return FAILURE;
 		}
 	}
@@ -1431,10 +1515,13 @@ void LDA_e::fitness_r(LDA_c &LDA_test, const array_index &offset)
 }
 
 
-
 area_t LDA_e::sheet_usage()
-{	area_t a; return a; }
-
+{	
+	area_t a;
+	a.x_span = 0;
+	a.y_span = 0;
+	return a; 
+}
 
 fitness_score LDA_e::overall_usage1()
 {	return 1.0; }
@@ -1480,7 +1567,7 @@ void seed_random()
 {
 	// Seed random number generator with millisecond time
   struct _timeb timebuffer;
-   _ftime( &timebuffer );
+  _ftime64_s( &timebuffer );
 	unsigned int milli=(unsigned int)((float)timebuffer.millitm*float(65.536));	// map to unsigned int 4 byte range
   srand(milli);
 }
@@ -1489,7 +1576,7 @@ void seed_random_new()
 {
 	// Seed random number generator with millisecond time
   struct _timeb timebuffer;
-   _ftime( &timebuffer );
+   _ftime64_s( &timebuffer );
 	unsigned int milli=(unsigned int)((float)timebuffer.millitm*float(65.356));	// map to unsigned int 4 byte range
   srand(milli);
 	// generate first seed in range 1 to 2147483562
@@ -1512,7 +1599,8 @@ void permutation(sequence_size length, sequence_size permut_length,
 									array_index *order)
 {
 	array_index* initial=new array_index[length];
-	for (array_index i=0; i<length; i++)
+	array_index i = 0;
+	for (i=0; i<length; i++)
 		initial[i]=i;
 
 	array_index random_index;
@@ -1533,7 +1621,8 @@ void permutation(sequence_size length, sequence_size permut_length,
 status check_permutation(sequence_size length, array_index* test)
 {
 	array_index* check=new array_index[length];
-	for (array_index i=0; i<length; i++)
+	array_index i = 0;
+	for (i=0; i<length; i++)
 		check[i]=0;
 
 	for (i=0; i<length; i++)		
@@ -1580,7 +1669,8 @@ void LDA_e::get_permutation(LDA_c &to_analyse, array_index* test)
 
 void LDA_e::get_permutation_char(LDA_c &to_analyse, char* test)
 {
-	ostrstream permut_stream(test, 9999, ios::out);
+	std::ostringstream permut_stream;
+	permut_stream.str(test);
 	for (array_index i=0; i<LDA_c::LDA_length; i++)
 	{
 		permut_stream << ((shape_g *)(to_analyse[i]))->get_tied_shape()->get_id();
@@ -1599,7 +1689,7 @@ void LDA_e::get_permutation_char(LDA_c &to_analyse, char* test)
 	init_chromosome(standard_chromosome);
 	shape* current_shape;
 
-	ostrstream permut_stream(test, 9999, ios::out);
+	ostringstream permut_stream(test, 9999, ios::out);
 
 	for (array_index i=0; i<LDA_c::LDA_length; i++)
 	{
@@ -1622,7 +1712,7 @@ void LDA_e::get_permutation_char(LDA_c &to_analyse, char* test)
 */
 
 
-ostream& operator<<(ostream& output_stream, LDA_e &output)
+std::ostream& operator<<(std::ostream& output_stream, LDA_e &output)
 {
 	return output_stream;
 }
@@ -1685,7 +1775,7 @@ area_t LDA_new::sheet_usage()
 
 fitness_score LDA_new::overall_usage1()
 {
-	double sheet_area=macro_width*macro_height;
+	double sheet_area=(double)macro_width*(double)macro_height;
 
 	// add up all sheet areas
 	_ftable->reset_index();
@@ -1755,7 +1845,7 @@ void LDA_new::process_current_rule(shape_g &item)
 		current_rule=item.get_heuristic();
 }
 
-ostream& operator<<(ostream& output_stream, LDA_new &output)
+std::ostream& operator<<(std::ostream& output_stream, LDA_new &output)
 {
 	int e=1;
 	edge_node current_edge;
@@ -1993,7 +2083,8 @@ coord LDA_new::choose_itopmost_place(const status &top_list_valid,
 	{
 		coord chosen=top_places[0];
 
-		for (array_index i=1; i<top_places.length-1; i++)
+		array_index i = 1;
+		for (i=1; i<top_places.length-1; i++)
 		{
 			if (top_places[i].y_pos<chosen.y_pos)
 				chosen=top_places[i];
@@ -2020,7 +2111,8 @@ coord LDA_new::choose_ileftmost_place(const status &left_list_valid,
 	{
 		coord chosen=left_places[0];
 
-		for (array_index i=1; i<left_places.length-1; i++)
+		array_index i = 1;
+		for (i=1; i<left_places.length-1; i++)
 		{
 			if (left_places[i].x_pos<chosen.x_pos)
 				chosen=left_places[i];
@@ -2345,7 +2437,7 @@ void population::standardize()
 }
 
 
-ostream& operator<<(ostream& output_stream, const population &a)
+std::ostream& operator<<(std::ostream& output_stream, const population &a)
 {
 //	for (array_index i=0; i<a.size; i++)
 //		(a.sequence+i*a.candidate_size)->operator<<(afxDump);

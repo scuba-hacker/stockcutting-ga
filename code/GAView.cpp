@@ -7,6 +7,7 @@
 #include "GADoc.h"
 #include "GAView.h"
 #include "string.h"
+#include <strstream>
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -57,18 +58,14 @@ void CGAView::OnDraw(CDC* pDC)
 	CGADoc* pDoc = GetDocument();
 	ASSERT_VALID(pDoc);
 
-	CPen* oldPen=pDC->GetCurrentPen();
-	CFont* oldFont=pDC->GetCurrentFont();
-	CBrush* oldBrush=pDC->GetCurrentBrush();
-
 	LDA_e* test_bed=&pDoc->test_bed;
 
 	pDC->SetMapMode(MM_ANISOTROPIC);
 	pDC->SetWindowExt(1,1);
 
 	int pen1, pen2, pen3, pen4, font1, brush1;
-	int viewport_x=10;
-	int viewport_y=10;
+	long viewport_x=10;
+	long viewport_y=10;
 
 	CPen medium_pen, light_pen, thick_pen, dark_pen;
 	if (pDC->IsPrinting())
@@ -93,13 +90,14 @@ void CGAView::OnDraw(CDC* pDC)
 	pen4=dark_pen.CreatePen (PS_SOLID,0,RGB(50,50,50));
 
 
-	unsigned int rows=test_bed->get_y_size();
-	unsigned int cols=test_bed->get_x_size();
+	long rows=test_bed->get_y_size();
+	long cols=test_bed->get_x_size();
 
-	SIZE Size = {(cols+16)*viewport_x, (rows+10)*viewport_y};
+	SIZE Size = {(cols+16L)*viewport_x, (rows+10L)*viewport_y};
+
 	SetScrollSizes (MM_TEXT, Size);
 
-	for (unsigned int i=0; i<=rows; i++)
+	for (long i=0; i<=rows; i++)
 	{
 		if (i % 10==0)
 			pDC->SelectObject(&dark_pen);
@@ -114,7 +112,7 @@ void CGAView::OnDraw(CDC* pDC)
 		pDC->LineTo(cols,i);
 	}
 
-	for (i=0; i<=cols; i++)
+	for (long i = 0; i<=cols; i++)
 	{
 		if (i % 10==0)
 			pDC->SelectObject(&dark_pen);
@@ -132,51 +130,56 @@ void CGAView::OnDraw(CDC* pDC)
 	CFont shape_label;
 	font1=shape_label.CreatePointFont(9,"Terminal");
 	pDC->SelectObject(&shape_label);
-	char sheet_text[100];
-	char rule_string[100];
+	
+	const int max_sheet_text_size = 100;
+	char sheet_text[max_sheet_text_size];
+
+	const int max_rule_size = 100;
+	char rule_string[max_rule_size];
+
 	switch (test_bed->get_rule_regime())
 	{
 		case LEFTMOST:
-			strcpy(rule_string,"Leftmost");
+			strncpy_s(rule_string,"Leftmost", max_rule_size);
 			break;	
 		case ILEFTMOST:
-			strcpy(rule_string,"Inner-Leftmost");
+			strncpy_s(rule_string,"Inner-Leftmost", max_rule_size);
 			break;	
 		case TOPMOST:
-			strcpy(rule_string,"Topmost");
+			strncpy_s(rule_string,"Topmost", max_rule_size);
 			break;	
 		case ITOPMOST:
-			strcpy(rule_string,"Inner-Topmost");
+			strncpy_s(rule_string,"Inner-Topmost", max_rule_size);
 			break;	
 		case FLIP_LEFT:
-			strcpy(rule_string,"Flip left/top, left starts");
+			strncpy_s(rule_string,"Flip left/top, left starts", max_rule_size);
 			break;
 		case FLIP_TOP:
-			strcpy(rule_string,"Flip top/left, top starts");
+			strncpy_s(rule_string,"Flip top/left, top starts", max_rule_size);
 			break;
 		case DYNAMIC:
-			strcpy(rule_string,"GA Dynamic");		
+			strncpy_s(rule_string,"GA Dynamic", max_rule_size);
 			break;
 
 		default:
-			strcpy(rule_string,"Invalid setting");
+			strncpy_s(rule_string,"Invalid setting", max_rule_size);
 			break;			
 	}
-	sprintf (sheet_text, "Total Sheet Area = %d x %d", cols,rows);
+	snprintf (sheet_text, max_sheet_text_size,"Total Sheet Area = %d x %d", cols,rows);
 	pDC->TextOut(0,rows+4,sheet_text);
 	
-	sprintf (sheet_text, "Placement Regime is %s", rule_string);
+	snprintf (sheet_text, max_sheet_text_size, "Placement Regime is %s", rule_string);
 	pDC->TextOut(0,rows+5,sheet_text);
 
-	sprintf (sheet_text, "Displaying test %d of %d",
+	snprintf (sheet_text, max_sheet_text_size, "Displaying test %d of %d",
 						pDoc->tests.current+1, pDoc->tests.length);
 	pDC->TextOut(0,rows+6,sheet_text);
 
-	sprintf (sheet_text, "%s) %s",pDoc->tests.get_current().id,pDoc->tests.get_current().description);
+	snprintf (sheet_text, max_sheet_text_size, "%s) %s",pDoc->tests.get_current().id,pDoc->tests.get_current().description);
 	pDC->TextOut(0,rows+7,sheet_text);
 
 	char edge_string[1000]="\0";
-	strstream output_edges(edge_string,1000,ios::ate);
+	std::strstream output_edges(edge_string,1000,std::ios::ate);
 	output_edges << pDoc->test_bed;
 	output_edges << "\nSheet " << pDoc->current_sheet+1 << " of " << pDoc->test_bed._ftable->sheet_count;
 	CRect edge_text(pDoc->test_bed.get_x_size()+2,1,pDoc->test_bed.get_x_size()+12,50);
@@ -187,7 +190,7 @@ void CGAView::OnDraw(CDC* pDC)
 	pDC->SelectObject(&thick_pen);
 	CBrush shape_brush;
 	brush1=shape_brush.CreateSolidBrush(RGB(50,255,200));
-	pDC->SelectObject(shape_brush);
+	pDC->SelectObject(&shape_brush);
 
 	// set gene_offset to point to first gene to be displayed
 	array_index gene_start_offset=0;
@@ -206,7 +209,7 @@ void CGAView::OnDraw(CDC* pDC)
 
 	if (pDoc->current_sheet>0)
 	{
-		cout << "!";
+		std::cout << "!";
 	}
 
 	array_index gene_end_offset=gene_start_offset+1;
@@ -256,8 +259,10 @@ void CGAView::OnDraw(CDC* pDC)
 		default:
 			break;
 	}
-	char angle_string[10];
+	const int angle_string_size = 10;
+	char angle_string[angle_string_size];
 
+	unsigned int i = 0;
 	for (i=gene_start_offset; i<gene_end_offset; i++)
 	{
 		shape_g_l *s=&test_bed->layout[i].piece;
@@ -265,7 +270,8 @@ void CGAView::OnDraw(CDC* pDC)
 		CRect text_box(s->left(),s->top(), s->right(), s->bot());
 		pDC->Rectangle(text_box);
 
-		char output[100];
+		const int output_size = 100;
+		char output[output_size];
 
 
 		if (test_bed->get_rule_regime()==DYNAMIC)
@@ -290,9 +296,9 @@ void CGAView::OnDraw(CDC* pDC)
 			}
 		}
 
-		str_out_angle(angle_string, s->get_orientation());
+		str_out_angle(angle_string, angle_string_size, s->get_orientation());
 
-		sprintf (output, "%d) %d,%d %dx%d %s %c",i,s->left(),s->top(),s->width(),s->height(),
+		snprintf (output, output_size, "%d) %d,%d %dx%d %s %c",i,s->left(),s->top(),s->width(),s->height(),
 			angle_string, placement_heuristic);
 
 		CRect smaller_box=text_box;
@@ -315,11 +321,6 @@ void CGAView::OnDraw(CDC* pDC)
 		afxDump << "LOW ON RESOURCES!!\n";
 			#endif
 	}
-
-	pDC->SelectObject(oldPen);
-	pDC->SelectObject(oldFont);
-	pDC->SelectObject(oldBrush);
-
 }
 
 /////////////////////////////////////////////////////////////////////////////

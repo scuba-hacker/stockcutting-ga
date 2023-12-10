@@ -3,6 +3,12 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
+
+#pragma warning( disable : 4305)
+#pragma warning( disable : 4244)
+#pragma warning( disable : 4305)
+#pragma warning( disable : 4305)
+
 #define ABS(x) ((x) >= 0 ? (x) : -(x))
 void ftnstop(char*);
 float genbet(float aa,float bb)

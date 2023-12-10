@@ -1,4 +1,4 @@
-//Microsoft Developer Studio generated resource script.
+// Microsoft Visual C++ generated resource script.
 //
 #include "resource.h"
 
@@ -13,13 +13,11 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// English (U.S.) resources
+// English (United States) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
-#ifdef _WIN32
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 #pragma code_page(1252)
-#endif //_WIN32
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -28,22 +26,25 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
-IDR_MAINFRAME           ICON    DISCARDABLE     "res\\GA.ico"
-IDR_GATYPE              ICON    DISCARDABLE     "res\\GADoc.ico"
+IDR_MAINFRAME           ICON                    "res\\GA.ico"
+
+IDR_GATYPE              ICON                    "res\\GADoc.ico"
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
 // Bitmap
 //
 
-IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\bmp00001.bmp"
+IDR_MAINFRAME           BITMAP                  "res\\bmp00001.bmp"
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
 // Toolbar
 //
 
-IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+IDR_MAINFRAME TOOLBAR 16, 15
 BEGIN
     BUTTON      ID_FILE_NEW
     BUTTON      ID_FILE_OPEN
@@ -64,7 +65,7 @@ END
 // Menu
 //
 
-IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+IDR_MAINFRAME MENU
 BEGIN
     POPUP "&File"
     BEGIN
@@ -118,7 +119,7 @@ END
 // Accelerator
 //
 
-IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+IDR_MAINFRAME ACCELERATORS
 BEGIN
     "0",            ID_VIEW_NEXT_SHEET,     VIRTKEY, ALT, NOINVERT
     "9",            ID_VIEW_PREV_SHEET,     VIRTKEY, ALT, NOINVERT
@@ -148,8 +149,8 @@ END
 // Dialog
 //
 
-IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 217, 55
-STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+IDD_ABOUTBOX DIALOG 0, 0, 217, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "About GA"
 FONT 8, "MS Sans Serif"
 BEGIN
@@ -160,7 +161,6 @@ BEGIN
 END
 
 
-#ifndef _MAC
 /////////////////////////////////////////////////////////////////////////////
 //
 // Version
@@ -183,15 +183,13 @@ BEGIN
     BEGIN
         BLOCK "040904B0"
         BEGIN
-            VALUE "CompanyName", "\0"
-            VALUE "FileDescription", "GA MFC Application\0"
-            VALUE "FileVersion", "1, 0, 0, 1\0"
-            VALUE "InternalName", "GA\0"
-            VALUE "LegalCopyright", "Copyright (C) 1998\0"
-            VALUE "LegalTrademarks", "\0"
-            VALUE "OriginalFilename", "GA.EXE\0"
-            VALUE "ProductName", "GA Application\0"
-            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "FileDescription", "GA MFC Application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "GA"
+            VALUE "LegalCopyright", "Copyright (C) 1998"
+            VALUE "OriginalFilename", "GA.EXE"
+            VALUE "ProductName", "GA Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
         END
     END
     BLOCK "VarFileInfo"
@@ -200,8 +198,6 @@ BEGIN
     END
 END
 
-#endif    // !_MAC
-
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -209,7 +205,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO DISCARDABLE 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_ABOUTBOX, DIALOG
     BEGIN
@@ -227,19 +223,19 @@ END
 // String Table
 //
 
-STRINGTABLE PRELOAD DISCARDABLE 
+STRINGTABLE
 BEGIN
     IDR_MAINFRAME           "GA\n\nGA\n\n\nGA.Document\nGA Document"
 END
 
-STRINGTABLE PRELOAD DISCARDABLE 
+STRINGTABLE
 BEGIN
     AFX_IDS_APP_TITLE       "GA"
     AFX_IDS_IDLEMESSAGE     "For Help, press F1"
     AFX_IDS_HELPMODEMESSAGE "Select an object on which to get Help"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_INDICATOR_EXT        "EXT"
     ID_INDICATOR_CAPS       "CAP"
@@ -249,7 +245,7 @@ BEGIN
     ID_INDICATOR_REC        "REC"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_FILE_NEW             "Create a new document\nNew"
     ID_FILE_OPEN            "Open an existing document\nOpen"
@@ -262,7 +258,7 @@ BEGIN
     ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
     ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
@@ -273,7 +269,7 @@ BEGIN
     ID_HELP                 "Display help for current task or command\nHelp"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_FILE_MRU_FILE1       "Open this document"
     ID_FILE_MRU_FILE2       "Open this document"
@@ -293,18 +289,18 @@ BEGIN
     ID_FILE_MRU_FILE16      "Open this document"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
     ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_EDIT_CLEAR           "Erase the selection\nErase"
     ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
@@ -319,13 +315,13 @@ BEGIN
     ID_EDIT_REDO            "Redo the previously undone action\nRedo"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
     ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     AFX_IDS_SCSIZE          "Change the window size"
     AFX_IDS_SCMOVE          "Change the window position"
@@ -336,18 +332,18 @@ BEGIN
     AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     AFX_IDS_SCRESTORE       "Restore the window to normal size"
     AFX_IDS_SCTASKLIST      "Activate Task List"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_VIEW_REFRESH         "Reload Test Data"
     ID_VIEW_NEXTTEST        "Layout and Display layout for next test"
@@ -361,7 +357,7 @@ BEGIN
     ID_VIEW_SHUFFLE         "Randomize gene order of current test"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_VIEW_NORMALISE       "Revert chromosome to order described in test"
     ID_VIEW_ORDER           "User provides chromosome order"
@@ -381,70 +377,30 @@ BEGIN
     ID_EXPORT_CURRENT       "Output all shapes and their locations to a file"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_BATCH_PROCESS        "Process all test settings"
     ID_DETAILED_OUTPUT      "Set Detailed Output"
 END
 
-#endif    // English (U.S.) resources
+#endif    // English (United States) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// English (U.K.) resources
+// English (United Kingdom) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
-#ifdef _WIN32
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
 #pragma code_page(1252)
-#endif //_WIN32
-
-#ifdef APSTUDIO_INVOKED
-/////////////////////////////////////////////////////////////////////////////
-//
-// TEXTINCLUDE
-//
-
-1 TEXTINCLUDE DISCARDABLE 
-BEGIN
-    "resource.h\0"
-END
-
-2 TEXTINCLUDE DISCARDABLE 
-BEGIN
-    "#include ""afxres.h""\r\n"
-    "\0"
-END
-
-3 TEXTINCLUDE DISCARDABLE 
-BEGIN
-    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
-    "#define _AFX_NO_OLE_RESOURCES\r\n"
-    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
-    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
-    "\r\n"
-    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
-    "#ifdef _WIN32\r\n"
-    "LANGUAGE 9, 1\r\n"
-    "#pragma code_page(1252)\r\n"
-    "#endif\r\n"
-    "#include ""res\\GA.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
-    "#include ""afxres.rc""         // Standard components\r\n"
-    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
-    "#endif\0"
-END
-
-#endif    // APSTUDIO_INVOKED
-
 
 /////////////////////////////////////////////////////////////////////////////
 //
 // Dialog
 //
 
-IDD_GOTO_TEST_DIALOG DIALOG DISCARDABLE  0, 0, 112, 57
-STYLE DS_MODALFRAME | WS_POPUP
+IDD_GOTO_TEST_DIALOG DIALOG 0, 0, 112, 57
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP
 FONT 8, "MS Sans Serif"
 BEGIN
     EDITTEXT        IDC_TEST_NUMBER,60,10,45,12,ES_AUTOHSCROLL | ES_NUMBER
@@ -453,8 +409,8 @@ BEGIN
     LTEXT           "Goto Test...",IDC_STATIC,5,10,40,10
 END
 
-IDD_ORDER_DIALOG DIALOG DISCARDABLE  0, 0, 186, 97
-STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+IDD_ORDER_DIALOG DIALOG 0, 0, 186, 97
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "Provide Gene Order"
 FONT 8, "MS Sans Serif"
 BEGIN
@@ -463,8 +419,8 @@ BEGIN
     PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
 END
 
-IDD_N_SWAP_DIALOG DIALOG DISCARDABLE  0, 0, 112, 57
-STYLE DS_MODALFRAME | WS_POPUP
+IDD_N_SWAP_DIALOG DIALOG 0, 0, 112, 57
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP
 FONT 8, "MS Sans Serif"
 BEGIN
     EDITTEXT        IDC_SWAP_NUMBER,60,10,45,12,ES_AUTOHSCROLL | ES_NUMBER
@@ -473,63 +429,42 @@ BEGIN
     LTEXT           "Number of Pairs to Swap...",IDC_STATIC,5,10,50,20
 END
 
-IDD_GA_SETTINGS DIALOG DISCARDABLE  0, 0, 492, 247
-STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_VISIBLE | WS_CAPTION | 
-    WS_SYSMENU
+IDD_GA_SETTINGS DIALOGEX 0, 0, 492, 247
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
 CAPTION "GA Settings"
-FONT 8, "MS Sans Serif"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
 BEGIN
     EDITTEXT        IDC_SIMILARITIES_INDEX,235,200,30,12,ES_AUTOHSCROLL
     GROUPBOX        "Mutation Operators",IDC_STATIC,171,0,105,75
     DEFPUSHBUTTON   "OK",IDOK,290,230,50,14
     PUSHBUTTON      "Cancel",IDCANCEL,350,230,50,14
-    COMBOBOX        IDC_BREED_SELECTION,75,69,75,65,CBS_DROPDOWNLIST | 
-                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_BREED_SELECTION,75,69,75,65,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
     RTEXT           "Breed Selection",IDC_STATIC,10,69,60,10
     RTEXT           "Removal Selection",IDC_STATIC,10,84,60,15
-    COMBOBOX        IDC_REMOVAL_SELECTION,75,84,75,40,CBS_DROPDOWNLIST | 
-                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_REMOVAL_SELECTION,75,84,75,40,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
     RTEXT           "Operator Adaptor",IDC_STATIC,15,55,55,10
-    COMBOBOX        IDC_OPERATOR_ADAPTOR,75,55,75,60,CBS_DROPDOWNLIST | 
-                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_OPERATOR_ADAPTOR,75,55,75,60,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
     RTEXT           "Generation Model",IDC_STATIC,10,25,60,10
-    COMBOBOX        IDC_GENERATION_MODEL,75,25,75,60,CBS_DROPDOWNLIST | 
-                    WS_VSCROLL | WS_TABSTOP
-    CONTROL         "Order-Based",IDC_ORDER_CHECK,"Button",BS_AUTOCHECKBOX | 
-                    BS_LEFTTEXT | WS_TABSTOP,311,20,80,10
-    CONTROL         "Position-Based",IDC_POSITION_CHECK,"Button",
-                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,311,30,80,10
-    CONTROL         "Half-Uniform",IDC_HALF_UNIFORM_CHECK,"Button",
-                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,311,60,80,10
-    CONTROL         "Heuristic N-Point",IDC_HEURISTIC_N_POINT_CHECK,"Button",
-                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,311,71,80,10
+    COMBOBOX        IDC_GENERATION_MODEL,75,25,75,60,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Order-Based",IDC_ORDER_CHECK,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,311,20,80,10
+    CONTROL         "Position-Based",IDC_POSITION_CHECK,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,311,30,80,10
+    CONTROL         "Half-Uniform",IDC_HALF_UNIFORM_CHECK,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,311,60,80,10
+    CONTROL         "Heuristic N-Point",IDC_HEURISTIC_N_POINT_CHECK,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,311,71,80,10
     CONTROL         "Orientation N-Point",IDC_ORIENTATION_N_POINT_CHECK,
-                    "Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,311,
-                    81,80,10
-    CONTROL         "Single-Gene Swap",IDC_SINGLE_SWAP_CHECK,"Button",
-                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,185,10,80,10
-    CONTROL         "Multi-Gene Swap",IDC_MULTI_SWAP_CHECK,"Button",
-                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,185,20,80,10
-    CONTROL         "Inversion",IDC_INVERSION_CHECK,"Button",BS_AUTOCHECKBOX | 
-                    BS_LEFTTEXT | WS_TABSTOP,185,30,80,10
-    CONTROL         "Heuristic-Flip",IDC_HEURISTIC_FLIP_CHECK,"Button",
-                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,185,50,80,10
-    CONTROL         "Shunt",IDC_SHUNT_CHECK,"Button",BS_AUTOCHECKBOX | 
-                    BS_LEFTTEXT | WS_TABSTOP,185,40,80,10
-    CONTROL         "Orientation-Flip",IDC_ORIENTATION_FLIP_CHECK,"Button",
-                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,185,60,80,10
-    GROUPBOX        "Crossover Operators",IDC_CROSSOVER_OPERATORS,285,0,115,
-                    100
+                    "Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,311,81,80,10
+    CONTROL         "Single-Gene Swap",IDC_SINGLE_SWAP_CHECK,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,185,10,80,10
+    CONTROL         "Multi-Gene Swap",IDC_MULTI_SWAP_CHECK,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,185,20,80,10
+    CONTROL         "Inversion",IDC_INVERSION_CHECK,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,185,30,80,10
+    CONTROL         "Heuristic-Flip",IDC_HEURISTIC_FLIP_CHECK,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,185,50,80,10
+    CONTROL         "Shunt",IDC_SHUNT_CHECK,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,185,40,80,10
+    CONTROL         "Orientation-Flip",IDC_ORIENTATION_FLIP_CHECK,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,185,60,80,10
+    GROUPBOX        "Crossover Operators",IDC_CROSSOVER_OPERATORS,285,0,115,100
     RTEXT           "Population Size",IDC_STATIC,10,10,60,15
-    COMBOBOX        IDC_POPULATION_SIZE,75,10,75,40,CBS_DROPDOWNLIST | 
-                    WS_VSCROLL | WS_TABSTOP
-    CONTROL         "Cataclysms Active",IDC_CATACLYSMS_ACTIVE,"Button",
-                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,173,185,93,10
+    COMBOBOX        IDC_POPULATION_SIZE,75,10,75,40,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Cataclysms Active",IDC_CATACLYSMS_ACTIVE,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,173,185,93,10
     RTEXT           "Report Every",IDC_STATIC,185,230,45,15
-    COMBOBOX        IDC_REPORT_EVERY,235,230,30,40,CBS_DROPDOWNLIST | 
-                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
-    GROUPBOX        "Cataclysmic Mutation",IDC_CATACLYSMIC_MUTATION,171,175,
-                    230,45
+    COMBOBOX        IDC_REPORT_EVERY,235,230,30,40,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Cataclysmic Mutation",IDC_CATACLYSMIC_MUTATION,171,175,230,45
     RTEXT           "Similarities Index",IDC_STATIC,175,200,55,10
     RTEXT           "Cataclysm Trigger",IDC_STATIC,290,199,65,10
     RTEXT           "Mutation Rate",IDC_STATIC,290,185,65,10
@@ -537,27 +472,22 @@ BEGIN
     EDITTEXT        IDC_CATACLYSM_TRIGGER,360,199,30,12,ES_AUTOHSCROLL
     EDITTEXT        IDC_GENERATION_EPOCH,75,40,70,12,ES_AUTOHSCROLL
     RTEXT           "Generation Epoch",IDC_STATIC,10,40,60,10
-    GROUPBOX        "Hill-Climbing Settings",IDC_HILL_CLIMBING_SETTINGS,5,
-                    105,155,65
+    GROUPBOX        "Hill-Climbing Settings",IDC_HILL_CLIMBING_SETTINGS,5,105,155,65
     GROUPBOX        "Evolution Settings",IDC_STATIC,5,0,155,100
     EDITTEXT        IDC_RESTART_THRESHOLD,75,135,70,12,ES_AUTOHSCROLL
     RTEXT           "Restart Threshold",IDC_STATIC,10,135,60,10
     EDITTEXT        IDC_NEIGHBOURHOOD,75,150,70,12,ES_AUTOHSCROLL
     RTEXT           "Neighbourhood",IDC_STATIC,10,150,60,10
-    GROUPBOX        "Simulated Annealing Settings",
-                    IDC_SIMULATED_ANNEALING_SETTINGS,5,175,155,65
+    GROUPBOX        "Simulated Annealing Settings",IDC_SIMULATED_ANNEALING_SETTINGS,5,175,155,65
     EDITTEXT        IDC_START_TEMP,75,190,70,12,ES_AUTOHSCROLL
     RTEXT           "Start Temperature",IDC_STATIC,10,190,60,10
     EDITTEXT        IDC_END_TEMP,75,205,70,12,ES_AUTOHSCROLL
     RTEXT           "End Temperature",IDC_STATIC,10,205,60,10
     EDITTEXT        IDC_COOLING_RATIO,75,220,70,12,ES_AUTOHSCROLL
     RTEXT           "Cooling Ratio",IDC_STATIC,10,220,60,10
-    CONTROL         "Edge Recombination",IDC_EDGE_RECOMBINATION,"Button",
-                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,311,10,80,10
-    CONTROL         "Seg Position-Based",IDC_SEG_POSITION_BASED,"Button",
-                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,311,40,80,10
-    CONTROL         "Seg Order-Based",IDC_SEG_ORDER_BASED,"Button",
-                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,311,50,80,10
+    CONTROL         "Edge Recombination",IDC_EDGE_RECOMBINATION,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,311,10,80,10
+    CONTROL         "Seg Position-Based",IDC_SEG_POSITION_BASED,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,311,40,80,10
+    CONTROL         "Seg Order-Based",IDC_SEG_ORDER_BASED,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,311,50,80,10
     GROUPBOX        "Other Settings",IDC_STATIC,171,80,105,90
     EDITTEXT        IDC_TOURNAMENT_SIZE,235,105,30,12,ES_AUTOHSCROLL
     RTEXT           "Tournament Size",IDC_STATIC,175,105,55,10
@@ -567,9 +497,7 @@ BEGIN
     RTEXT           "Max Segment Length",IDC_STATIC,287,150,70,10
     EDITTEXT        IDC_MIN_SEGMENT_LENGTH,361,135,30,12,ES_AUTOHSCROLL
     RTEXT           "Min Segment Length",IDC_STATIC,291,135,65,10
-    CONTROL         "Segment Restrictions",IDC_SEGMENT_RESTRICTIONS,"Button",
-                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,291,120,100,
-                    10
+    CONTROL         "Segment Restrictions",IDC_SEGMENT_RESTRICTIONS,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,291,120,100,10
     EDITTEXT        IDC_N_POINT_SIZE,235,150,30,12,ES_AUTOHSCROLL
     RTEXT           "N-Point N Size",IDC_STATIC,181,150,50,10
     GROUPBOX        "Segment Settings",IDC_SEGMENT_SETTINGS,285,105,115,65
@@ -578,49 +506,38 @@ BEGIN
     EDITTEXT        IDC_FLIP_SIZE,235,135,30,12,ES_AUTOHSCROLL
     RTEXT           "Flip Size",IDC_STATIC,181,135,50,10
     RTEXT           "Stored GA Settings",IDC_STATIC,405,10,60,10
-    COMBOBOX        IDC_SETTINGS,405,25,75,195,CBS_DROPDOWN | CBS_SORT | 
-                    WS_VSCROLL | WS_TABSTOP
-    PUSHBUTTON      "Add To Setups",IDC_STORE,405,45,75,15,BS_CENTER | 
-                    BS_VCENTER | BS_MULTILINE
-    PUSHBUTTON      "Remove From Setups",IDC_REMOVE_FROM_SETUPS,405,85,75,15,
-                    BS_CENTER | BS_VCENTER | BS_MULTILINE
+    COMBOBOX        IDC_SETTINGS,405,25,75,195,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Add To Setups",IDC_STORE,405,45,75,15,BS_CENTER | BS_VCENTER | BS_MULTILINE
+    PUSHBUTTON      "Remove From Setups",IDC_REMOVE_FROM_SETUPS,405,85,75,15,BS_CENTER | BS_VCENTER | BS_MULTILINE
 END
 
-IDD_SET_REGIME_DIALOG DIALOG DISCARDABLE  0, 0, 152, 113
-STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+IDD_SET_REGIME_DIALOG DIALOG 0, 0, 152, 113
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "Set Regime For Current Test"
 FONT 8, "MS Sans Serif"
 BEGIN
     DEFPUSHBUTTON   "OK",IDOK,95,10,50,14
     PUSHBUTTON      "Cancel",IDCANCEL,95,27,50,14
-    CONTROL         "Leftmost",IDC_LEFTMOST,"Button",BS_AUTORADIOBUTTON | 
-                    WS_GROUP,15,15,50,15
-    CONTROL         "Inner Topmost",IDC_ITOPMOST,"Button",BS_AUTORADIOBUTTON,
-                    15,60,60,15
-    CONTROL         "Topmost",IDC_TOPMOST,"Button",BS_AUTORADIOBUTTON,15,45,
-                    40,15
-    CONTROL         "Dynamic",IDC_DYNAMIC,"Button",BS_AUTORADIOBUTTON,15,75,
-                    40,15
+    CONTROL         "Leftmost",IDC_LEFTMOST,"Button",BS_AUTORADIOBUTTON | WS_GROUP,15,15,50,15
+    CONTROL         "Inner Topmost",IDC_ITOPMOST,"Button",BS_AUTORADIOBUTTON,15,60,60,15
+    CONTROL         "Topmost",IDC_TOPMOST,"Button",BS_AUTORADIOBUTTON,15,45,40,15
+    CONTROL         "Dynamic",IDC_DYNAMIC,"Button",BS_AUTORADIOBUTTON,15,75,40,15
     GROUPBOX        "Regime Setting",IDC_STATIC,10,5,75,90
-    CONTROL         "Inner Leftmost",IDC_ILEFTMOST,"Button",
-                    BS_AUTORADIOBUTTON,15,30,60,15
+    CONTROL         "Inner Leftmost",IDC_ILEFTMOST,"Button",BS_AUTORADIOBUTTON,15,30,60,15
 END
 
-IDD_BATCH_SETTINGS DIALOG DISCARDABLE  0, 0, 186, 97
-STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+IDD_BATCH_SETTINGS DIALOG 0, 0, 186, 97
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "Batch Process Settings"
 FONT 8, "MS Sans Serif"
 BEGIN
     DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
     PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
-    LTEXT           "Number of Different Layouts to Process",IDC_STATIC,5,5,
-                    75,20
+    LTEXT           "Number of Different Layouts to Process",IDC_STATIC,5,5,75,20
     EDITTEXT        IDC_LAYOUT_COUNT,85,5,30,15,ES_AUTOHSCROLL
-    LTEXT           "Number of Times to run each experiment",IDC_STATIC,5,30,
-                    75,20
+    LTEXT           "Number of Times to run each experiment",IDC_STATIC,5,30,75,20
     EDITTEXT        IDC_EXPERIMENT_COUNT,85,30,30,15,ES_AUTOHSCROLL
-    CTEXT           "The experiments run are those with setting name: '<prefix> x'",
-                    IDC_STATIC,45,75,95,20
+    CTEXT           "The experiments run are those with setting name: '<prefix> x'",IDC_STATIC,45,75,95,20
     LTEXT           "Use Settings Prefixed with...",IDC_STATIC,5,55,79,20
     EDITTEXT        IDC_PREFIX,85,55,30,15,ES_AUTOHSCROLL
 END
@@ -632,7 +549,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO DISCARDABLE 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_GOTO_TEST_DIALOG, DIALOG
     BEGIN
@@ -682,6 +599,44 @@ BEGIN
         BOTTOMMARGIN, 90
     END
 END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\GA.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\0"
+END
+
 #endif    // APSTUDIO_INVOKED
 
 
@@ -741,7 +696,18 @@ BEGIN
     0
 END
 
-#endif    // English (U.K.) resources
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_GA_SETTINGS AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // English (United Kingdom) resources
 /////////////////////////////////////////////////////////////////////////////
 
 

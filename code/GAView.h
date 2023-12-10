@@ -3,7 +3,7 @@
 /////////////////////////////////////////////////////////////////////////////
 
 #include <stdio.h>
-#include <strstrea.h>
+#include <strstream>
 #include "gene.h"
 
 #if !defined(AFX_GAVIEW_H__2C73104D_03E8_11D2_85D3_444553540000__INCLUDED_)

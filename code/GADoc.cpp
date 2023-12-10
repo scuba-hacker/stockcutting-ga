@@ -13,6 +13,7 @@
 #include "BatchDialog.h"
 #include "bitstream.h"
 #include "time.h"
+#include <sstream>
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -166,7 +167,7 @@ void CGADoc::Update(update_t choice, array_index* gene_order)
 	}
 
 	test_chromo.get_permutation_char(_permutation);
-	strcpy(test_bed._permutation,_permutation);
+	strncpy_s(test_bed._permutation,_permutation, maxPermutatationLength);
 	current_sheet=0;
 	test_chromo.fitness();
 	LayoutUpdateView();
@@ -182,8 +183,8 @@ void CGADoc::OnViewOrder()
 		if (dialog.DoModal()==IDCANCEL)
 			return;
 
-		istrstream order_string(dialog.m_gene_order.GetBuffer(1));
-
+		std::istringstream order_string;
+		order_string.str(dialog.m_gene_order.GetBuffer(1));
 		array_index i=0, number=0;
 
 		array_index* test=new array_index [chromosome_length];
@@ -191,7 +192,15 @@ void CGADoc::OnViewOrder()
 		while (i<chromosome_length && order_string >> test[i])
 			i++;
 
-		order_string.eatwhite();
+		// skipping whitespace to end of file or to next non-space char, not including non-space char.
+		while (true)
+		{
+			if (!order_string.eof() || !std::isspace(order_string.get()))
+			{
+				order_string.unget();
+				break;
+			}
+		}
 
 		if (i==chromosome_length && order_string.eof() &&
 				check_permutation(chromosome_length, test)==SUCCESS)
@@ -214,7 +223,7 @@ void CGADoc::OnViewOrder()
 void CGADoc::OnViewRefresh() 
 {
 	char input_file[]="shapes.txt";
-	ifstream input_stream(input_file, ios::in | ios::binary | ios::nocreate);
+	std::ifstream input_stream(input_file, std::ios::in | std::ios::binary);
 	input_stream >> tests;		// read in all test data
 	input_stream.close();
 
@@ -773,8 +782,8 @@ void CGADoc::RunGA()
 	model->terminate();
 	worst=worst_select.select_candidate()->fitness();
 
-	if (strcmp(GAsettings.m_generation_model,"Steady-State")==0)
-		best_candidate=best_select.select_candidate();
+	if (strcmp(GAsettings.m_generation_model, "Steady-State") == 0)
+		best_candidate = best_select.select_candidate();
 	else
 		best_candidate=model->best_so_far;
 
@@ -782,7 +791,7 @@ void CGADoc::RunGA()
 	best_fit=best_candidate->fitness();
 
 	best_candidate->get_permutation_char(_permutation);
-	strcpy(test_bed._permutation,_permutation);
+	strncpy_s(test_bed._permutation, _permutation, maxPermutatationLength);
 
 	#ifdef _DEBUG
 	afxDump << "\n" << i << "\t" << best_fit << "\t" << worst << "\n";
@@ -805,12 +814,13 @@ void CGADoc::OnRunGa()
 void CGADoc::OnExportCurrent() 
 {
 	char output_file[]="layout.txt";
-	ofstream out(output_file, ios::out);
+	std::ofstream out(output_file, std::ios::out);
 
-	char current_time[100];
-	char current_date[100];
-	_strdate(current_date);
-	_strtime(current_time);
+	static const int time_date_size = 100;
+	char current_time[time_date_size];
+	char current_date[time_date_size];
+	_strdate_s(current_date, time_date_size);
+	_strtime_s(current_time, time_date_size);
 
 	out << "Test performed: " << current_date << " " << current_time << "\n";
 
@@ -826,7 +836,8 @@ void CGADoc::OnExportCurrent()
 
 
 	out << "\nFitness Report:\n";
-	for (array_index i=0; i<test_bed._ftable->sheet_count; i++)
+	array_index i = 0;
+	for (i=0; i<test_bed._ftable->sheet_count; i++)
 	{
 		xy_size_t width=test_bed._ftable->sheet_fitness[i].x_span;
 		xy_size_t height=test_bed._ftable->sheet_fitness[i].y_span;
@@ -851,9 +862,14 @@ void CGADoc::OnExportCurrent()
 void CGADoc::OnBatchProcess()
 {
 	bool result;
+	const int current_setting_size = 10;
 	char current_setting[10];
-	char current_time[100];
-	char current_date[100];
+
+	const int current_time_size = 100;
+	char current_time[current_time_size];
+
+	const int current_date_size = 100;
+	char current_date[current_date_size];
 
 	CBatchDialog b;
 	b.m_prefix="set";
@@ -864,7 +880,7 @@ void CGADoc::OnBatchProcess()
 		int i=1;
 		do
 		{
-			sprintf (current_setting,"%s %i",b.m_prefix,i);
+			snprintf(current_setting, current_setting_size, "%s %i",b.m_prefix.GetBuffer(),i);
 			i++;
 			result=GAsettings.RemoteChangeSettings(current_setting);
 			if (!result)
@@ -873,11 +889,13 @@ void CGADoc::OnBatchProcess()
 			{
 				for (array_index j=0; j<b.m_experiment_count; j++)
 				{
-					_strdate(current_date);
-					_strtime(current_time);
+					_strdate_s(current_date, current_date_size);
+					_strtime_s(current_time, current_date_size);
 
-					afxDump << "\n" << current_setting << ": no. " << j << 
+#ifdef _DEBUG
+					afxDump << "\n" << current_setting << ": no. " << j <<
 						"\t" << current_date << " " << current_time << "\n";
+#endif
 					RunGA();
 				}
 			}

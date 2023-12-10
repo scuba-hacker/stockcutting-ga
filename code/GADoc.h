@@ -26,7 +26,8 @@ public:
 	LDA_new test_bed;
 //	CMemoryState msOld, msNew, msDif;
 	LDA_c *latest;
-	char _permutation[10000];
+	static const int maxPermutatationLength = 10000;
+	char _permutation[maxPermutatationLength];
 	array_index current_sheet;
 	CGASettingsDialog GAsettings;
 

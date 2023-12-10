@@ -1,5 +1,8 @@
 #include "stdafx.h"
 #include <math.h>
+
+#pragma warning( disable : 4244)
+
 float sdot(long n,float *sx,long incx,float *sy,long incy)
 {
 static long i,ix,iy,m,mp1;

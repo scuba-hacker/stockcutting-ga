@@ -1,10 +1,10 @@
 /*
-	Filename:	bistream.h
+	Filename:	b std::istream.h
 	Purpose:	Declares bitstream class used to read and write streams of bit patterns (max
 						length 31 bits) stored in a character array. Also declares status_type, status,
 						bytebit_struct and bytebit data types - required for implementing bitstream.
 */
-#include <iostream.h>
+#include <iostream>
 #include "define_vars.h"
 
 #ifndef _bitstream_h

@@ -15,11 +15,11 @@ void fitness_pair::randomize(array_index new_id)
 
 
 template <class sort_class>
-void bubblesort(sort_class *source, unsigned int sourcelength,
+void bubblesort(sort_class *source, int sourcelength,
 									orderproperty direction)
 {
 	bool sorted=false;
-	array_index y,x;
+	int y=0,x=0;
 	switch (direction)
 	{
 		case DESCENDING:
@@ -57,10 +57,10 @@ void bubblesort(sort_class *source, unsigned int sourcelength,
 
 
 template <class sort_class>
-void insertsort(sort_class *source, unsigned int sourcelength,
+void insertsort(sort_class *source, int sourcelength,
 									orderproperty direction)
 {
-	int j,k;
+	int j = 0, k = 0;
 	sort_class save;
 
 	switch (direction)
@@ -101,10 +101,10 @@ void insertsort(sort_class *source, unsigned int sourcelength,
 }
 
 template <class sort_class>
-void simple_insertsort(sort_class *source, unsigned int sourcelength,
+void simple_insertsort(sort_class *source, int sourcelength,
 												orderproperty direction)
 {
-	int j,k;
+	int j = 0, k = 0;
 	sort_class save;
 
 	switch (direction)
@@ -146,7 +146,7 @@ void simple_insertsort(sort_class *source, unsigned int sourcelength,
 
 template <class sort_class>
 void quicksort<sort_class>::sort2(sort_class *data, 
-					unsigned int sourcelength, orderproperty direction)
+					int sourcelength, orderproperty direction)
 {
 	d=data;
 	n=sourcelength;
@@ -167,7 +167,7 @@ void quicksort<sort_class>::sort2(sort_class *data,
 
 template <class sort_class>
 void quicksort<sort_class>::sort3(sort_class *data, 
-					unsigned int sourcelength, orderproperty direction)
+					 int sourcelength, orderproperty direction)
 {
 	d=data;
 	n=sourcelength;
@@ -333,14 +333,14 @@ void quicksort<sort_class>::quick3_descend(int left, int right)
 
 
 template
-void bubblesort(fitness_pair *source, unsigned int sourcelength,
+void bubblesort(fitness_pair *source, int sourcelength,
 									orderproperty direction);
 template
-void insertsort(fitness_pair *source, unsigned int sourcelength,
+void insertsort(fitness_pair *source, int sourcelength,
 									orderproperty direction);
 
 template
-void simple_insertsort(array_index *source, unsigned int sourcelength,
+void simple_insertsort(array_index *source, int sourcelength,
 												orderproperty direction);
 
 

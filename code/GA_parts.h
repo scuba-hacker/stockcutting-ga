@@ -2,8 +2,16 @@
 #define _GA_parts_h
 #include "gene.h"
 #include <math.h>
+#include "bitstream.h"
 
-struct pair { array_index i; array_index j; };
+struct pair 
+{ 
+	array_index i; 
+	array_index j; 
+
+public: 
+	pair() { i = j = 0; }
+};
 void _get_segment_limits(array_index &start_point, 
 												array_index &end_point,
 												const array_index &length);
@@ -347,9 +355,11 @@ class adaptor : public CObject
 {
 	DECLARE_DYNAMIC(adaptor);
 
+	static const int array_size = 100;
+
 	protected:
-		crossover* cross[100];
-		mutation* mut[100];
+		crossover* cross[array_size];
+		mutation* mut[array_size];
 		selector* select;
 
 		sequence_size cross_count;

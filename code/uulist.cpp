@@ -118,7 +118,7 @@ void ulist<node>::find_neighbours(node *target, node* &preceding, node* &procedi
 
 // define overloaded output operator
 template <class node>
-ostream& operator<<(ostream& output_stream, ulist<node> a)
+std::ostream& operator<<(std::ostream& output_stream, ulist<node> a)
 {	
 	if (a.head != NULL)														// If ulist not empty
 	{	
@@ -211,7 +211,7 @@ status ulist<node>::add_to_end(node newitem)
 	
 	if (newnode == NULL)																		// Out of memory condition
 	{
-		cout << "ADD_TO_END: reports out of memory!";
+		std::cout << "ADD_TO_END: reports out of memory!";
 		return FAILURE;
 	}
 	
@@ -267,7 +267,7 @@ status ulist<node>::maintain(node new_info,
 				update_field=COUNTER;															// so copy across newinfo.index
 				break;
 			default:
-				cout << "Invalid structure_order ordering enum value\n";
+				std::cout << "Invalid structure_order ordering enum value\n";
 				return FAILURE;
 				break;
 		}
@@ -332,7 +332,7 @@ status ulist<node>::update(node reference, node new_info, ordering update_field,
 			right_comparator=LARGER;
 			break;
 		default:
-			cout << "invalid direction enum value\n";
+			std::cout << "invalid direction enum value\n";
 			return FAILURE;
 			break;
 	}
@@ -359,7 +359,7 @@ status ulist<node>::update(node reference, node new_info, ordering update_field,
 				 (following->get_data(), new_info.get_data())) == right_comparator );
 			break;
 		default:
-			cout << "invalid structure_order enum value\n";
+			std::cout << "invalid structure_order enum value\n";
 			return FAILURE;
 			break;
 	}
@@ -375,7 +375,7 @@ status ulist<node>::update(node reference, node new_info, ordering update_field,
 				reference.set_index(current->get_index());					// Keep index field preserved
 				break;
 			default:
-				cout << "invalid update_field enum value\n";
+				std::cout << "invalid update_field enum value\n";
 				return FAILURE;
 				break;
 		}
@@ -397,7 +397,7 @@ status ulist<node>::update(node reference, node new_info, ordering update_field,
 					current->set_data(new_info.get_data());					// Copy across data value
 					break;
 				default:
-					cout << "invalid update_field enum value\n";
+					std::cout << "invalid update_field enum value\n";
 					return FAILURE;
 					break;
 			}
@@ -432,7 +432,7 @@ status ulist<node>::add(node newitem, ordering order, orderproperty direction)
 	newnode = new node;																		// Allocate memory for new node
 	if (newnode==NULL)																		// Allocation failed
 	{
-		cout << "ADD FUNCTION: Out of memory\n";
+		std::cout << "ADD FUNCTION: Out of memory\n";
 		return FAILURE;
 	}										
 											
@@ -716,4 +716,4 @@ template class ulist<edge_node>;
 
 
 // make explicit instantiations of friend functions for each ulist required
-ostream& operator<<(ostream& output_stream, ulist<edge_node> a);
+std::ostream& operator<<(std::ostream& output_stream, ulist<edge_node> a);

@@ -7,7 +7,7 @@
 #define _ulist_h
 
 #include "define_vars.h"
-#include <iostream.h>
+#include <iostream>
 
 template <class node>
 class ulist	
@@ -70,7 +70,7 @@ class ulist
 		void set_transverse_node_pointer(node* new_transverse);
 		
 		// ++++++++++++++++++++++ OVERLOADED OPERATORS ++++++++++++++++++++++++++
-		friend ostream& operator<<(ostream& output_stream, const ulist a);																	
+		friend std::ostream& operator<<(std::ostream& output_stream, const ulist a);																	
 		ulist<node>& operator=(ulist<node> &source);
 };
 #endif

@@ -17,16 +17,13 @@ template <class swap_class>
 inline void swap(swap_class &a, swap_class &b);
 
 template <class sort_class>
-void bubblesort(sort_class *source, unsigned int sourcelength,
-									orderproperty direction);
+void bubblesort(sort_class *source, int sourcelength, orderproperty direction);
 
 template <class sort_class>
-void insertsort(sort_class *source, unsigned int sourcelength,
-									orderproperty direction);
+void insertsort(sort_class *source, int sourcelength, orderproperty direction);
 
 template <class sort_class>
-void simple_insertsort(sort_class *source, unsigned int sourcelength,
-									orderproperty direction);
+void simple_insertsort(sort_class *source, int sourcelength, orderproperty direction);
 
 
 template <class sort_class>
@@ -41,10 +38,8 @@ class quicksort
 		void quick3_descend(int left, int right);
 	
 	public:
-		void sort2(sort_class *data, unsigned int sourcelength,
-									orderproperty direction);
-		void sort3(sort_class *data, unsigned int sourcelength,
-									orderproperty direction);
+		void sort2(sort_class *data, int sourcelength, orderproperty direction);
+		void sort3(sort_class *data, int sourcelength, orderproperty direction);
 };
 
 #endif

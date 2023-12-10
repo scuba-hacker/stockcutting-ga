@@ -11,9 +11,9 @@
 #include "define_vars.h"
 #include "gene.h"
 #include "uulist.h"
-#include <iostream.h>
-#include <fstream.h>
-#include <iomanip.h>
+#include <iostream>
+#include <fstream>
+#include <iomanip>
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -57,7 +57,7 @@ CGAApp theApp;
 BOOL CGAApp::InitInstance()
 {
 	AfxEnableControlContainer();
-
+/*
 	// Standard initialization
 	// If you are not using these features and wish to reduce the size
 	//  of your final executable, you should remove from the following
@@ -68,7 +68,7 @@ BOOL CGAApp::InitInstance()
 #else
 	Enable3dControlsStatic();	// Call this when linking to MFC statically
 #endif
-
+	*/
 	// Change the registry key under which our settings are stored.
 	// You should modify this string to be something appropriate
 	// such as the name of your company or organization.

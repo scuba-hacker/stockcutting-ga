@@ -179,7 +179,7 @@ status bitstream::append_bits(unsigned long source, unsigned char no_of_bits)
 		return FAILURE;
 
 	// one_bit_mask: Masks out a single bit in source, starting with msb.
-	unsigned long one_bit_mask=(1<<no_of_bits-1);
+	unsigned long one_bit_mask=(1 << (no_of_bits-1));
 	// Write all no_of_bits lsb in source to bitstream
 	do
 	{

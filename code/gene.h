@@ -4,18 +4,18 @@
 
 #ifndef _gene_h
 #define _gene_h
-#include <iostream.h>
-#include <fstream.h>
+#include <iostream>
+#include <fstream>
 #include <stdlib.h>
 #include <time.h>
 #include <sys/timeb.h>
-#include <strstrea.h>
+#include <strstream>
 #include <math.h>
 
 #include "define_vars.h"
 #include "uulist.h"
 #include "sort.h"
-#include "bitstream.h"
+//#include "bitstream.h"
 #include "Random Number Generator\randlib.h"
 
 #ifndef random_done
@@ -25,7 +25,7 @@
 #endif
 
 void output_angle(CDumpContext& output_stream, const angle output_ang);
-void str_out_angle(char *output, const angle output_ang);
+void str_out_angle(char *output, const int string_size, const angle output_ang);
 
 class shape : virtual public CObject
 {
@@ -50,8 +50,8 @@ class shape : virtual public CObject
 		// ...Overloaded comparison operators
 		friend int operator==(const shape &first_shape, const shape &second_shape);
 		// Input and output stream operators
-		friend ostream& operator<<(ostream& output_stream, const shape shape_to_output);
-		friend istream& operator>>(istream& input_stream, shape& shape_to_input);
+		friend std::ostream& operator<<(std::ostream& output_stream, const shape shape_to_output);
+		friend std::istream& operator>>(std::istream& input_stream, shape& shape_to_input);
 
 		inline y_size_t height();
 		inline x_size_t width();
@@ -80,7 +80,7 @@ class shape_group : virtual public CObject
 		shape_group& operator=(const shape_group &source);
 
 		shape& operator[](const array_index &i);
-		friend istream& operator>>(istream& input_stream, shape_group& LDA_e_to_input);
+		friend std::istream& operator>>(std::istream& input_stream, shape_group& LDA_e_to_input);
 		void set_rotation_validities(xy_size_t width, xy_size_t height);
 
 #ifdef _DEBUG
@@ -113,8 +113,8 @@ class coord : virtual public CObject
 		// ...Overloaded comparison operators
 		friend int operator==(const coord &first_coord, const coord &second_coord);
 		// Input and output stream operators
-		friend ostream& operator<<(ostream& output_stream, const coord coord_to_output);
-		friend istream& operator>>(istream& input_stream, coord& coord_to_input);
+		friend std::ostream& operator<<(std::ostream& output_stream, const coord coord_to_output);
+		friend std::istream& operator>>(std::istream& input_stream, coord& coord_to_input);
 
 };
 
@@ -160,7 +160,7 @@ class edge_node : virtual public CObject
 		edge_node* get_pointer();														// Return value of pointer field
 		void print_node();																		// Print Node info
 		// Overloaded output operator for name_object
-		friend ostream& operator<<(ostream& output_stream, const edge_node &a);
+		friend std::ostream& operator<<(std::ostream& output_stream, const edge_node &a);
 
 #ifdef _DEBUG
     virtual void Dump( CDumpContext& dc ) const;
@@ -193,9 +193,12 @@ class test_set : virtual public CObject
 {
 	DECLARE_DYNAMIC(test_set);
 	public:
-		char id[10];
+		static const int id_size = 10;
+		char id[id_size];
 		shape_group shapes;
-		char description[1000];
+		static const int description_size = 1000;
+		char description[description_size];
+
 		placement_rule rule;
 		x_size_t sheet_width;
 		y_size_t sheet_height;
@@ -203,8 +206,8 @@ class test_set : virtual public CObject
 		virtual ~test_set();
 		test_set& operator=(const test_set &source);
 		// Input and output stream operators
-		friend ostream& operator<<(ostream& output_stream, const test_set shape_l_to_output);
-		friend istream& operator>>(istream& input_stream, test_set& shape_l_to_input);
+		friend std::ostream& operator<<(std::ostream& output_stream, const test_set shape_l_to_output);
+		friend std::istream& operator>>(std::istream& input_stream, test_set& shape_l_to_input);
 };
 
 class test_set_group : virtual public CObject
@@ -218,6 +221,8 @@ class test_set_group : virtual public CObject
 		test_set_group();
 		virtual ~test_set_group();
 		test_set_group(const test_set_group &source);
+		test_set_group& operator=(const test_set_group& source);
+
 
 		test_set& next_current();
 		test_set& prev_current();
@@ -225,7 +230,7 @@ class test_set_group : virtual public CObject
 		test_set& set_current(const array_index setting);
 
 		test_set& operator[](const array_index &i);
-		friend istream& operator>>(istream& input_stream, 
+		friend std::istream& operator>>(std::istream& input_stream, 
 																test_set_group& LDA_e_to_input);
 	
 #ifdef _DEBUG
@@ -244,8 +249,8 @@ class shape_l : public shape, public coord
 		shape_l(const shape_l &source);
 
 		// Input and output stream operators
-		friend ostream& operator<<(ostream& output_stream, const shape_l shape_l_to_output);
-		friend istream& operator>>(istream& input_stream, shape_l& shape_l_to_input);
+		friend std::ostream& operator<<(std::ostream& output_stream, const shape_l shape_l_to_output);
+		friend std::istream& operator>>(std::istream& input_stream, shape_l& shape_l_to_input);
 		y_pos_t top();
 		y_pos_t bot();
 		x_pos_t left();
@@ -275,8 +280,8 @@ public:
 		virtual void randomize_all_features() = 0;
 
 		// Input and output stream operators
-		friend ostream& operator<<(ostream& output_stream, const gene gene_to_output);
-		friend istream& operator>>(istream& input_stream, gene& gene_to_input);
+		friend std::ostream& operator<<(std::ostream& output_stream, const gene gene_to_output);
+		friend std::istream& operator>>(std::istream& input_stream, gene& gene_to_input);
 };
 
 class shape_g_l;
@@ -325,9 +330,9 @@ class shape_g : public gene
 		// ...Overloaded comparison operators
 		friend int operator==(const shape_g &first_shape_g, const shape_g &second_shape_g);
 		// Input and output stream operators
-		friend ostream& operator<<(ostream& output_stream, const shape_g shape_g_to_output);
-		friend ostream& operator<<(ostream& output_stream, const shape_g *shape_g_to_output);
-		friend istream& operator>>(istream& input_stream, shape_g& shape_g_to_input);
+		friend std::ostream& operator<<(std::ostream& output_stream, const shape_g shape_g_to_output);
+		friend std::ostream& operator<<(std::ostream& output_stream, const shape_g *shape_g_to_output);
+		friend std::istream& operator>>(std::istream& input_stream, shape_g& shape_g_to_input);
 
 		y_size_t height();
 		x_size_t width();
@@ -352,8 +357,8 @@ class shape_g_l : public shape_g, public coord
 		shape_g_l& operator=(const shape_g_l &source);
 		shape_g_l& operator=(const shape_g &source);
 		// Input and output stream operators
-		friend ostream& operator<<(ostream& output_stream, shape_g_l &s);
-		friend istream& operator>>(istream& input_stream, shape_g_l& shape_g_l_to_input);
+		friend std::ostream& operator<<(std::ostream& output_stream, shape_g_l &s);
+		friend std::istream& operator>>(std::istream& input_stream, shape_g_l& shape_g_l_to_input);
 
 		y_pos_t top();
 		y_pos_t bot();
@@ -414,8 +419,8 @@ public:
 		// ...Overloaded comparison operators
 		friend int operator==(const chromosome &first_chromosome, const chromosome &second_chromosome);
 		// Input and output stream operators
-		friend ostream& operator<<(ostream& output_stream, const chromosome chromosome_to_output);
-		friend istream& operator>>(istream& input_stream, chromosome& chromosome_to_input);
+		friend std::ostream& operator<<(std::ostream& output_stream, const chromosome chromosome_to_output);
+		friend  std::istream& operator>>(std::istream& input_stream, chromosome& chromosome_to_input);
 
 };
 
@@ -464,8 +469,8 @@ class LDA_c : public chromosome
 		// ...Overloaded comparison operators
 		friend int operator==(const LDA_c &first_LDA_c, const LDA_c &second_LDA_c);
 		// Input and output stream operators
-		friend ostream& operator<<(ostream& output_stream, const LDA_c &LDA_c_to_output);
-		friend istream& operator>>(istream& input_stream, LDA_c& LDA_c_to_input);
+		friend std::ostream& operator<<(std::ostream& output_stream, const LDA_c &LDA_c_to_output);
+		friend  std::istream& operator>>(std::istream& input_stream, LDA_c& LDA_c_to_input);
 
 #ifdef _DEBUG
     virtual void Dump( CDumpContext& dc ) const;
@@ -480,7 +485,7 @@ class layout_piece : public CObject
 
 	layout_piece()
 	{	new_sheet_needed=s_NO; }
-	friend ostream& operator<<(ostream& output_stream, layout_piece &l);
+	friend std::ostream& operator<<(std::ostream& output_stream, layout_piece &l);
 
 	#ifdef _DEBUG
     virtual void Dump( CDumpContext& dc ) const;
@@ -494,11 +499,14 @@ class fitness_report
 	public:
 		array_index sheet_count;
 		array_index next_index;
-		area_t sheet_fitness[100];
+		static const int sheet_size = 100;
+		area_t sheet_fitness[sheet_size];
 	
 		fitness_report()
 		{
 			sheet_count=next_index=0;
+			for (int i=0; i < sheet_size; i++)
+				sheet_fitness[i].x_span = sheet_fitness[i].y_span = 0;
 		}
 
 		void store_fitness(area_t fit)
@@ -584,7 +592,7 @@ class LDA_e : public environment
 		void get_permutation_char(LDA_c &to_analyse, char* test);
 
 		void provide_shapes(shape_group *shape_list);
-		friend ostream& operator<<(ostream& output_stream, LDA_e &a);
+		friend std::ostream& operator<<(std::ostream& output_stream, LDA_e &a);
 		virtual void set_rule_regime(const placement_rule &rule);
 		virtual placement_rule get_rule_regime();
 		virtual placement_rule get_current_rule();
@@ -644,7 +652,7 @@ class LDA_new : public LDA_e
 		virtual placement_rule get_rule_regime();
 		virtual placement_rule get_current_rule();
 		virtual void process_current_rule(shape_g &item);
-		friend ostream& operator<<(ostream& output_stream, LDA_new &a);
+		friend std::ostream& operator<<(std::ostream& output_stream, LDA_new &a);
 };
 
 class population : virtual public CObject
@@ -666,7 +674,7 @@ class population : virtual public CObject
 		void randomize();
 		void standardize();
 
-		friend ostream& operator<<(ostream& output_stream, const population &a);
+		friend std::ostream& operator<<(std::ostream& output_stream, const population &a);
 
 };
 

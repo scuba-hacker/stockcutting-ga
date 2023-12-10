@@ -9,7 +9,7 @@
 
 /////////////////////////////////////////////////////////////////////////////
 // COrderDialog dialog
-#include <strstrea.h>
+#include <strstream>
 #include "define_vars.h"
 
 class COrderDialog : public CDialog

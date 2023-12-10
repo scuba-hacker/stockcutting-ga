@@ -78,7 +78,7 @@ rank_s::rank_s(population *pop) : selector(pop)
 	// initialise rank wheel array with candidate identifiers
 	// eg for 3 member population: 1 1 1 2 2 3
 	array_index current=0;
-	unsigned long weight_number;
+	unsigned long weight_number=0;
 	for (unsigned long rank=0; rank<pop_size; rank++)
 	{
 		// weight_number stores the number of instances a candidate number will
@@ -106,8 +106,9 @@ rank_s::~rank_s()
 
 array_index rank_s::select_index()
 {
+	array_index i = 0;
 	// load fitnesses into fitness_ranking array
-	for (array_index i=0; i<pop_size; i++)
+	for (i=0; i<pop_size; i++)
 	{
 		fitness_ranking[i].id=i;
 		fitness_ranking[i].key=pool->get_candidate(i)->fitness();
@@ -320,7 +321,8 @@ void seg_order_c::generate_index_mask(const array_index &chromo_length,
 																	const array_index &mask_word_length, 
 																	bitstream &index_mask)
 {
-	for (array_index i=0; i<mask_word_length; i++)
+	array_index i = 0;
+	for (i=0; i<mask_word_length; i++)
 		index_mask.append_word(0);										// zero index mask
 
 	array_index start_point, end_point;
@@ -363,7 +365,8 @@ void order_c::cross(candidate *p1, candidate *p2, candidate *c)
 
 	//afxDump << "Index mask\n";
 	bool result;
-	for (array_index i=0; i<length; i++)
+	array_index i = 0;
+	for (i=0; i<length; i++)
 	{
 		index_mask.retrieve_bool(result);
 		//if (i%16==0) afxDump << " ";
@@ -455,20 +458,14 @@ void position_c::cross(candidate *p1, candidate *p2, candidate *c)
 
 	bitstream index_mask;
 	index_mask.attach_char_array(index_mask_array, mask_char_length);
-	for (array_index i=0; i<mask_word_length; i++)
+	array_index i = 0;
+	for (i=0; i<mask_word_length; i++)
 		index_mask.append_word(random());
 
 	index_mask.reset_read_write();
 
 	//afxDump << "Index mask\n";
-	bool result;
-//	for (i=0; i<length; i++)
-//	{
-//		index_mask.retrieve_bool(result);
-//		//if (i%16==0) afxDump << " ";
-//		afxDump << result;
-//	}
-//	afxDump << "\n";
+
 	index_mask.reset_read_write();
 
 	// make the id mask for parent2
@@ -491,14 +488,7 @@ void position_c::cross(candidate *p1, candidate *p2, candidate *c)
 	}
 
 	id_mask.reset_read_write();
-//	afxDump << "Id mask\n";
-//	for (i=0; i<length; i++)
-//	{
-//		id_mask.retrieve_bool(result);
-//		//if (i%16==0) afxDump << " ";
-//		afxDump << result;
-//	}
-//	afxDump << "\n";
+
 	id_mask.reset_read_write();
 	index_mask.reset_read_write();
 
@@ -632,9 +622,9 @@ void HUX_position_c::cross(candidate *p1, candidate *p2, candidate *c)
 	bitstream id_mask;
 	id_mask.attach_char_array(id_mask_array, mask_char_length);
 	id_mask.wipe_clean();
-
-
-	for (array_index i=start_point; i<end_point; i++)
+	
+	array_index i = 0;
+	for (i=start_point; i<end_point; i++)
 	{
 		unsigned long t=(*p2)[i]->get_id();
 		id_mask.set_bit_1(t);
@@ -709,7 +699,8 @@ void n_point_c::cross(candidate *p1, candidate *p2, candidate *c)
 
 	array_index *location= new array_index [length];
 	// copy parent1 to child - also building locaiton reference array
-	for (array_index i=0; i<length; i++)
+	array_index i = 0;
+	for (i=0; i<length; i++)
 	{
 		(*c)[i]->copy((*p1)[i]);
 		location[(*p1)[i]->get_id()]=i;
@@ -756,6 +747,7 @@ crossover::~crossover()
 mutation::mutation()
 {
 	finished=false;
+	in_situ_mutation = false;
 }
 mutation::~mutation()
 {
@@ -930,7 +922,8 @@ void invert_m::mutate(candidate *p, candidate *c)
 	//afxDump << picked_indexes[0] << " " << picked_indexes[1] << "\n";
 
 	// copy parent to child (all genes up to start of inversion)
-	for (array_index i=0; i<picked_indexes[0]; i++)
+	array_index i = 0;
+	for (i=0; i<picked_indexes[0]; i++)
 		(*c)[i]->copy((*p)[i]);
 
 	array_index j=picked_indexes[1];
@@ -1089,7 +1082,8 @@ void cataclysmic_m::global_mutate(population *pool, double percentage_change)
 	// Find most fit candidate
 	array_index best_index=0;
 	fitness_score best_fitness=0, current_fitness=0;
-	for (array_index i=0; i<pop_size; i++)
+	array_index i = 0;
+	for (i=0; i<pop_size; i++)
 	{
 		current_fitness=pool->get_candidate(i)->fitness();
 		if (current_fitness>best_fitness)
@@ -1230,7 +1224,8 @@ population* adaptor::get_population()
 
 adaptor::~adaptor()
 {
-	for (array_index i=0; i<cross_count; i++)
+	array_index i = 0;
+	for (i=0; i<cross_count; i++)
 		delete cross[i];
 	for (i=0; i<mut_count; i++)
 		delete mut[i];
@@ -1608,6 +1603,7 @@ hc_m::hc_m()
 	threshold=1000;
 	iteration=0;
 	restart_flag=false;
+	operator_adaptor = NULL;
 }
 
 hc_m::hc_m(adaptor *a)
@@ -1615,6 +1611,7 @@ hc_m::hc_m(adaptor *a)
 	operator_adaptor=a;
 	threshold=1000;
 	iteration=0;
+	operator_adaptor = NULL;
 }
 
 void hc_m::mutate(candidate *p, candidate *c)
@@ -1695,7 +1692,7 @@ void sahc_m::mutate(candidate *p, candidate *c)
 	// pick random index to start getting pairs from pairings
 	sequence_size start=random() % pairs_length;
 	// calculate number of pairs to check
-	sequence_size pair_count=sample_rate;
+	sequence_size pair_count=(sequence_size)(sample_rate * pairs_length);
 
 	for (array_index k=0; k<pair_count; k++)
 	{
@@ -1737,6 +1734,7 @@ anneal_m::anneal_m()
 	end_temp=0.001;
 	cooling_ratio=0.9;
 	current_temp=start_temp;
+	operator_adaptor = NULL;
 }
 
 anneal_m::anneal_m(adaptor *adap)

@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{35d72b36-c83b-4e49-bdff-4b25c7f2789f}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93028604-9f29-4886-a175-14ed1d744db4}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{1806b863-49d7-4c42-9ad3-0f65bff84c9a}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Help Files">
+      <UniqueIdentifier>{68e31024-c280-479f-92ef-b8dcd8fd35d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="My Source">
+      <UniqueIdentifier>{033875af-7157-46cc-9b32-ad031d04f7a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="My Headers">
+      <UniqueIdentifier>{6e12d3bf-bc17-463b-92f2-87c155423571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extras">
+      <UniqueIdentifier>{e0d6ee5d-602c-4014-81ab-9a7681d51a78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Random Number Code">
+      <UniqueIdentifier>{71d1b5af-88ee-4357-b047-2a5dfea21400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Random Number Headers">
+      <UniqueIdentifier>{aeb36a20-1c98-4016-9f2c-c114f46790a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BatchDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GADoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GASettingsDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GAView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GotoTestDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NSwapDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SetRegimeDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bitstream.cpp">
+      <Filter>My Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GA_parts.cpp">
+      <Filter>My Source</Filter>
+    </ClCompile>
+    <ClCompile Include="gene.cpp">
+      <Filter>My Source</Filter>
+    </ClCompile>
+    <ClCompile Include="sort.cpp">
+      <Filter>My Source</Filter>
+    </ClCompile>
+    <ClCompile Include="uulist.cpp">
+      <Filter>My Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Random Number Generator\Com.cpp">
+      <Filter>Random Number Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Random Number Generator\Linpack.cpp">
+      <Filter>Random Number Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Random Number Generator\Randlib.cpp">
+      <Filter>Random Number Code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GA.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BatchDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GADoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GASettingsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GAView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GotoTestDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NSwapDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SetRegimeDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bitstream.h">
+      <Filter>My Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="define_vars.h">
+      <Filter>My Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GA_parts.h">
+      <Filter>My Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gene.h">
+      <Filter>My Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sort.h">
+      <Filter>My Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="uulist.h">
+      <Filter>My Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Random Number Generator\Randlib.h">
+      <Filter>Random Number Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\GA.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\GADoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mainfram.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="layout.txt">
+      <Filter>Extras</Filter>
+    </Text>
+    <Text Include="shapes.txt">
+      <Filter>Extras</Filter>
+    </Text>
+    <Text Include="class descriptions.txt" />
+    <Text Include="next.txt" />
+    <Text Include="processed1.txt" />
+    <Text Include="processed10.txt" />
+    <Text Include="processed11.txt" />
+    <Text Include="processed12.txt" />
+    <Text Include="processed2.txt" />
+    <Text Include="processed3.txt" />
+    <Text Include="processed5.txt" />
+    <Text Include="processed7.txt" />
+    <Text Include="processed8.txt" />
+    <Text Include="processed9.txt" />
+    <Text Include="ReadMe.txt" />
+    <Text Include="results.txt" />
+    <Text Include="results10.txt" />
+    <Text Include="results12.txt" />
+    <Text Include="results2.txt" />
+    <Text Include="results3.txt" />
+    <Text Include="results4.txt" />
+    <Text Include="results5.txt" />
+    <Text Include="results6.txt" />
+    <Text Include="results8.txt" />
+    <Text Include="Results9.txt" />
+    <Text Include="saprocessed.txt" />
+    <Text Include="saresults.txt" />
+    <Text Include="todo.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\GA.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
